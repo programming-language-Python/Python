@@ -1,0 +1,11 @@
+Для того чтобы появились данные в admin
+from .models import Article, Comment
+admin.site.register(Article)
+admin.site.register(Comment)
+Руссификация:
+(не работает)в apps.py: в class добавить verbose_name = 'название "заголовка"'
+в models.py: вставить в class
+# руссификатор
+    class Meta:
+        verbose_name = 'Статья' # в ед. числе
+        verbose_name_plural = 'Статьи' # в мн. числе

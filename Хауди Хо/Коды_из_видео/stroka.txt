@@ -1,0 +1,5 @@
+stroka1
+stroka2
+stroka3
+stroka4
+stroka5

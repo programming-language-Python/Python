@@ -1,0 +1,22 @@
+1. Создать проект django-admin startproject название_проекта (пример: C:\Users\maks2\Desktop\PYTHON\Практика\Django\Django-test>django-admin startproject mysite)
+2. Создание приложения python manage.py startapp название_приложения (пример: C:\Users\maks2\Desktop\PYTHON\Практика\Django\Django-test\mysite>python manage.py startapp название_приложения)
+1) Дополнительный пункт: создаём папку в проекте куда будем помещать приложения. В settings.py в import добавить os, sys. И добавить:
+# sys.path.insert(0, os.path.join('BASE_DIR', 'apps'))
+# ИЛИ
+PROJECT_ROOT = os.path.dirname(__file__)
+sys.path.insert(0, os.path.join(PROJECT_ROOT, 'apps')) # 'apps' - это название папки, где находятся наши приложения
+3. Создаём urls.py для приложения. Содержимое:
+from django.urls import path
+from . import views
+# . - из текущего пакета
+urlpatterns = [
+    path('',views.index, name='index')
+]
+4. В urls.py проекта добавляем модуль include и в переменную urlpatterns добавляем path('articles/', include('apps.articles.urls')),
+5. В views.py приложения добавляем (Хауди Хо удалил всё и добавил это):
+from django.http import HttpResponse
+def index (request):
+    return HttpResponse("Привет мир!!!")
+6. В проекте создаём шаблон (зайти в файл Шаблоны.txt) (папку) templaces. В ней два html файла.
+В одном будет скелет сайта, а в другом текст сайта. Происходит расширение шаблона.
+7. В терминале делаем миграцию python manage.py migrate

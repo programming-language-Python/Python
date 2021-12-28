@@ -1,0 +1,26 @@
+Django shell представляет собой Python shell, дающую возможность получить доступ к API базы данных, используя при этом django как посредника.
+from apps.articles.models import Article, Comment - подключение классов
+Article.objects.all() - выводит все объекты статьи (Article)
+Если выводит <QuerySet []> значит он пуст.
+Добавление статьей:
+from django.utils import timezone - подключение модуля timezone
+создаём экземпляр:
+a = Article(article_tittle= "Какая-то крутая статья", article_text="Какой-то крутой текст ...", pub_date=timezone.now())
+timezone.now() - преобразует текущее время пояса в вид 2020-08-21
+a.save() - статья появится в БД
+Можно выводить ячейки:
+a.id
+a.article_tittle
+a.pub_date.
+a = Article.objects.get(id=1). get(или filter) нужен для получения одного объекта
+Article.objects.filter(article_tittle__startswith = "Какая") - выводит статью в которой содержится слово "Какая"
+Можно перезаписывать столбцы a.article_tittle="Как прошить PS3?" и не забыть сохранить a.save()
+Получение статей за текущий год:
+current_year=timezone.now().year
+Article.objects.filter(pub_date__year = current_year)
+Вывод всех комментов a.comment_set.all()
+Добавление комментариев: a.comment_set.create( avthor_name = "Джон", comment_text="Крутая стотая" )
+Вывод всех комментариев(именно авторов): a.comment_set.all()
+Считает количество комментариев: a.comment_set.count()
+Удаление: cs = comment.objects.filter(avthor_name__startswith = "ДЖ")
+cs.delete()

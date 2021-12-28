@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Python" name="Python">
+      <configuration sdkName="Python 3.9" />
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/3. Машина состояний" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2.1 Клавиатуры. Текстовые кнопки" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Мини-урок по AsyncIO" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2.1 Inline Кнопки" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1.1 Структура проекта" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1. Создание эхо-бота" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/0.1 - Разбираем API Telegram" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/4. БАЗА ДАННЫХ, ДОКЕР, БАЛАНСЫ И РЕФЕРАЛЫ" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/5. Бесплатный сервер, деплой, запуск бота 1 командой/windows" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

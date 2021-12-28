@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+ <meta charset="UTF-8">
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+ <title>Погодное приложение</title>
+</head>
+<body>
+    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+        <h5 class="my-0 mr-md-auto font-weight-normal">Company name</h5>
+        <nav class="my-2 my-md-0 mr-md-3">
+          <a class="p-2 text-dark" href="#">Главная</a>
+          <a class="p-2 text-dark" href="#">Информация</a>
+        </nav>
+        <a class="btn btn-outline-primary" href="#">Документация</a>
+      </div>
+      <div class="container">
+          <div class="row">
+              <div class="col-5 offset-1">
+                <h1>Погода в вашем городе</h1>
+                <form action="" method="POST">
+                  <!--обязательный параметр. Нужно чтобы форма коректно работала-->
+                  {% csrf_token %} 
+                    <label for="city">Город</label>
+                    {{ form.name }} <!--Работает как: <input type="text" id="city" class="form-control" name="city" placeholder="Введите город">-->
+                    <input type="submit" name="send" value="Узнать" class="mt-2 btn btn-danger">
+                </form>
+              </div>
+
+              <div class="col-4 offset-1">
+                <h1>Информация</h1>
+                
+                {% for info in all_info %}
+                <div class="alert alert-danger">
+                    <b>Город: </b>{{ info.city }} <br>
+                    <b>Температура: </b>{{ info.temp }}<sup>o</sup>
+                    <img src="http://openweathermap.org/img/w/{{ info.icon }}.png" alt="Фото погоды" class="img-thumbnail">
+                </div>
+                {% endfor %}
+              </div>
+          </div>
+      </div>
+</body>
+</html>

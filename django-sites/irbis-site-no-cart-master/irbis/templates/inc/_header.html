@@ -1,0 +1,7 @@
+{% load menu %}
+
+{% if request.path != '/' %}
+{% header %}
+{% else %}
+{% header header__cards='container' container='header' %}
+{% endif %}

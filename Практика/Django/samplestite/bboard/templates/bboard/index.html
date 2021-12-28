@@ -1,0 +1,46 @@
+{% extends 'layout/basic.html' %}
+{% block content %}
+    
+    {% for bb in bbs %}
+        <div class="b">
+            <h2>{{ bb.title }}</h2>
+            <p>{{ bb.content }}</p>
+            <p><a href="{% url 'by_rubric' bb.rubric.pk %}">{{ bb.rubric.name }}</a></p>
+            <p>{{ bb.published|date:"d.m.Y H:i:s" }}</p>
+        </div>
+    {% endfor %}
+{% endblock %}
+    
+<!-- Был таким:
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta http-equiv="Content-Type"
+    content="text/html" charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная - Доска объявлений</title>
+</head>
+<body>
+    <h1>Объявления</h1>
+    <div>
+        <a href="{% url 'index' %}">Главная</a>
+        <a href="{% url 'add' %}" >Добавить</a>
+        {% for rubric in rubrics %}
+        <a href="{% url 'by_rubric' rubric.pk %}">{{ rubric.name }}</a>
+        {% endfor %}
+    </div>
+bbs - это переменная входит в состав контекста шаблона, который формируется самим программистом.
+date - фильтр, он преобразует значение атрибута published объекта, в формат даты и времен.
+Строка "d.m.Y H:i:s" задаёт формат <число>.<номер месяца>.<год из четырёх цифр>
+<часы в 24-часовом формате>:<минуты>:<секунды>
+    {% for bb in bbs %}
+        <div>
+            <h2>{{ bb.title }}</h2>
+            <p>{{ bb.content }}</p>
+            <p><a href="{% url 'by_rubric' bb.rubric.pk %}">{{ bb.rubric.name }}</a></p>
+            <p>{{ bb.published|date:"d.m.Y H:i:s" }}</p>
+        </div>
+    {% endfor %}
+</body>
+</html>
+-->

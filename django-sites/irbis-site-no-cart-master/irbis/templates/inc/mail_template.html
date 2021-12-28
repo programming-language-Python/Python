@@ -1,0 +1,64 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mail_template</title>
+    <style>
+        * {
+            text-align: center;
+            font-size: large;
+            color: black;
+        }
+        table {
+            width: 100%;
+        }
+
+        th,
+        td {
+            padding: 10px;
+        }
+
+        th {
+            background: #239BA3;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <p>Мы рады приветствовать вас в нашем отеле Pink irbis.</p>
+    <p>Уважаемый посетитель благодарим вас за то, что заказали товар онлайн.</p>
+    <p>Содержимое вашего заказа:</p>
+    <table cellspacing="0" cellpadding="0">
+        <tr>
+            <th>Наименование</th>
+            <th>Описание</th>
+            <th>Количество</th>
+            <th>Цена</th>
+        </tr>
+        {% for item in cart %}
+        {% with product=item.product %}
+        <tr>
+            <td>{{ product.title }}</td>
+            <td>{{ product.subscrible }}</td>
+            <td>{{ item.quantity }}</td>
+            <td>{{ item.total_price }}</td>
+        </tr>
+        {% endwith %}
+        {% endfor %}
+        <tr>
+            <td colspan="3" style="text-align: right">Итого:</td>
+            <td style="text-align: right;">{{ len }} товаров за {{ cart.get_total_price }} ₽</td>
+        </tr>
+    </table>
+    <p>Мы делаем все возможное, чтобы прибывание у нас было комфортным и вызывало только положительные эмоции.
+        Заказывайте
+        онлайн берегите свое здоровье и здоровье своих близких.</p>
+    <p>Искренне ваш Pink irbis</p>
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+Django = "*"
+Pillow = "*"
+Jinja2 = "*"
+django-debug-toolbar = "*"
+django-ckeditor = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"

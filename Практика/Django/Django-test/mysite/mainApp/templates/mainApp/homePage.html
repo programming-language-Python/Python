@@ -1,0 +1,8 @@
+<!--подключились к файлу wrapper.html с помощью extends
+include - ссылается на ещё один файл
+-->
+{% extends "mainApp/wrapper.html" %}
+{% block content %}
+<p>Ну привет. Всё работает?</p>
+{% include 'mainApp/includes/some_html.html' %}
+{% endblock %}

@@ -1,0 +1,32 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta http-equiv="Content-Type"
+    content="text/html" charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static 'bboard/style.css' %}">
+    <title>{% block title %} Главная {% endblock %} - Доска объявлений</title>
+</head>
+<body>
+    <header>
+    <h1>Объявления</h1>
+    </header>
+    <nav>
+        <a href="{% url 'index' %}">Главная</a>
+        <a href="{% url 'add' %}" >Добавить</a>
+        {% for rubric in rubrics %}
+        <a href="{% url 'by_rubric' rubric.pk %}">{{ rubric.name }}</a>
+        {% endfor %}
+    </nav>
+<!-- bbs - это переменная входит в состав контекста шаблона, который формируется самим программистом.
+date - фильтр, он преобразует значение атрибута published объекта, в формат даты и времен.
+Строка "d.m.Y H:i:s" задаёт формат <число>.<номер месяца>.<год из четырёх цифр>
+<часы в 24-часовом формате>:<минуты>:<секунды> -->
+    <section>
+        {% block content %}
+            
+        {% endblock %}
+    </section>
+</body>
+</html>

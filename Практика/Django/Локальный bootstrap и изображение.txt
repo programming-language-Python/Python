@@ -1,0 +1,9 @@
+В проекте в settings.py в конце добавить:
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'static'),
+    ('image','C:/Users/maks2/Desktop/PYTHON/Практика/Django/Django-test/mysite/mainApp/templates/mainApp/static/mainApp/image'),
+    ('boot','C:/Users/maks2/Desktop/PYTHON/Практика/Django/Django-test/mysite/mainApp/templates/mainApp/static/bootstrap-4.5.2-dist/css'),
+    ]
+Потом можно прописывать ссылки в html файле на файлы или изображения через Django:
+{% static 'image/s1200.jpg' %}
+{% static 'boot/bootstrap.min.css' %}

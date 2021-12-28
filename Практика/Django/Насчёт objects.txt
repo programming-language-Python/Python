@@ -1,0 +1,1 @@
+в models.py в классе написать objects = models.Manager() # для того, чтобы работало Articles.objects.all()

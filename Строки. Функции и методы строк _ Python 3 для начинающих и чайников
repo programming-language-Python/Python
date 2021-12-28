@@ -1,0 +1,1398 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://pythonworld.ru/tipy-dannyx-v-python/stroki-funkcii-i-metody-strok.html
+Subject: =?utf-8?Q?=D0=A1=D1=82=D1=80=D0=BE=D0=BA=D0=B8.=20=D0=A4=D1=83=D0=BD=D0?=
+ =?utf-8?Q?=BA=D1=86=D0=B8=D0=B8=20=D0=B8=20=D0=BC=D0=B5=D1=82=D0=BE=D0=B4?=
+ =?utf-8?Q?=D1=8B=20=D1=81=D1=82=D1=80=D0=BE=D0=BA=20|=20Python=203=20=D0?=
+ =?utf-8?Q?=B4=D0=BB=D1=8F=20=D0=BD=D0=B0=D1=87=D0=B8=D0=BD=D0=B0=D1=8E=D1?=
+ =?utf-8?Q?=89=D0=B8=D1=85=20=D0=B8=20=D1=87=D0=B0=D0=B9=D0=BD=D0=B8=D0=BA?=
+ =?utf-8?Q?=D0=BE=D0=B2?=
+Date: Sun, 19 Jul 2020 12:08:50 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--GiTR7nfrNJYKdRdobKkmvRjxP5FrJbFgaYVnsGaSVz----"
+
+
+------MultipartBoundary--GiTR7nfrNJYKdRdobKkmvRjxP5FrJbFgaYVnsGaSVz----
+Content-Type: text/html
+Content-ID: <frame-DB5E22AC30C3CB87116296ED63C82A64@mhtml.blink>
+Content-Transfer-Encoding: binary
+Content-Location: https://pythonworld.ru/tipy-dannyx-v-python/stroki-funkcii-i-metody-strok.html
+
+<!DOCTYPE html><html lang="ru"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" type="text/css" href="cid:css-dd7ef7f2-f933-4f3e-9852-b0ebaace7c93@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-014e6892-4085-4063-a491-236b6498d8b9@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-c1334782-bea2-4cbb-8771-b29f02009171@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-2567dac0-5bf3-4123-a746-43ce35a12968@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-585b3bb1-da9b-4363-9701-bb0d40ed3be4@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-3ea12d24-7bb6-47d2-80d6-75861ef2b940@mhtml.blink" /><link rel="stylesheet" href="https://pythonworld.ru/m/css/st.css"><title>Ð¡Ñ‚Ñ€Ð¾ÐºÐ¸. Ð¤ÑƒÐ½ÐºÑ†Ð¸Ð¸ Ð¸ Ð¼ÐµÑ‚Ð¾Ð´Ñ‹ ÑÑ‚Ñ€Ð¾Ðº | Python 3 Ð´Ð»Ñ Ð½Ð°Ñ‡Ð¸Ð½Ð°ÑŽÑ‰Ð¸Ñ… Ð¸ Ñ‡Ð°Ð¹Ð½Ð¸ÐºÐ¾Ð²</title><meta name="description" content="Ð¡Ñ‚Ñ€Ð¾ÐºÐ¸ Ð² Python, ÑÑ‚Ñ€Ð¾ÐºÐ¾Ð²Ñ‹Ðµ Ñ„ÑƒÐ½ÐºÑ†Ð¸Ð¸ Ð¸ Ð¼ÐµÑ‚Ð¾Ð´Ñ‹, Ð¾Ð¿ÐµÑ€Ð°Ñ†Ð¸Ð¸ Ð½Ð°Ð´ ÑÑ‚Ñ€Ð¾ÐºÐ°Ð¼Ð¸."><meta name="keywords" content="ÑÑ‚Ñ€Ð¾ÐºÐ¸, Ñ„ÑƒÐ½ÐºÑ†Ð¸Ð¸, Ð¼ÐµÑ‚Ð¾Ð´Ñ‹"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="referrer" content="always"><link rel="prefetch" as="style" href="https://c.disquscdn.com/next/embed/styles/lounge.4ccc2ba08c360cad557fd79f7fdaa34f.css"><link rel="prefetch" as="script" href="https://c.disquscdn.com/next/embed/common.bundle.5439bce5811a3908f603eb4fa66869dd.js"><link rel="prefetch" as="script" href="https://c.disquscdn.com/next/embed/lounge.bundle.1af790aed9f2d4e4d1280d1e4a06f523.js"><link rel="prefetch" as="script" href="https://disqus.com/next/config.js"></head><body><div id="page"><header class="site-header clearfix"><div class="site-brand clearfix"><div class="site-logo"><img src="https://pythonworld.ru/m/img/python-3.png" alt="Python 3 Ð»Ð¾Ð³Ð¾Ñ‚Ð¸Ð¿"></div><div class="header_hgroup"><span id="site-title"><a href="https://pythonworld.ru/">Python 3 Ð´Ð»Ñ Ð½Ð°Ñ‡Ð¸Ð½Ð°ÑŽÑ‰Ð¸Ñ…</a></span></div></div><nav class="main-navigation" id="site-navigation"><button class="menu-toggle"><span class="icon-font icon-menu">â˜°</span></button><div class="menu-navigation-container"><ul class="menu nav-menu" id="menu-navigation"><li class="menu-item"><a href="https://pythonworld.ru/bookshop">ÐšÐ½Ð¸Ð³Ð¸</a></li><li class="menu-item"><a href="https://pythonworld.ru/samouchitel-python">Ð¡Ð°Ð¼Ð¾ÑƒÑ‡Ð¸Ñ‚ÐµÐ»ÑŒ</a></li><li><a href="https://pythonworld.ru/kursy">ÐšÑƒÑ€ÑÑ‹</a></li><li class="menu-item menu-item-has-children"><a>ÐšÐ°Ñ‚ÐµÐ³Ð¾Ñ€Ð¸Ð¸</a><ul class="sub-menu"><li><a href="https://pythonworld.ru/gui">GUI</a></li><li><a href="https://pythonworld.ru/osnovy">ÐžÑÐ½Ð¾Ð²Ñ‹</a></li><li><a href="https://pythonworld.ru/primery-programm">ÐŸÑ€Ð¸Ð¼ÐµÑ€Ñ‹</a></li><li><a href="https://pythonworld.ru/tipy-dannyx-v-python">Ð¢Ð¸Ð¿Ñ‹ Ð´Ð°Ð½Ð½Ñ‹Ñ…</a></li><li><a href="https://pythonworld.ru/moduli">ÐœÐ¾Ð´ÑƒÐ»Ð¸</a></li><li><a href="https://pythonworld.ru/numpy">NumPy</a></li><li><a href="https://pythonworld.ru/obrabotka-dannyx">ÐžÐ±Ñ€Ð°Ð±Ð¾Ñ‚ÐºÐ° Ð´Ð°Ð½Ð½Ñ‹Ñ…</a></li><li><a href="https://pythonworld.ru/web">Web-Ð¿Ñ€Ð¾Ð³Ñ€Ð°Ð¼Ð¼Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¸Ðµ</a></li><li><a href="https://pythonworld.ru/video">Ð’Ð¸Ð´ÐµÐ¾</a></li><li><a href="https://pythonworld.ru/novosti-mira-python">ÐÐ¾Ð²Ð¾ÑÑ‚Ð¸</a></li><li><a href="https://pythonworld.ru/vacancies">Ð Ð°Ð±Ð¾Ñ‚Ð°</a></li></ul></li><li class="menu-item"><a href="https://pythonworld.ru/karta-sajta">Ð’ÑÐµ ÑÑ‚Ð°Ñ‚ÑŒÐ¸</a></li></ul></div></nav></header><div id="main" class="site-main clearfix"><div id="primary" class="content-area"><div id="content" class="site-content hentry"><article class="post"><header class="entry-header"><h1>Ð¡Ñ‚Ñ€Ð¾ÐºÐ¸. Ð¤ÑƒÐ½ÐºÑ†Ð¸Ð¸ Ð¸ Ð¼ÐµÑ‚Ð¾Ð´Ñ‹ ÑÑ‚Ñ€Ð¾Ðº</h1></header><div id="ytb"><div id="letpy__banner"><div class="letpy__banner_pic"><a href="https://letpy.com/?utm_source=pythonworldru&amp;utm_content=second" target="_blank"><img src="https://pythonworld.ru/uploads/letpy-banner/letpy_banner_2.png"></a></div><div class="letpy__banner_text"><div class="letpy__banner_text__header"><a href="https://letpy.com/?utm_source=pythonworldru&amp;utm_content=second" target="_blank">ÐŸÑ€Ð°ÐºÑ‚Ð¸Ñ‡ÐµÑÐºÐ¸Ð¹ Python&nbsp;3 Ð´Ð»Ñ Ð½Ð°Ñ‡Ð¸Ð½Ð°ÑŽÑ‰Ð¸Ñ…</a></div><div style="padding: 0 10px;margin-bottom: 20px"><a href="https://letpy.com/?utm_source=pythonworldru&amp;utm_content=second" target="_blank">Ð¢ÐµÐ¾Ñ€Ð¸Ñ Ð¸ Ð¿Ñ€Ð°ÐºÑ‚Ð¸ÐºÐ°. Ð‘Ñ‹ÑÑ‚Ñ€Ð°Ñ Ð¿Ñ€Ð¾Ð²ÐµÑ€ÐºÐ° Ð·Ð°Ð´Ð°Ñ‡ Ð¸ Ð¿Ð¾Ð´ÑÐºÐ°Ð·ÐºÐ¸ Ðº Ð¾ÑˆÐ¸Ð±ÐºÐ°Ð¼ Ð½Ð° Ñ€ÑƒÑÑÐºÐ¾Ð¼ ÑÐ·Ñ‹ÐºÐµ. Ð Ð°Ð±Ð¾Ñ‚Ð°ÐµÑ‚ Ð² Ð»ÑŽÐ±Ð¾Ð¼ ÑÐ¾Ð²Ñ€ÐµÐ¼ÐµÐ½Ð½Ð¾Ð¼ Ð±Ñ€Ð°ÑƒÐ·ÐµÑ€Ðµ.</a></div><div style="line-height: 40px;"><a href="https://letpy.com/?utm_source=pythonworldru&amp;utm_content=second" target="_blank" class="button">ÐÐÐ§ÐÐ¢Ð¬ Ð‘Ð•Ð¡ÐŸÐ›ÐÐ¢ÐÐž</a><a href="https://letpy.com/?utm_source=pythonworldru&amp;utm_content=second" target="_blank" class="button_transparent"><img src="https://pythonworld.ru/uploads/letpy-banner/logo-letpy.png">LETPY.COM</a></div><img src="https://letpy.com/__register-content-view/pythonworld.ru/"></div></div></div> <div class="entry-content"><p>Ð˜Ñ‚Ð°Ðº, Ð¾ <a href="https://pythonworld.ru/tipy-dannyx-v-python/stroki-literaly-strok.html" target="_blank">Ñ€Ð°Ð±Ð¾Ñ‚Ðµ ÑÐ¾ ÑÑ‚Ñ€Ð¾ÐºÐ°Ð¼Ð¸</a> Ð¼Ñ‹ Ð½ÐµÐ¼Ð½Ð¾Ð³Ð¾ Ð¿Ð¾Ð³Ð¾Ð²Ð¾Ñ€Ð¸Ð»Ð¸, Ñ‚ÐµÐ¿ÐµÑ€ÑŒ Ð¿Ð¾Ð³Ð¾Ð²Ð¾Ñ€Ð¸Ð¼ Ð¾ <b>Ñ„ÑƒÐ½ÐºÑ†Ð¸ÑÑ… Ð¸ Ð¼ÐµÑ‚Ð¾Ð´Ð°Ñ… ÑÑ‚Ñ€Ð¾Ðº</b>.</p><p>Ð¯ Ð¿Ð¾ÑÑ‚Ð°Ñ€Ð°Ð»ÑÑ ÑÐ¾Ð±Ñ€Ð°Ñ‚ÑŒ Ð·Ð´ÐµÑÑŒ Ð²ÑÐµ ÑÑ‚Ñ€Ð¾ÐºÐ¾Ð²Ñ‹Ðµ Ð¼ÐµÑ‚Ð¾Ð´Ñ‹ Ð¸ Ñ„ÑƒÐ½ÐºÑ†Ð¸Ð¸, Ð½Ð¾ ÐµÑÐ»Ð¸ Ñ Ñ‡Ñ‚Ð¾-Ñ‚Ð¾ Ð·Ð°Ð±Ñ‹Ð» - Ð¿Ð¾Ð¿Ñ€Ð°Ð²Ð»ÑÐ¹Ñ‚Ðµ.</p><div class="section" id="id2"><h2>Ð‘Ð°Ð·Ð¾Ð²Ñ‹Ðµ Ð¾Ð¿ÐµÑ€Ð°Ñ†Ð¸Ð¸</h2><ul><li><p>ÐšÐ¾Ð½ÐºÐ°Ñ‚ÐµÐ½Ð°Ñ†Ð¸Ñ (ÑÐ»Ð¾Ð¶ÐµÐ½Ð¸Ðµ)</p><div class="highlight-python3" style="position: relative;"><div class="highlight"><span class="copybutton" title="Ð£Ð±Ñ€Ð°Ñ‚ÑŒ Ð¿Ñ€Ð¸Ð³Ð»Ð°ÑˆÐµÐ½Ð¸Ñ Ð¸ Ð²Ñ‹Ð²Ð¾Ð´ Ð¿Ñ€Ð¾Ð³Ñ€Ð°Ð¼Ð¼Ñ‹">&gt;&gt;&gt;</span><pre class="code pycon literal-block"><span class="n"></span><span class="gp">&gt;&gt;&gt; </span><span class="n">S1</span> <span class="o">=</span> <span class="s1">'spam'</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">S2</span> <span class="o">=</span> <span class="s1">'eggs'</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">S1</span> <span class="o">+</span> <span class="n">S2</span><span class="p">)</span>
+<span class="go">'spameggs'</span></pre></div></div></li><li><p>Ð”ÑƒÐ±Ð»Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¸Ðµ ÑÑ‚Ñ€Ð¾ÐºÐ¸</p><div class="highlight-python3" style="position: relative;"><div class="highlight"><span class="copybutton" title="Ð£Ð±Ñ€Ð°Ñ‚ÑŒ Ð¿Ñ€Ð¸Ð³Ð»Ð°ÑˆÐµÐ½Ð¸Ñ Ð¸ Ð²Ñ‹Ð²Ð¾Ð´ Ð¿Ñ€Ð¾Ð³Ñ€Ð°Ð¼Ð¼Ñ‹">&gt;&gt;&gt;</span><pre class="code pycon literal-block"><span class="nb"></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="s1">'spam'</span> <span class="o">*</span> <span class="mi">3</span><span class="p">)</span>
+<span class="go">spamspamspam</span></pre></div></div></li><li><p>Ð”Ð»Ð¸Ð½Ð° ÑÑ‚Ñ€Ð¾ÐºÐ¸ (Ñ„ÑƒÐ½ÐºÑ†Ð¸Ñ len)</p><div class="highlight-python3" style="position: relative;"><div class="highlight"><span class="copybutton" title="Ð£Ð±Ñ€Ð°Ñ‚ÑŒ Ð¿Ñ€Ð¸Ð³Ð»Ð°ÑˆÐµÐ½Ð¸Ñ Ð¸ Ð²Ñ‹Ð²Ð¾Ð´ Ð¿Ñ€Ð¾Ð³Ñ€Ð°Ð¼Ð¼Ñ‹">&gt;&gt;&gt;</span><pre class="code pycon literal-block"><span class="nb"></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">len</span><span class="p">(</span><span class="s1">'spam'</span><span class="p">)</span>
+<span class="go">4</span></pre></div></div></li><li><p>Ð”Ð¾ÑÑ‚ÑƒÐ¿ Ð¿Ð¾ Ð¸Ð½Ð´ÐµÐºÑÑƒ</p><div class="highlight-python3" style="position: relative;"><div class="highlight"><span class="copybutton" title="Ð£Ð±Ñ€Ð°Ñ‚ÑŒ Ð¿Ñ€Ð¸Ð³Ð»Ð°ÑˆÐµÐ½Ð¸Ñ Ð¸ Ð²Ñ‹Ð²Ð¾Ð´ Ð¿Ñ€Ð¾Ð³Ñ€Ð°Ð¼Ð¼Ñ‹">&gt;&gt;&gt;</span><pre class="code pycon literal-block"><span class="n"></span><span class="gp">&gt;&gt;&gt; </span><span class="n">S</span> <span class="o">=</span> <span class="s1">'spam'</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">S</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+<span class="go">'s'
+</span><span class="n"></span><span class="gp">&gt;&gt;&gt; </span><span class="n">S</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
+<span class="go">'a'
+</span><span class="n"></span><span class="gp">&gt;&gt;&gt; </span><span class="n">S</span><span class="p">[</span><span class="o">-</span><span class="mi">2</span><span class="p">]</span>
+<span class="go">'a'</span></pre></div></div><p>ÐšÐ°Ðº Ð²Ð¸Ð´Ð½Ð¾ Ð¸Ð· Ð¿Ñ€Ð¸Ð¼ÐµÑ€Ð°, Ð² Python Ð²Ð¾Ð·Ð¼Ð¾Ð¶ÐµÐ½ Ð¸ Ð´Ð¾ÑÑ‚ÑƒÐ¿ Ð¿Ð¾ Ð¾Ñ‚Ñ€Ð¸Ñ†Ð°Ñ‚ÐµÐ»ÑŒÐ½Ð¾Ð¼Ñƒ Ð¸Ð½Ð´ÐµÐºÑÑƒ, Ð¿Ñ€Ð¸ ÑÑ‚Ð¾Ð¼ Ð¾Ñ‚ÑÑ‡ÐµÑ‚ Ð¸Ð´ÐµÑ‚ Ð¾Ñ‚ ÐºÐ¾Ð½Ñ†Ð° ÑÑ‚Ñ€Ð¾ÐºÐ¸.</p></li><li><p>Ð˜Ð·Ð²Ð»ÐµÑ‡ÐµÐ½Ð¸Ðµ ÑÑ€ÐµÐ·Ð°</p><p>ÐžÐ¿ÐµÑ€Ð°Ñ‚Ð¾Ñ€ Ð¸Ð·Ð²Ð»ÐµÑ‡ÐµÐ½Ð¸Ñ ÑÑ€ÐµÐ·Ð°: [X:Y]. X â€“ Ð½Ð°Ñ‡Ð°Ð»Ð¾ ÑÑ€ÐµÐ·Ð°, Ð° Y â€“ Ð¾ÐºÐ¾Ð½Ñ‡Ð°Ð½Ð¸Ðµ;</p><p>ÑÐ¸Ð¼Ð²Ð¾Ð» Ñ Ð½Ð¾Ð¼ÐµÑ€Ð¾Ð¼ Y Ð² ÑÑ€ÐµÐ· Ð½Ðµ Ð²Ñ…Ð¾Ð´Ð¸Ñ‚. ÐŸÐ¾ ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ Ð¿ÐµÑ€Ð²Ñ‹Ð¹ Ð¸Ð½Ð´ÐµÐºÑ Ñ€Ð°Ð²ÐµÐ½ 0, Ð° Ð²Ñ‚Ð¾Ñ€Ð¾Ð¹ - Ð´Ð»Ð¸Ð½Ðµ ÑÑ‚Ñ€Ð¾ÐºÐ¸.</p><div class="highlight-python3" style="position: relative;"><div class="highlight"><span class="copybutton" title="Ð£Ð±Ñ€Ð°Ñ‚ÑŒ Ð¿Ñ€Ð¸Ð³Ð»Ð°ÑˆÐµÐ½Ð¸Ñ Ð¸ Ð²Ñ‹Ð²Ð¾Ð´ Ð¿Ñ€Ð¾Ð³Ñ€Ð°Ð¼Ð¼Ñ‹">&gt;&gt;&gt;</span><pre class="code pycon literal-block"><span class="n"></span><span class="gp">&gt;&gt;&gt; </span><span class="n">s</span> <span class="o">=</span> <span class="s1">'spameggs'</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">s</span><span class="p">[</span><span class="mi">3</span><span class="p">:</span><span class="mi">5</span><span class="p">]</span>
+<span class="go">'me'
+</span><span class="n"></span><span class="gp">&gt;&gt;&gt; </span><span class="n">s</span><span class="p">[</span><span class="mi">2</span><span class="p">:</span><span class="o">-</span><span class="mi">2</span><span class="p">]</span>
+<span class="go">'ameg'
+</span><span class="n"></span><span class="gp">&gt;&gt;&gt; </span><span class="n">s</span><span class="p">[:</span><span class="mi">6</span><span class="p">]</span>
+<span class="go">'spameg'
+</span><span class="n"></span><span class="gp">&gt;&gt;&gt; </span><span class="n">s</span><span class="p">[</span><span class="mi">1</span><span class="p">:]</span>
+<span class="go">'pameggs'
+</span><span class="n"></span><span class="gp">&gt;&gt;&gt; </span><span class="n">s</span><span class="p">[:]</span>
+<span class="go">'spameggs'</span></pre></div></div><p>ÐšÑ€Ð¾Ð¼Ðµ Ñ‚Ð¾Ð³Ð¾, Ð¼Ð¾Ð¶Ð½Ð¾ Ð·Ð°Ð´Ð°Ñ‚ÑŒ ÑˆÐ°Ð³, Ñ ÐºÐ¾Ñ‚Ð¾Ñ€Ñ‹Ð¼ Ð½ÑƒÐ¶Ð½Ð¾ Ð¸Ð·Ð²Ð»ÐµÐºÐ°Ñ‚ÑŒ ÑÑ€ÐµÐ·.</p><div class="highlight-python3" style="position: relative;"><div class="highlight"><span class="copybutton" title="Ð£Ð±Ñ€Ð°Ñ‚ÑŒ Ð¿Ñ€Ð¸Ð³Ð»Ð°ÑˆÐµÐ½Ð¸Ñ Ð¸ Ð²Ñ‹Ð²Ð¾Ð´ Ð¿Ñ€Ð¾Ð³Ñ€Ð°Ð¼Ð¼Ñ‹">&gt;&gt;&gt;</span><pre class="code pycon literal-block"><span class="n"></span><span class="gp">&gt;&gt;&gt; </span><span class="n">s</span><span class="p">[::</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+<span class="go">'sggemaps'
+</span><span class="n"></span><span class="gp">&gt;&gt;&gt; </span><span class="n">s</span><span class="p">[</span><span class="mi">3</span><span class="p">:</span><span class="mi">5</span><span class="p">:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+<span class="go">''
+</span><span class="n"></span><span class="gp">&gt;&gt;&gt; </span><span class="n">s</span><span class="p">[</span><span class="mi">2</span><span class="p">::</span><span class="mi">2</span><span class="p">]</span>
+<span class="go">'aeg'</span></pre></div></div></li></ul></div><div class="section" id="id3"><h2>Ð”Ñ€ÑƒÐ³Ð¸Ðµ Ñ„ÑƒÐ½ÐºÑ†Ð¸Ð¸ Ð¸ Ð¼ÐµÑ‚Ð¾Ð´Ñ‹ ÑÑ‚Ñ€Ð¾Ðº</h2><p>ÐŸÑ€Ð¸ Ð²Ñ‹Ð·Ð¾Ð²Ðµ Ð¼ÐµÑ‚Ð¾Ð´Ð¾Ð² Ð½ÐµÐ¾Ð±Ñ…Ð¾Ð´Ð¸Ð¼Ð¾ Ð¿Ð¾Ð¼Ð½Ð¸Ñ‚ÑŒ, Ñ‡Ñ‚Ð¾ ÑÑ‚Ñ€Ð¾ÐºÐ¸ Ð² Python Ð¾Ñ‚Ð½Ð¾ÑÑÑ‚ÑÑ Ðº ÐºÐ°Ñ‚ÐµÐ³Ð¾Ñ€Ð¸Ð¸ Ð½ÐµÐ¸Ð·Ð¼ÐµÐ½ÑÐµÐ¼Ñ‹Ñ… Ð¿Ð¾ÑÐ»ÐµÐ´Ð¾Ð²Ð°Ñ‚ÐµÐ»ÑŒÐ½Ð¾ÑÑ‚ÐµÐ¹, Ñ‚Ð¾ ÐµÑÑ‚ÑŒ Ð²ÑÐµ Ñ„ÑƒÐ½ÐºÑ†Ð¸Ð¸ Ð¸ Ð¼ÐµÑ‚Ð¾Ð´Ñ‹ Ð¼Ð¾Ð³ÑƒÑ‚ Ð»Ð¸ÑˆÑŒ ÑÐ¾Ð·Ð´Ð°Ð²Ð°Ñ‚ÑŒ Ð½Ð¾Ð²ÑƒÑŽ ÑÑ‚Ñ€Ð¾ÐºÑƒ.</p><div class="highlight-python3" style="position: relative;"><div class="highlight"><span class="copybutton" title="Ð£Ð±Ñ€Ð°Ñ‚ÑŒ Ð¿Ñ€Ð¸Ð³Ð»Ð°ÑˆÐµÐ½Ð¸Ñ Ð¸ Ð²Ñ‹Ð²Ð¾Ð´ Ð¿Ñ€Ð¾Ð³Ñ€Ð°Ð¼Ð¼Ñ‹">&gt;&gt;&gt;</span><pre class="code pycon literal-block"><span class="n"></span><span class="gp">&gt;&gt;&gt; </span><span class="n">s</span> <span class="o">=</span> <span class="s1">'spam'</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">s</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="s1">'b'</span>
+<span class="gt">Traceback (most recent call last):
+</span><span class="gr">  File "", line 1, in
+    s[1] = 'b'
+TypeError</span><span>: </span><span class="n">'str' object does not support item assignment</span>
+<span class="n"></span><span class="gp">&gt;&gt;&gt; </span><span class="n">s</span> <span class="o">=</span> <span class="n">s</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="s1">'b'</span> <span class="o">+</span> <span class="n">s</span><span class="p">[</span><span class="mi">2</span><span class="p">:]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">s</span>
+<span class="go">'sbam'</span></pre></div></div><p>ÐŸÐ¾ÑÑ‚Ð¾Ð¼Ñƒ Ð²ÑÐµ ÑÑ‚Ñ€Ð¾ÐºÐ¾Ð²Ñ‹Ðµ Ð¼ÐµÑ‚Ð¾Ð´Ñ‹ Ð²Ð¾Ð·Ð²Ñ€Ð°Ñ‰Ð°ÑŽÑ‚ Ð½Ð¾Ð²ÑƒÑŽ ÑÑ‚Ñ€Ð¾ÐºÑƒ, ÐºÐ¾Ñ‚Ð¾Ñ€ÑƒÑŽ Ð¿Ð¾Ñ‚Ð¾Ð¼ ÑÐ»ÐµÐ´ÑƒÐµÑ‚ Ð¿Ñ€Ð¸ÑÐ²Ð¾Ð¸Ñ‚ÑŒ Ð¿ÐµÑ€ÐµÐ¼ÐµÐ½Ð½Ð¾Ð¹.</p></div><div class="section" id="id4"><h2>Ð¢Ð°Ð±Ð»Ð¸Ñ†Ð° "Ð¤ÑƒÐ½ÐºÑ†Ð¸Ð¸ Ð¸ Ð¼ÐµÑ‚Ð¾Ð´Ñ‹ ÑÑ‚Ñ€Ð¾Ðº"</h2><div class="table-wrapper"><table border="1" class="docutils"><thead valign="bottom"><tr><th class="head">Ð¤ÑƒÐ½ÐºÑ†Ð¸Ñ Ð¸Ð»Ð¸ Ð¼ÐµÑ‚Ð¾Ð´</th><th class="head">ÐÐ°Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ</th></tr></thead><tbody valign="top"><tr><td><b>S = 'str'; S = "str"; S = '''str'''; S = """str"""</b></td><td><a href="https://pythonworld.ru/tipy-dannyx-v-python/stroki-literaly-strok.html" target="_blank">Ð›Ð¸Ñ‚ÐµÑ€Ð°Ð»Ñ‹ ÑÑ‚Ñ€Ð¾Ðº</a></td></tr><tr><td><b>S = "s\np\ta\nbbb"</b></td><td>Ð­ÐºÑ€Ð°Ð½Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð½Ñ‹Ðµ Ð¿Ð¾ÑÐ»ÐµÐ´Ð¾Ð²Ð°Ñ‚ÐµÐ»ÑŒÐ½Ð¾ÑÑ‚Ð¸</td></tr><tr><td><b>S = r"C:\temp\new"</b></td><td>ÐÐµÑ„Ð¾Ñ€Ð¼Ð°Ñ‚Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð½Ñ‹Ðµ ÑÑ‚Ñ€Ð¾ÐºÐ¸ (Ð¿Ð¾Ð´Ð°Ð²Ð»ÑÑŽÑ‚ ÑÐºÑ€Ð°Ð½Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¸Ðµ)</td></tr><tr><td><b>S = b"byte"</b></td><td>Ð¡Ñ‚Ñ€Ð¾ÐºÐ° <a href="https://pythonworld.ru/tipy-dannyx-v-python/bajty-bytes-i-bytearray.html" target="_blank">Ð±Ð°Ð¹Ñ‚Ð¾Ð²</a></td></tr><tr><td><b>S1 + S2</b></td><td>ÐšÐ¾Ð½ÐºÐ°Ñ‚ÐµÐ½Ð°Ñ†Ð¸Ñ (ÑÐ»Ð¾Ð¶ÐµÐ½Ð¸Ðµ ÑÑ‚Ñ€Ð¾Ðº)</td></tr><tr><td><b>S1 * 3</b></td><td>ÐŸÐ¾Ð²Ñ‚Ð¾Ñ€ÐµÐ½Ð¸Ðµ ÑÑ‚Ñ€Ð¾ÐºÐ¸</td></tr><tr><td><b>S[i]</b></td><td>ÐžÐ±Ñ€Ð°Ñ‰ÐµÐ½Ð¸Ðµ Ð¿Ð¾ Ð¸Ð½Ð´ÐµÐºÑÑƒ</td></tr><tr><td><b>S[i:j:step]</b></td><td>Ð˜Ð·Ð²Ð»ÐµÑ‡ÐµÐ½Ð¸Ðµ ÑÑ€ÐµÐ·Ð°</td></tr><tr><td><b>len</b>(S)</td><td>Ð”Ð»Ð¸Ð½Ð° ÑÑ‚Ñ€Ð¾ÐºÐ¸</td></tr><tr><td><b>S.find</b>(str, [start],[end])</td><td>ÐŸÐ¾Ð¸ÑÐº Ð¿Ð¾Ð´ÑÑ‚Ñ€Ð¾ÐºÐ¸ Ð² ÑÑ‚Ñ€Ð¾ÐºÐµ. Ð’Ð¾Ð·Ð²Ñ€Ð°Ñ‰Ð°ÐµÑ‚ Ð½Ð¾Ð¼ÐµÑ€ Ð¿ÐµÑ€Ð²Ð¾Ð³Ð¾ Ð²Ñ…Ð¾Ð¶Ð´ÐµÐ½Ð¸Ñ Ð¸Ð»Ð¸ -1</td></tr><tr><td><b>S.rfind</b>(str, [start],[end])</td><td>ÐŸÐ¾Ð¸ÑÐº Ð¿Ð¾Ð´ÑÑ‚Ñ€Ð¾ÐºÐ¸ Ð² ÑÑ‚Ñ€Ð¾ÐºÐµ. Ð’Ð¾Ð·Ð²Ñ€Ð°Ñ‰Ð°ÐµÑ‚ Ð½Ð¾Ð¼ÐµÑ€ Ð¿Ð¾ÑÐ»ÐµÐ´Ð½ÐµÐ³Ð¾ Ð²Ñ…Ð¾Ð¶Ð´ÐµÐ½Ð¸Ñ Ð¸Ð»Ð¸ -1</td></tr><tr><td><b>S.index</b>(str, [start],[end])</td><td>ÐŸÐ¾Ð¸ÑÐº Ð¿Ð¾Ð´ÑÑ‚Ñ€Ð¾ÐºÐ¸ Ð² ÑÑ‚Ñ€Ð¾ÐºÐµ. Ð’Ð¾Ð·Ð²Ñ€Ð°Ñ‰Ð°ÐµÑ‚ Ð½Ð¾Ð¼ÐµÑ€ Ð¿ÐµÑ€Ð²Ð¾Ð³Ð¾ Ð²Ñ…Ð¾Ð¶Ð´ÐµÐ½Ð¸Ñ Ð¸Ð»Ð¸ Ð²Ñ‹Ð·Ñ‹Ð²Ð°ÐµÑ‚ ValueError</td></tr><tr><td><b>S.rindex</b>(str, [start],[end])</td><td>ÐŸÐ¾Ð¸ÑÐº Ð¿Ð¾Ð´ÑÑ‚Ñ€Ð¾ÐºÐ¸ Ð² ÑÑ‚Ñ€Ð¾ÐºÐµ. Ð’Ð¾Ð·Ð²Ñ€Ð°Ñ‰Ð°ÐµÑ‚ Ð½Ð¾Ð¼ÐµÑ€ Ð¿Ð¾ÑÐ»ÐµÐ´Ð½ÐµÐ³Ð¾ Ð²Ñ…Ð¾Ð¶Ð´ÐµÐ½Ð¸Ñ Ð¸Ð»Ð¸ Ð²Ñ‹Ð·Ñ‹Ð²Ð°ÐµÑ‚ ValueError</td></tr><tr><td><b>S.replace</b>(ÑˆÐ°Ð±Ð»Ð¾Ð½, Ð·Ð°Ð¼ÐµÐ½Ð°)</td><td>Ð—Ð°Ð¼ÐµÐ½Ð° ÑˆÐ°Ð±Ð»Ð¾Ð½Ð°</td></tr><tr><td><b>S.split</b>(ÑÐ¸Ð¼Ð²Ð¾Ð»)</td><td>Ð Ð°Ð·Ð±Ð¸ÐµÐ½Ð¸Ðµ ÑÑ‚Ñ€Ð¾ÐºÐ¸ Ð¿Ð¾ Ñ€Ð°Ð·Ð´ÐµÐ»Ð¸Ñ‚ÐµÐ»ÑŽ</td></tr><tr><td><b>S.isdigit</b>()</td><td>Ð¡Ð¾ÑÑ‚Ð¾Ð¸Ñ‚ Ð»Ð¸ ÑÑ‚Ñ€Ð¾ÐºÐ° Ð¸Ð· Ñ†Ð¸Ñ„Ñ€</td></tr><tr><td><b>S.isalpha</b>()</td><td>Ð¡Ð¾ÑÑ‚Ð¾Ð¸Ñ‚ Ð»Ð¸ ÑÑ‚Ñ€Ð¾ÐºÐ° Ð¸Ð· Ð±ÑƒÐºÐ²</td></tr><tr><td><b>S.isalnum</b>()</td><td>Ð¡Ð¾ÑÑ‚Ð¾Ð¸Ñ‚ Ð»Ð¸ ÑÑ‚Ñ€Ð¾ÐºÐ° Ð¸Ð· Ñ†Ð¸Ñ„Ñ€ Ð¸Ð»Ð¸ Ð±ÑƒÐºÐ²</td></tr><tr><td><b>S.islower</b>()</td><td>Ð¡Ð¾ÑÑ‚Ð¾Ð¸Ñ‚ Ð»Ð¸ ÑÑ‚Ñ€Ð¾ÐºÐ° Ð¸Ð· ÑÐ¸Ð¼Ð²Ð¾Ð»Ð¾Ð² Ð² Ð½Ð¸Ð¶Ð½ÐµÐ¼ Ñ€ÐµÐ³Ð¸ÑÑ‚Ñ€Ðµ</td></tr><tr><td><b>S.isupper</b>()</td><td>Ð¡Ð¾ÑÑ‚Ð¾Ð¸Ñ‚ Ð»Ð¸ ÑÑ‚Ñ€Ð¾ÐºÐ° Ð¸Ð· ÑÐ¸Ð¼Ð²Ð¾Ð»Ð¾Ð² Ð² Ð²ÐµÑ€Ñ…Ð½ÐµÐ¼ Ñ€ÐµÐ³Ð¸ÑÑ‚Ñ€Ðµ</td></tr><tr><td><b>S.isspace</b>()</td><td>Ð¡Ð¾ÑÑ‚Ð¾Ð¸Ñ‚ Ð»Ð¸ ÑÑ‚Ñ€Ð¾ÐºÐ° Ð¸Ð· Ð½ÐµÐ¾Ñ‚Ð¾Ð±Ñ€Ð°Ð¶Ð°ÐµÐ¼Ñ‹Ñ… ÑÐ¸Ð¼Ð²Ð¾Ð»Ð¾Ð² (Ð¿Ñ€Ð¾Ð±ÐµÐ», ÑÐ¸Ð¼Ð²Ð¾Ð» Ð¿ÐµÑ€ÐµÐ²Ð¾Ð´Ð° ÑÑ‚Ñ€Ð°Ð½Ð¸Ñ†Ñ‹ ('\f'), "Ð½Ð¾Ð²Ð°Ñ ÑÑ‚Ñ€Ð¾ÐºÐ°" ('\n'), "Ð¿ÐµÑ€ÐµÐ²Ð¾Ð´ ÐºÐ°Ñ€ÐµÑ‚ÐºÐ¸" ('\r'), "Ð³Ð¾Ñ€Ð¸Ð·Ð¾Ð½Ñ‚Ð°Ð»ÑŒÐ½Ð°Ñ Ñ‚Ð°Ð±ÑƒÐ»ÑÑ†Ð¸Ñ" ('\t') Ð¸ "Ð²ÐµÑ€Ñ‚Ð¸ÐºÐ°Ð»ÑŒÐ½Ð°Ñ Ñ‚Ð°Ð±ÑƒÐ»ÑÑ†Ð¸Ñ" ('\v'))</td></tr><tr><td><b>S.istitle</b>()</td><td>ÐÐ°Ñ‡Ð¸Ð½Ð°ÑŽÑ‚ÑÑ Ð»Ð¸ ÑÐ»Ð¾Ð²Ð° Ð² ÑÑ‚Ñ€Ð¾ÐºÐµ Ñ Ð·Ð°Ð³Ð»Ð°Ð²Ð½Ð¾Ð¹ Ð±ÑƒÐºÐ²Ñ‹</td></tr><tr><td><b>S.upper</b>()</td><td>ÐŸÑ€ÐµÐ¾Ð±Ñ€Ð°Ð·Ð¾Ð²Ð°Ð½Ð¸Ðµ ÑÑ‚Ñ€Ð¾ÐºÐ¸ Ðº Ð²ÐµÑ€Ñ…Ð½ÐµÐ¼Ñƒ Ñ€ÐµÐ³Ð¸ÑÑ‚Ñ€Ñƒ</td></tr><tr><td><b>S.lower</b>()</td><td>ÐŸÑ€ÐµÐ¾Ð±Ñ€Ð°Ð·Ð¾Ð²Ð°Ð½Ð¸Ðµ ÑÑ‚Ñ€Ð¾ÐºÐ¸ Ðº Ð½Ð¸Ð¶Ð½ÐµÐ¼Ñƒ Ñ€ÐµÐ³Ð¸ÑÑ‚Ñ€Ñƒ</td></tr><tr><td><b>S.startswith</b>(str)</td><td>ÐÐ°Ñ‡Ð¸Ð½Ð°ÐµÑ‚ÑÑ Ð»Ð¸ ÑÑ‚Ñ€Ð¾ÐºÐ° S Ñ ÑˆÐ°Ð±Ð»Ð¾Ð½Ð° str</td></tr><tr><td><b>S.endswith</b>(str)</td><td>Ð—Ð°ÐºÐ°Ð½Ñ‡Ð¸Ð²Ð°ÐµÑ‚ÑÑ Ð»Ð¸ ÑÑ‚Ñ€Ð¾ÐºÐ° S ÑˆÐ°Ð±Ð»Ð¾Ð½Ð¾Ð¼ str</td></tr><tr><td><b>S.join</b>(ÑÐ¿Ð¸ÑÐ¾Ðº)</td><td>Ð¡Ð±Ð¾Ñ€ÐºÐ° ÑÑ‚Ñ€Ð¾ÐºÐ¸ Ð¸Ð· ÑÐ¿Ð¸ÑÐºÐ° Ñ Ñ€Ð°Ð·Ð´ÐµÐ»Ð¸Ñ‚ÐµÐ»ÐµÐ¼ S</td></tr><tr><td><b>ord</b>(ÑÐ¸Ð¼Ð²Ð¾Ð»)</td><td>Ð¡Ð¸Ð¼Ð²Ð¾Ð» Ð² ÐµÐ³Ð¾ ÐºÐ¾Ð´ ASCII</td></tr><tr><td><b>chr</b>(Ñ‡Ð¸ÑÐ»Ð¾)</td><td>ÐšÐ¾Ð´ ASCII Ð² ÑÐ¸Ð¼Ð²Ð¾Ð»</td></tr><tr><td><b>S.capitalize</b>()</td><td>ÐŸÐµÑ€ÐµÐ²Ð¾Ð´Ð¸Ñ‚ Ð¿ÐµÑ€Ð²Ñ‹Ð¹ ÑÐ¸Ð¼Ð²Ð¾Ð» ÑÑ‚Ñ€Ð¾ÐºÐ¸ Ð² Ð²ÐµÑ€Ñ…Ð½Ð¸Ð¹ Ñ€ÐµÐ³Ð¸ÑÑ‚Ñ€, Ð° Ð²ÑÐµ Ð¾ÑÑ‚Ð°Ð»ÑŒÐ½Ñ‹Ðµ Ð² Ð½Ð¸Ð¶Ð½Ð¸Ð¹</td></tr><tr><td><b>S.center</b>(width, [fill])</td><td>Ð’Ð¾Ð·Ð²Ñ€Ð°Ñ‰Ð°ÐµÑ‚ Ð¾Ñ‚Ñ†ÐµÐ½Ñ‚Ñ€Ð¾Ð²Ð°Ð½Ð½ÑƒÑŽ ÑÑ‚Ñ€Ð¾ÐºÑƒ, Ð¿Ð¾ ÐºÑ€Ð°ÑÐ¼ ÐºÐ¾Ñ‚Ð¾Ñ€Ð¾Ð¹ ÑÑ‚Ð¾Ð¸Ñ‚ ÑÐ¸Ð¼Ð²Ð¾Ð» fill (Ð¿Ñ€Ð¾Ð±ÐµÐ» Ð¿Ð¾ ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ)</td></tr><tr><td><b>S.count</b>(str, [start],[end])</td><td>Ð’Ð¾Ð·Ð²Ñ€Ð°Ñ‰Ð°ÐµÑ‚ ÐºÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ Ð½ÐµÐ¿ÐµÑ€ÐµÑÐµÐºÐ°ÑŽÑ‰Ð¸Ñ…ÑÑ Ð²Ñ…Ð¾Ð¶Ð´ÐµÐ½Ð¸Ð¹ Ð¿Ð¾Ð´ÑÑ‚Ñ€Ð¾ÐºÐ¸ Ð² Ð´Ð¸Ð°Ð¿Ð°Ð·Ð¾Ð½Ðµ [Ð½Ð°Ñ‡Ð°Ð»Ð¾, ÐºÐ¾Ð½ÐµÑ†] (0 Ð¸ Ð´Ð»Ð¸Ð½Ð° ÑÑ‚Ñ€Ð¾ÐºÐ¸ Ð¿Ð¾ ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ)</td></tr><tr><td><b>S.expandtabs</b>([tabsize])</td><td>Ð’Ð¾Ð·Ð²Ñ€Ð°Ñ‰Ð°ÐµÑ‚ ÐºÐ¾Ð¿Ð¸ÑŽ ÑÑ‚Ñ€Ð¾ÐºÐ¸, Ð² ÐºÐ¾Ñ‚Ð¾Ñ€Ð¾Ð¹ Ð²ÑÐµ ÑÐ¸Ð¼Ð²Ð¾Ð»Ñ‹ Ñ‚Ð°Ð±ÑƒÐ»ÑÑ†Ð¸Ð¸ Ð·Ð°Ð¼ÐµÐ½ÑÑŽÑ‚ÑÑ Ð¾Ð´Ð½Ð¸Ð¼ Ð¸Ð»Ð¸ Ð½ÐµÑÐºÐ¾Ð»ÑŒÐºÐ¸Ð¼Ð¸ Ð¿Ñ€Ð¾Ð±ÐµÐ»Ð°Ð¼Ð¸, Ð² Ð·Ð°Ð²Ð¸ÑÐ¸Ð¼Ð¾ÑÑ‚Ð¸ Ð¾Ñ‚ Ñ‚ÐµÐºÑƒÑ‰ÐµÐ³Ð¾ ÑÑ‚Ð¾Ð»Ð±Ñ†Ð°. Ð•ÑÐ»Ð¸ TabSize Ð½Ðµ ÑƒÐºÐ°Ð·Ð°Ð½, Ñ€Ð°Ð·Ð¼ÐµÑ€ Ñ‚Ð°Ð±ÑƒÐ»ÑÑ†Ð¸Ð¸ Ð¿Ð¾Ð»Ð°Ð³Ð°ÐµÑ‚ÑÑ Ñ€Ð°Ð²Ð½Ñ‹Ð¼ 8 Ð¿Ñ€Ð¾Ð±ÐµÐ»Ð°Ð¼</td></tr><tr><td><b>S.lstrip</b>([chars])</td><td>Ð£Ð´Ð°Ð»ÐµÐ½Ð¸Ðµ Ð¿Ñ€Ð¾Ð±ÐµÐ»ÑŒÐ½Ñ‹Ñ… ÑÐ¸Ð¼Ð²Ð¾Ð»Ð¾Ð² Ð² Ð½Ð°Ñ‡Ð°Ð»Ðµ ÑÑ‚Ñ€Ð¾ÐºÐ¸</td></tr><tr><td><b>S.rstrip</b>([chars])</td><td>Ð£Ð´Ð°Ð»ÐµÐ½Ð¸Ðµ Ð¿Ñ€Ð¾Ð±ÐµÐ»ÑŒÐ½Ñ‹Ñ… ÑÐ¸Ð¼Ð²Ð¾Ð»Ð¾Ð² Ð² ÐºÐ¾Ð½Ñ†Ðµ ÑÑ‚Ñ€Ð¾ÐºÐ¸</td></tr><tr><td><b>S.strip</b>([chars])</td><td>Ð£Ð´Ð°Ð»ÐµÐ½Ð¸Ðµ Ð¿Ñ€Ð¾Ð±ÐµÐ»ÑŒÐ½Ñ‹Ñ… ÑÐ¸Ð¼Ð²Ð¾Ð»Ð¾Ð² Ð² Ð½Ð°Ñ‡Ð°Ð»Ðµ Ð¸ Ð² ÐºÐ¾Ð½Ñ†Ðµ ÑÑ‚Ñ€Ð¾ÐºÐ¸</td></tr><tr><td><b>S.partition</b>(ÑˆÐ°Ð±Ð»Ð¾Ð½)</td><td>Ð’Ð¾Ð·Ð²Ñ€Ð°Ñ‰Ð°ÐµÑ‚ ÐºÐ¾Ñ€Ñ‚ÐµÐ¶, ÑÐ¾Ð´ÐµÑ€Ð¶Ð°Ñ‰Ð¸Ð¹ Ñ‡Ð°ÑÑ‚ÑŒ Ð¿ÐµÑ€ÐµÐ´ Ð¿ÐµÑ€Ð²Ñ‹Ð¼ ÑˆÐ°Ð±Ð»Ð¾Ð½Ð¾Ð¼, ÑÐ°Ð¼ ÑˆÐ°Ð±Ð»Ð¾Ð½, Ð¸ Ñ‡Ð°ÑÑ‚ÑŒ Ð¿Ð¾ÑÐ»Ðµ ÑˆÐ°Ð±Ð»Ð¾Ð½Ð°. Ð•ÑÐ»Ð¸ ÑˆÐ°Ð±Ð»Ð¾Ð½ Ð½Ðµ Ð½Ð°Ð¹Ð´ÐµÐ½, Ð²Ð¾Ð·Ð²Ñ€Ð°Ñ‰Ð°ÐµÑ‚ÑÑ ÐºÐ¾Ñ€Ñ‚ÐµÐ¶, ÑÐ¾Ð´ÐµÑ€Ð¶Ð°Ñ‰Ð¸Ð¹ ÑÐ°Ð¼Ñƒ ÑÑ‚Ñ€Ð¾ÐºÑƒ, Ð° Ð·Ð°Ñ‚ÐµÐ¼ Ð´Ð²Ðµ Ð¿ÑƒÑÑ‚Ñ‹Ñ… ÑÑ‚Ñ€Ð¾ÐºÐ¸</td></tr><tr><td><b>S.rpartition</b>(sep)</td><td>Ð’Ð¾Ð·Ð²Ñ€Ð°Ñ‰Ð°ÐµÑ‚ ÐºÐ¾Ñ€Ñ‚ÐµÐ¶, ÑÐ¾Ð´ÐµÑ€Ð¶Ð°Ñ‰Ð¸Ð¹ Ñ‡Ð°ÑÑ‚ÑŒ Ð¿ÐµÑ€ÐµÐ´ Ð¿Ð¾ÑÐ»ÐµÐ´Ð½Ð¸Ð¼ ÑˆÐ°Ð±Ð»Ð¾Ð½Ð¾Ð¼, ÑÐ°Ð¼ ÑˆÐ°Ð±Ð»Ð¾Ð½, Ð¸ Ñ‡Ð°ÑÑ‚ÑŒ Ð¿Ð¾ÑÐ»Ðµ ÑˆÐ°Ð±Ð»Ð¾Ð½Ð°. Ð•ÑÐ»Ð¸ ÑˆÐ°Ð±Ð»Ð¾Ð½ Ð½Ðµ Ð½Ð°Ð¹Ð´ÐµÐ½, Ð²Ð¾Ð·Ð²Ñ€Ð°Ñ‰Ð°ÐµÑ‚ÑÑ ÐºÐ¾Ñ€Ñ‚ÐµÐ¶, ÑÐ¾Ð´ÐµÑ€Ð¶Ð°Ñ‰Ð¸Ð¹ Ð´Ð²Ðµ Ð¿ÑƒÑÑ‚Ñ‹Ñ… ÑÑ‚Ñ€Ð¾ÐºÐ¸, Ð° Ð·Ð°Ñ‚ÐµÐ¼ ÑÐ°Ð¼Ñƒ ÑÑ‚Ñ€Ð¾ÐºÑƒ</td></tr><tr><td><b>S.swapcase</b>()</td><td>ÐŸÐµÑ€ÐµÐ²Ð¾Ð´Ð¸Ñ‚ ÑÐ¸Ð¼Ð²Ð¾Ð»Ñ‹ Ð½Ð¸Ð¶Ð½ÐµÐ³Ð¾ Ñ€ÐµÐ³Ð¸ÑÑ‚Ñ€Ð° Ð² Ð²ÐµÑ€Ñ…Ð½Ð¸Ð¹, Ð° Ð²ÐµÑ€Ñ…Ð½ÐµÐ³Ð¾ â€“ Ð² Ð½Ð¸Ð¶Ð½Ð¸Ð¹</td></tr><tr><td><b>S.title</b>()</td><td>ÐŸÐµÑ€Ð²ÑƒÑŽ Ð±ÑƒÐºÐ²Ñƒ ÐºÐ°Ð¶Ð´Ð¾Ð³Ð¾ ÑÐ»Ð¾Ð²Ð° Ð¿ÐµÑ€ÐµÐ²Ð¾Ð´Ð¸Ñ‚ Ð² Ð²ÐµÑ€Ñ…Ð½Ð¸Ð¹ Ñ€ÐµÐ³Ð¸ÑÑ‚Ñ€, Ð° Ð²ÑÐµ Ð¾ÑÑ‚Ð°Ð»ÑŒÐ½Ñ‹Ðµ Ð² Ð½Ð¸Ð¶Ð½Ð¸Ð¹</td></tr><tr><td><b>S.zfill</b>(width)</td><td>Ð”ÐµÐ»Ð°ÐµÑ‚ Ð´Ð»Ð¸Ð½Ñƒ ÑÑ‚Ñ€Ð¾ÐºÐ¸ Ð½Ðµ Ð¼ÐµÐ½ÑŒÑˆÐµÐ¹ width, Ð¿Ð¾ Ð½ÐµÐ¾Ð±Ñ…Ð¾Ð´Ð¸Ð¼Ð¾ÑÑ‚Ð¸ Ð·Ð°Ð¿Ð¾Ð»Ð½ÑÑ Ð¿ÐµÑ€Ð²Ñ‹Ðµ ÑÐ¸Ð¼Ð²Ð¾Ð»Ñ‹ Ð½ÑƒÐ»ÑÐ¼Ð¸</td></tr><tr><td><b>S.ljust</b>(width, fillchar="&nbsp;")</td><td>Ð”ÐµÐ»Ð°ÐµÑ‚ Ð´Ð»Ð¸Ð½Ñƒ ÑÑ‚Ñ€Ð¾ÐºÐ¸ Ð½Ðµ Ð¼ÐµÐ½ÑŒÑˆÐµÐ¹ width, Ð¿Ð¾ Ð½ÐµÐ¾Ð±Ñ…Ð¾Ð´Ð¸Ð¼Ð¾ÑÑ‚Ð¸ Ð·Ð°Ð¿Ð¾Ð»Ð½ÑÑ Ð¿Ð¾ÑÐ»ÐµÐ´Ð½Ð¸Ðµ ÑÐ¸Ð¼Ð²Ð¾Ð»Ñ‹ ÑÐ¸Ð¼Ð²Ð¾Ð»Ð¾Ð¼ fillchar</td></tr><tr><td><b>S.rjust</b>(width, fillchar="&nbsp;")</td><td>Ð”ÐµÐ»Ð°ÐµÑ‚ Ð´Ð»Ð¸Ð½Ñƒ ÑÑ‚Ñ€Ð¾ÐºÐ¸ Ð½Ðµ Ð¼ÐµÐ½ÑŒÑˆÐµÐ¹ width, Ð¿Ð¾ Ð½ÐµÐ¾Ð±Ñ…Ð¾Ð´Ð¸Ð¼Ð¾ÑÑ‚Ð¸ Ð·Ð°Ð¿Ð¾Ð»Ð½ÑÑ Ð¿ÐµÑ€Ð²Ñ‹Ðµ ÑÐ¸Ð¼Ð²Ð¾Ð»Ñ‹ ÑÐ¸Ð¼Ð²Ð¾Ð»Ð¾Ð¼ fillchar</td></tr><tr><td><b>S.format</b>(*args, **kwargs)</td><td><a href="https://pythonworld.ru/osnovy/formatirovanie-strok-metod-format.html" target="_blank">Ð¤Ð¾Ñ€Ð¼Ð°Ñ‚Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¸Ðµ ÑÑ‚Ñ€Ð¾ÐºÐ¸</a></td></tr></tbody></table></div></div></div><nav id="nav-below" class="site-navigation post-navigation"></nav></article><div id="share"><span id="orphus"><img src="https://pythonworld.ru/m/mistypes/images/mistypes.png" alt=""></span><a target="_blank" rel="nofollow" class="socshare" style="background:url(/m/img/icons.png) -0px 0 no-repeat" href="https://pythonworld.ru/tipy-dannyx-v-python/stroki-funkcii-i-metody-strok.html#"></a><a target="_blank" rel="nofollow" class="socshare" style="background:url(/m/img/icons.png) -64px 0 no-repeat" href="https://pythonworld.ru/tipy-dannyx-v-python/stroki-funkcii-i-metody-strok.html#"></a><a target="_blank" rel="nofollow" class="socshare" style="background:url(/m/img/icons.png) -128px 0 no-repeat" href="https://pythonworld.ru/tipy-dannyx-v-python/stroki-funkcii-i-metody-strok.html#"></a><a target="_blank" rel="nofollow" class="socshare" style="background:url(/m/img/icons.png) -192px 0 no-repeat" href="https://pythonworld.ru/tipy-dannyx-v-python/stroki-funkcii-i-metody-strok.html#"></a></div><div id="yandex_rtb_R-A-139987-8"><yatag class="s3bbe1508 qb2e9a5a5" style="width: 100% !important;"><yatag id="s147ecfc3"><yatag class="i65a9f8f5"></yatag></yatag><yatag class="a4d2aa5d8 h4fa9067b j4d2ce52c"><yatag class="i270adabf" style="width: 100% !important; height: 250px !important;"><yatag id="ya_partner_R-A-139987-8" class="g6b524328" style="width: 100% !important; height: 250px !important; transform: none !important;"><iframe frameborder="no" scrolling="no" allowtransparency="true" hidefocus="true" tabindex="-1" marginwidth="0" marginheight="0" name="%7B%22id%22%3A%22ya_partner_R-A-139987-8%22%2C%22html%22%3A%22%3Cscript%3E%5C%22use%20strict%5C%22%3B(function(t%2Ce)%7Bfor(var%20i%3D%5B%5C%22click%5C%22%2C%5C%22mousedown%5C%22%2C%5C%22mouseup%5C%22%2C%5C%22touchstart%5C%22%2C%5C%22touchend%5C%22%5D%2Cn%3DDate.now()%2Co%3Dfunction(t)%7BDate.now()-n%3Ce%26%26(t.stopPropagation()%2Ct.preventDefault())%7D%2Cr%3D0%2Ca%3Di%3Br%3Ca.length%3Br%2B%2B)%7Bvar%20s%3Da%5Br%5D%3Bt.addEventListener(s%2Co%2C!0)%7DsetTimeout((function()%7Bfor(var%20e%3D0%2Cn%3Di%3Be%3Cn.length%3Be%2B%2B)%7Bvar%20r%3Dn%5Be%5D%3Bt.removeEventListener(r%2Co%2C!0)%7D%7D)%2Ce)%7D)(document%2C100)%3C%2Fscript%3E%3C!DOCTYPE%20html%3E%5Cn%3Chtml%3E%5Cn%3Chead%3E%5Cn%20%20%20%20%3Cmeta%20charset%3D%5C%22utf-8%5C%22%3E%5Cn%20%20%20%20%3Cmeta%20http-equiv%3D%5C%22X-UA-Compatible%5C%22%20content%3D%5C%22IE%3Dedge%5C%22%3E%5Cn%20%20%20%20%3Cstyle%3Ehtml%2C%20body%20%7Bwidth%3A%20100%25%3B%20height%3A%20100%25%7D%3C%2Fstyle%3E%5Cn%3C%2Fhead%3E%5Cn%3Cbody%20style%3D%5C%22margin%3A%200%3B%20overflow%3A%20hidden%5C%22%3E%5Cn%3Cscript%20type%3D%5C%22text%2Fjavascript%5C%22%20charset%3D%5C%22utf-8%5C%22%20src%3D%5C%22https%3A%2F%2Fawaps.yandex.net%2Fdata%2Flib%2Fawhtml5.js%5C%22%3E%3C%2Fscript%3E%5Cn%3Cscript%3E%5Cn(function()%20%7B%5Cn%20%20%20%20new%20window.ya.mediaCode.AwHtml5(%7B%5Cn%5Ct%5Ctwidth%3A%20300%2C%5Cn%5Ct%5Ctheight%3A%20250%2C%5Cn%5Ct%5Ctiframe_src%3A%20%5C%22https%3A%2F%2Fstorage.mds.yandex.net%2Fget-bstor%2F2267992%2Fc%2Fd3549a2b-fb9e-45b7-9679-95af5d20a4e9%2Findex.html%5C%22%2C%5Cn%5Ct%5Ctimg_src%3A%20%5C%22%25AWAPS_AD_URL_TECH(3711116)%25%5C%22%2C%5Cn%5Ct%5Cthtml5_enable%3A%20%20%5C%22%5C%22%20%3D%3D%3D%20%5C%220%5C%22%20%3F%20false%20%3A%20true%2C%5Cn%5Ct%5Ctclick_url%3A%20%5C%22http%3A%2F%2Foredero.com%2F%3Fto%3Dhttp%253A%252F%252Frtbid.ru%252F%5C%22%2C%5Cn%5Ct%5Ctpixel_stat1%3A%20null%2C%5Cn%5Ct%5Ctpixel_stat2%3A%20null%2C%5Cn%5Ct%5Ctalt%20%3A%20%5C%22%26%2382%3B%26%2384%3B%26%2366%3B%26%2373%3B%26%2368%3B%26%2346%3B%26%23114%3B%26%23117%3B%26%2332%3B%26%2345%3B%26%2332%3B%26%231085%3B%26%231086%3B%26%231074%3B%26%231099%3B%26%231081%3B%26%2332%3B%26%231080%3B%26%231085%3B%26%231089%3B%26%231090%3B%26%231088%3B%26%231091%3B%26%231084%3B%26%231077%3B%26%231085%3B%26%231090%3B%26%2332%3B%26%231076%3B%26%231083%3B%26%231103%3B%26%2332%3B%26%231088%3B%26%231077%3B%26%231082%3B%26%231083%3B%26%231072%3B%26%231084%3B%26%231085%3B%26%231099%3B%26%231093%3B%26%2332%3B%26%231072%3B%26%231075%3B%26%231077%3B%26%231085%3B%26%231090%3B%26%231089%3B%26%231090%3B%26%231074%3B%26%2346%3B%5C%22%2C%5Cn%5Ct%5Ctgif_tizer%20%3A%20%5C%22http%3A%2F%2Foredero.com%2F%3Fto%3Dhttp%253A%252F%252Frtbid.ru%252F%5C%22%20%3F%200%20%3A%201%2C%5Cn%5Ct%5Ctgetargs%3A%5Cn%5C%22%26link1%3Dhttp%253a%252f%252foredero.com%252f%253fto%253dhttp%25253A%25252F%25252Frtbid.ru%25252F%5C%22%20%2B%20encodeURIComponent(%5C%22...%25253Frtbid%25253Dyes%252526utm_campaign%25253DRTBID_RTBID-mark-ya-msk%252526utm_content%25253Dadv-by-ur-rules-b-0-300x250%252526utm_term%25253DOk2-PPW-k%25257COkOS-Mobile%252526from%25253Dya%252526_openstat%25253D1595160000000%25253B15%25253Bya%25253As1bMHj1kNT3af07kg2TVvq%25253Bpythonworld.ru%252526rtbidC%25253DKQ2GFIcf3GvJGHgXm-6CqkHUSdxPmtTewxkgaX8vy6q0-7m1umn8AqI8TDNemy43gyyt_LlLYwHKCvty6HPxnRYfliZdnHsRMuo57302e0KoCEG2Ld4j1dFoX3NYuKmdeFo6Kas2-RLvvLBw34dAOzFgYw4Sv26kFm-bNaV5Z6Jxr30f1ewR7tGEz5S9z64l1wHl7aMUXlXrJpMR3cRBPF0wAvgcbl6f9kxW4qjzvveue0aOMDtL1cp-X3BmNVIh_KIWxgzYxnhVise--4LFz1kkoYTZy5bLF_BMNPxJMHigF-3bAyh3vsNNuZdWuVWmdUWp6OetbNsbU0bt7YN6mvQwe7Znfi_TbyHeEJ8_s5NiPLcjK3IF35E%252526win%25253D31588%252526utm_source%25253Drtbid%26rtbidx%3DFjK5K7gg41T2J0copNG9lX7rduNwpevh_CYfVkAQ9JWLxIaKhVbDPZ0DcwxhpBEIvBOSw4Z0XD71NcRN10zOoikgqRlio0QuDdUG0EIJRH2XN36JEuEc6u5XYExnh5aiR2UFFpQJxi3Qg49P4Lh_BA5fXDEtgFGbKVCkCppGWJ1OkEIg6tMu0e678KuC8JEa6D7a0pwrYWrUGawu4vt-A2IPPccjUWGgyXNp3ZfMgciRRHmxDwR06vVBYE9ZCm0ew50p-TPn-UdqtfiBxL368GYbnrvm9Kn0KM9zC8N2D0efKNLkPBdIgfxyhqhphmqZSnqW19iSU-QkbHnS0rxFpcsPRIlYQRDsUB7hL6AAjKxdA4gcFE064K4%26win%3D31588%5C%22)%20%2B%5Cn%5C%22%26link2%3D%5C%22%20%2B%20encodeURIComponent(%5C%22%5C%22)%20%2B%5Cn%5C%22%26link3%3D%5C%22%20%2B%20encodeURIComponent(%5C%22%5C%22)%20%2B%5Cn%5C%22%26link4%3D%5C%22%20%2B%20encodeURIComponent(%5C%22%5C%22)%20%2B%5Cn%5C%22%26link5%3D%5C%22%20%2B%20encodeURIComponent(%5C%22%5C%22)%20%2B%5Cn%5C%22%26link6%3D%5C%22%20%2B%20encodeURIComponent(%5C%22%5C%22)%20%2B%5Cn%5C%22%26link7%3D%5C%22%20%2B%20encodeURIComponent(%5C%22%5C%22)%20%2B%5Cn%5C%22%26link8%3D%5C%22%20%2B%20encodeURIComponent(%5C%22%5C%22)%20%2B%5Cn%5C%22%26link9%3D%5C%22%20%2B%20encodeURIComponent(%5C%22%5C%22)%20%2B%5Cn%5C%22%26link10%3D%5C%22%20%2B%20encodeURIComponent(%5C%22%5C%22)%2C%5Cn%5Ct%5Ctstats%3A%20%7B%5Cn%5Ct%20%20%20%20%5CtimageStat%3A%20null%2C%5Cn%5Ct%20%20%20%20%5CtnoVideo%3A%20null%2C%20%5Cn%5Ct%20%20%20%20%5CterrorUrl%3A%20null%5Cn%5Ct%5Ct%7D%5Cn%20%20%20%20%7D).render()%3B%5Cn%7D())%3B%5Cn%3C%2Fscript%3E%5Cn%3Cnoscript%3E%5Cn%3Ca%20href%3D%5C%22http%253a%252f%252foredero.com%252f%253fto%253dhttp%25253A%25252F%25252Frtbid.ru%25252F%5C%22%20target%3D%5C%22_blank%5C%22%3E%3Cimg%20src%3D%5C%22%25AWAPS_AD_URL_TECH(3711116)%25%5C%22%20alt%3D%5C%22%26%2382%3B%26%2384%3B%26%2366%3B%26%2373%3B%26%2368%3B%26%2346%3B%26%23114%3B%26%23117%3B%26%2332%3B%26%2345%3B%26%2332%3B%26%231085%3B%26%231086%3B%26%231074%3B%26%231099%3B%26%231081%3B%26%2332%3B%26%231080%3B%26%231085%3B%26%231089%3B%26%231090%3B%26%231088%3B%26%231091%3B%26%231084%3B%26%231077%3B%26%231085%3B%26%231090%3B%26%2332%3B%26%231076%3B%26%231083%3B%26%231103%3B%26%2332%3B%26%231088%3B%26%231077%3B%26%231082%3B%26%231083%3B%26%231072%3B%26%231084%3B%26%231085%3B%26%231099%3B%26%231093%3B%26%2332%3B%26%231072%3B%26%231075%3B%26%231077%3B%26%231085%3B%26%231090%3B%26%231089%3B%26%231090%3B%26%231074%3B%26%2346%3B%5C%22%20width%3D%5C%22300%5C%22%20height%3D%5C%22250%5C%22%20border%3D%5C%220%5C%22%20%3E%3C%2Fa%3E%5Cn%3C%2Fnoscript%3E%22%2C%22pmGuid%22%3A%22_1595160527966_44_3%22%2C%22geom%22%3A%7B%22win%22%3A%7B%22t%22%3A0%2C%22l%22%3A0%2C%22w%22%3A393%2C%22h%22%3A730%2C%22b%22%3A730%2C%22r%22%3A393%7D%2C%22self%22%3A%7B%22t%22%3A6454%2C%22l%22%3A9%2C%22b%22%3A6704%2C%22r%22%3A384%2C%22w%22%3A375%2C%22h%22%3A250%2C%22xiv%22%3A1%2C%22yiv%22%3A0%2C%22iv%22%3A0%2C%22z%22%3A0%7D%2C%22exp%22%3A%7B%22t%22%3A6454%2C%22l%22%3A9%2C%22r%22%3A9%2C%22b%22%3A0%2C%22xs%22%3A0%2C%22ys%22%3A0%7D%7D%2C%22hasFocus%22%3Atrue%2C%22supports%22%3A%7B%22exp-ovr%22%3Atrue%2C%22exp-push%22%3Afalse%2C%22read-cookie%22%3Afalse%2C%22write-cookie%22%3Afalse%7D%2C%22css%22%3A%22%22%2C%22bg%22%3A%22transparent%22%2C%22posMeta%22%3A%7B%22sharedData%22%3A%7B%22sf_ver%22%3A%221-1-0%22%2C%22ck_o%22%3A1%2C%22flash_ver%22%3A0%7D%2C%22ownerKey%22%3A%22%22%2C%22privateData%22%3A%7B%7D%7D%2C%22target%22%3A%22_blank%22%2C%22basePath%22%3A%22https%3A%2F%2Fpythonworld.ru%22%7D" src="cid:frame-4AC723D3AD03AEDF768C2F18347B0E34@mhtml.blink" id="id1317" style="opacity: 0;"></iframe></yatag></yatag></yatag></yatag></div><div class="note" style="margin-bottom: 0"><small> Ð”Ð»Ñ Ð²ÑÑ‚Ð°Ð²ÐºÐ¸ ÐºÐ¾Ð´Ð° Ð½Ð° Python Ð² ÐºÐ¾Ð¼Ð¼ÐµÐ½Ñ‚Ð°Ñ€Ð¸Ð¹ Ð·Ð°ÐºÐ»ÑŽÑ‡Ð°Ð¹Ñ‚Ðµ ÐµÐ³Ð¾ Ð² Ñ‚ÐµÐ³Ð¸ <i>&lt;pre&gt;&lt;code class="python3"&gt;Ð’Ð°Ñˆ ÐºÐ¾Ð´&lt;/code&gt;&lt;/pre&gt;</i></small></div><div id="disqus_thread"><iframe id="dsq-app4241" name="dsq-app4241" allowtransparency="true" frameborder="0" scrolling="no" tabindex="0" title="Disqus" width="100%" src="cid:frame-C25FCF519BBB3EBE14B539DF46D563BE@mhtml.blink"></iframe></div></div></div><div id="secondary" class="widget-area"><aside class="widget widget_search"><form action="https://pythonworld.ru/s.html" id="searchform"><input class="field" name="s" value="" id="s" placeholder="ÐŸÐ¾Ð¸ÑÐº â€¦" type="search"><input class="submit" name="submit" id="searchsubmit" value="ÐÐ°Ð¹Ñ‚Ð¸" type="submit"></form></aside><aside class="widget"><p class="widget-title">Ð¡Ð²ÐµÐ¶ÐµÐµ</p><ul><li><a href="https://pythonworld.ru/web/django-project-with-best-practices-1.html">Ð¡Ð¾Ð·Ð´Ð°Ñ‘Ð¼ ÑÐ°Ð¹Ñ‚ Ð½Ð° Django, Ð¸ÑÐ¿Ð¾Ð»ÑŒÐ·ÑƒÑ Ñ…Ð¾Ñ€Ð¾ÑˆÐ¸Ðµ Ð¿Ñ€Ð°ÐºÑ‚Ð¸ÐºÐ¸. Ð§Ð°ÑÑ‚ÑŒ 1: ÑÐ¾Ð·Ð´Ð°Ñ‘Ð¼ Ð¿Ñ€Ð¾ÐµÐºÑ‚</a></li><li><a href="https://pythonworld.ru/kursy/online-learning.html">ÐžÐ½Ð»Ð°Ð¹Ð½-Ð¾Ð±ÑƒÑ‡ÐµÐ½Ð¸Ðµ Python: ÑÑ€Ð°Ð²Ð½ÐµÐ½Ð¸Ðµ Ð¿Ð¾Ð¿ÑƒÐ»ÑÑ€Ð½Ñ‹Ñ… Ð¿Ñ€Ð¾Ð³Ñ€Ð°Ð¼Ð¼</a></li><li><a href="https://pythonworld.ru/novosti-mira-python/github-students-pack.html">Github Students Pack - Ð±Ð¾Ð½ÑƒÑÑ‹ ÑÑ‚ÑƒÐ´ÐµÐ½Ñ‚Ð°Ð¼-Ð¿Ñ€Ð¾Ð³Ñ€Ð°Ð¼Ð¼Ð¸ÑÑ‚Ð°Ð¼ Python</a></li></ul></aside><aside class="widget"><p class="widget-title">ÐšÐ°Ñ‚ÐµÐ³Ð¾Ñ€Ð¸Ð¸</p><ul><li><a href="https://pythonworld.ru/bookshop">ÐšÐ½Ð¸Ð³Ð¸ Ð¾ Python</a></li><li><a href="https://pythonworld.ru/gui">GUI (Ð³Ñ€Ð°Ñ„Ð¸Ñ‡ÐµÑÐºÐ¸Ð¹ Ð¸Ð½Ñ‚ÐµÑ€Ñ„ÐµÐ¹Ñ Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÐµÐ»Ñ)</a></li><li><a href="https://pythonworld.ru/kursy">ÐšÑƒÑ€ÑÑ‹ Python</a></li><li><a href="https://pythonworld.ru/moduli">ÐœÐ¾Ð´ÑƒÐ»Ð¸</a></li><li><a href="https://pythonworld.ru/novosti-mira-python">ÐÐ¾Ð²Ð¾ÑÑ‚Ð¸ Ð¼Ð¸Ñ€Ð° Python</a></li><li><a href="https://pythonworld.ru/numpy">NumPy</a></li><li><a href="https://pythonworld.ru/obrabotka-dannyx">ÐžÐ±Ñ€Ð°Ð±Ð¾Ñ‚ÐºÐ° Ð´Ð°Ð½Ð½Ñ‹Ñ…</a></li><li><a href="https://pythonworld.ru/osnovy">ÐžÑÐ½Ð¾Ð²Ñ‹ Ð¿Ñ€Ð¾Ð³Ñ€Ð°Ð¼Ð¼Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¸Ñ</a></li><li><a href="https://pythonworld.ru/primery-programm">ÐŸÑ€Ð¸Ð¼ÐµÑ€Ñ‹ Ð¿Ñ€Ð¾Ð³Ñ€Ð°Ð¼Ð¼</a></li><li><a href="https://pythonworld.ru/tipy-dannyx-v-python">Ð¢Ð¸Ð¿Ñ‹ Ð´Ð°Ð½Ð½Ñ‹Ñ… Ð² Python</a></li><li><a href="https://pythonworld.ru/video">Ð’Ð¸Ð´ÐµÐ¾</a></li><li><a href="https://pythonworld.ru/web">Python Ð´Ð»Ñ Web</a></li><li><a href="https://pythonworld.ru/vacancies">Ð Ð°Ð±Ð¾Ñ‚Ð° Ð´Ð»Ñ Python-Ð¿Ñ€Ð¾Ð³Ñ€Ð°Ð¼Ð¼Ð¸ÑÑ‚Ð¾Ð²</a></li></ul></aside><aside class="widget"><p class="widget-title">ÐŸÐ¾Ð»ÐµÐ·Ð½Ñ‹Ðµ Ð¼Ð°Ñ‚ÐµÑ€Ð¸Ð°Ð»Ñ‹</p><ul><li><a href="https://pythonworld.ru/contribute">Ð¡Ð´ÐµÐ»Ð°Ð¹ ÑÐ²Ð¾Ð¹ Ð²ÐºÐ»Ð°Ð´ Ð² Ñ€Ð°Ð·Ð²Ð¸Ñ‚Ð¸Ðµ ÑÐ°Ð¹Ñ‚Ð°!</a></li><li><a href="https://pythonworld.ru/samouchitel-python">Ð¡Ð°Ð¼Ð¾ÑƒÑ‡Ð¸Ñ‚ÐµÐ»ÑŒ Python</a></li><li><a href="https://pythonworld.ru/karta-sajta">ÐšÐ°Ñ€Ñ‚Ð° ÑÐ°Ð¹Ñ‚Ð°</a></li><li><a href="https://pythonworld.ru/python-knigi">ÐžÑ‚Ð·Ñ‹Ð²Ñ‹ Ð½Ð° ÐºÐ½Ð¸Ð³Ð¸ Ð¿Ð¾ Python</a></li><li><a href="https://pythonworld.ru/adv">Ð ÐµÐºÐ»Ð°Ð¼Ð° Ð½Ð° ÑÐ°Ð¹Ñ‚Ðµ</a></li></ul></aside><aside class="widget widget_soc center"><p class="widget-title">ÐœÑ‹ Ð² ÑÐ¾Ñ†ÑÐµÑ‚ÑÑ…</p><a title="ÐŸÑ€Ð¸ÑÐ¾ÐµÐ´Ð¸Ð½Ð¸Ñ‚ÑŒÑÑ Ðº Python 3 Ð´Ð»Ñ Ð½Ð°Ñ‡Ð¸Ð½Ð°ÑŽÑ‰Ð¸Ñ… Ð² Google+" href="https://plus.google.com/+PythonworldRu" rel="me" target="_blank"><div id="gp"></div></a><a title="ÐŸÑ€Ð¸ÑÐ¾ÐµÐ´Ð¸Ð½Ð¸Ñ‚ÑŒÑÑ Ðº Python 3 Ð´Ð»Ñ Ð½Ð°Ñ‡Ð¸Ð½Ð°ÑŽÑ‰Ð¸Ñ… Ð² facebook" href="https://facebook.com/pythonworld" rel="me" target="_blank"><div id="fb"></div></a><a title="ÐŸÑ€Ð¸ÑÐ¾ÐµÐ´Ð¸Ð½Ð¸Ñ‚ÑŒÑÑ Ðº Python 3 Ð´Ð»Ñ Ð½Ð°Ñ‡Ð¸Ð½Ð°ÑŽÑ‰Ð¸Ñ… Ð² twitter" href="https://twitter.com/pythonworld" rel="me" target="_blank"><div id="tw"></div></a><a title="ÐŸÑ€Ð¸ÑÐ¾ÐµÐ´Ð¸Ð½Ð¸Ñ‚ÑŒÑÑ Ðº Python 3 Ð´Ð»Ñ Ð½Ð°Ñ‡Ð¸Ð½Ð°ÑŽÑ‰Ð¸Ñ… Ð’ÐšÐ¾Ð½Ñ‚Ð°ÐºÑ‚Ðµ" href="https://vk.com/python_3" rel="me" target="_blank"><div id="vk"></div></a></aside><aside class="widget center"><div id="rss"><div>ÐŸÐ¾Ð´Ð¿Ð¸ÑˆÐ¸ÑÑŒ Ð½Ð° Ð¾Ð±Ð½Ð¾Ð²Ð»ÐµÐ½Ð¸Ñ <a target="_blank" rel="nofollow" href="https://feeds.feedburner.com/python3_for_beginners">Ð¿Ð¾ RSS</a> Ð¸Ð»Ð¸ Ð¿Ð¾ Ð¿Ð¾Ñ‡Ñ‚Ðµ!</div><form target="_top" action="https://subscribe.ru/member/quick"><input type="email" placeholder="Ð’Ð°Ñˆ e-mail..." name="email"><input type="submit" value="ÐŸÐ¾Ð´Ð¿Ð¸ÑÐ°Ñ‚ÑŒÑÑ!"></form></div></aside></div></div><footer id="colophon" class="site-footer clearfix"><p class="credits">Â© 2012-2020 <a href="https://pythonworld.ru/">Python 3 Ð´Ð»Ñ Ð½Ð°Ñ‡Ð¸Ð½Ð°ÑŽÑ‰Ð¸Ñ…</a></p></footer></div><div id="mistype-div"><div id="mistype-div-inner"><img src="https://pythonworld.ru/m/mistypes/images/mistypes.png"><div id="mistype-title"> ÐžÐ¿ÐµÑ‡Ð°Ñ‚ÐºÐ° Ð² Ñ‚ÐµÐºÑÑ‚Ðµ: </div><div class="mistype-text"><span id="mistype-before"></span><span id="mistype-mistype"></span><span id="mistype-after"></span></div><div class="mistype-text"> ÐŸÐ¾ÑÐ»Ð°Ñ‚ÑŒ ÑÐ¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ðµ Ð¾Ð± Ð¾ÑˆÐ¸Ð±ÐºÐµ Ð°Ð²Ñ‚Ð¾Ñ€Ñƒ? </div><form id="mistype-form" action="https://pythonworld.ru/mistypes/submit" method="POST" data-success="Ð¡Ð¿Ð°ÑÐ¸Ð±Ð¾ Ð·Ð° Ð½Ð°Ð¹Ð´ÐµÐ½Ð½ÑƒÑŽ Ð½ÐµÑ‚Ð¾Ñ‡Ð½Ð¾ÑÑ‚ÑŒ!" data-error="Ð§Ñ‚Ð¾-Ñ‚Ð¾ Ð¿Ð¾ÑˆÐ»Ð¾ Ð½Ðµ Ñ‚Ð°Ðº. ÐŸÐ¾Ð¿Ñ€Ð¾Ð±ÑƒÐ¹Ñ‚Ðµ ÐµÑ‰Ñ‘ Ñ€Ð°Ð· Ð¸Ð»Ð¸ ÑÐ¾Ð¾Ð±Ñ‰Ð¸Ñ‚Ðµ Ð°Ð´Ð¼Ð¸Ð½Ð¸ÑÑ‚Ñ€Ð°Ñ‚Ð¾Ñ€Ñƒ." data-toomuchtext="Ð’Ñ‹Ð´ÐµÐ»ÐµÐ½Ð¾ ÑÐ»Ð¸ÑˆÐºÐ¾Ð¼ Ð¼Ð½Ð¾Ð³Ð¾ Ñ‚ÐµÐºÑÑ‚Ð°."><label for="id_comment"> ÐšÐ¾Ð¼Ð¼ÐµÐ½Ñ‚Ð°Ñ€Ð¸Ð¹ Ð´Ð»Ñ Ð°Ð²Ñ‚Ð¾Ñ€Ð° (Ð½ÐµÐ¾Ð±ÑÐ·Ð°Ñ‚ÐµÐ»ÑŒÐ½Ð¾, Ð½Ð¾ Ð¾Ñ‡ÐµÐ½ÑŒ Ð¿Ñ€Ð¸Ð²ÐµÑ‚ÑÑ‚Ð²ÑƒÐµÑ‚ÑÑ, ÑÑ‚Ð¾ Ð¿Ð¾Ð·Ð²Ð¾Ð»Ð¸Ñ‚ Ð±Ñ‹ÑÑ‚Ñ€ÐµÐµ Ð¸ÑÐ¿Ñ€Ð°Ð²Ð¸Ñ‚ÑŒ Ð¾ÑˆÐ¸Ð±ÐºÑƒ): </label><input id="id_comment" maxlength="200" name="comment" type="text"><div class="center"><input type="submit" id="id_submit" value="ÐžÑ‚Ð¿Ñ€Ð°Ð²Ð¸Ñ‚ÑŒ">&nbsp; <input type="button" id="id_cancel" value="ÐžÑ‚Ð¼ÐµÐ½Ð°"></div></form></div></div><iframe style="display: none;"></iframe><div style="position: fixed; left: -99px;"><div id="83d6b7e479"><iframe frameborder="no" scrolling="no" allowtransparency="true" hidefocus="true" tabindex="-1" marginwidth="0" marginheight="0" src="cid:frame-2D9B4285ED22338962290BEA0B872412@mhtml.blink" id="id1337" style="opacity: 1;"></iframe></div></div></body></html>
+------MultipartBoundary--GiTR7nfrNJYKdRdobKkmvRjxP5FrJbFgaYVnsGaSVz----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-dd7ef7f2-f933-4f3e-9852-b0ebaace7c93@mhtml.blink
+
+@charset "utf-8";
+
+#s147ecfc3 .i65a9f8f5 { position: fixed !important; left: -1000px !important; top: -1000px !important; width: 1px !important; height: 1px !important; display: block !important; }
+------MultipartBoundary--GiTR7nfrNJYKdRdobKkmvRjxP5FrJbFgaYVnsGaSVz----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-014e6892-4085-4063-a491-236b6498d8b9@mhtml.blink
+
+@charset "utf-8";
+
+.qb2e9a5a5 { white-space: normal !important; visibility: visible !important; }
+
+.qb2e9a5a5, .qb2e9a5a5 yatag { display: block !important; font-family: inherit !important; }
+
+.qb2e9a5a5, .qb2e9a5a5, .qb2e9a5a5 a, .qb2e9a5a5 b, .qb2e9a5a5 em, .qb2e9a5a5 iframe, .qb2e9a5a5 img, .qb2e9a5a5 table, .qb2e9a5a5 tbody, .qb2e9a5a5 td, .qb2e9a5a5 tr, .qb2e9a5a5 yatag { box-sizing: content-box !important; color: inherit !important; font-size: inherit !important; font-weight: inherit !important; hyphens: manual !important; }
+
+.qb2e9a5a5, .qb2e9a5a5 a, .qb2e9a5a5 b, .qb2e9a5a5 em, .qb2e9a5a5 iframe, .qb2e9a5a5 img, .qb2e9a5a5 table, .qb2e9a5a5 tbody, .qb2e9a5a5 td, .qb2e9a5a5 tr { background: none !important; border: none !important; border-radius: 0px !important; border-spacing: 0px !important; border-collapse: collapse !important; clear: none !important; float: none !important; font-variant: normal !important; letter-spacing: normal !important; line-height: normal !important; margin: 0px !important; max-height: none !important; max-width: none !important; min-height: 0px !important; min-width: 0px !important; outline: none !important; padding: 0px !important; position: static !important; text-align: left !important; text-decoration: none !important; text-indent: 0px !important; text-transform: none !important; vertical-align: baseline !important; visibility: inherit !important; word-spacing: normal !important; }
+
+.qb2e9a5a5, .qb2e9a5a5 a, .qb2e9a5a5 b, .qb2e9a5a5 em, .qb2e9a5a5 img, .qb2e9a5a5 table, .qb2e9a5a5 tbody, .qb2e9a5a5 td, .qb2e9a5a5 tr { height: auto !important; }
+
+.qb2e9a5a5 table { display: table !important; empty-cells: hide !important; table-layout: fixed !important; }
+
+.qb2e9a5a5 table, .qb2e9a5a5 td { font-size: 100% !important; }
+
+.qb2e9a5a5 td { display: table-cell !important; vertical-align: middle !important; }
+
+.qb2e9a5a5 { width: auto !important; height: auto !important; overflow: visible !important; }
+
+.qb2e9a5a5 .u276aa492 { cursor: pointer !important; pointer-events: auto !important; }
+
+.qb2e9a5a5 .u276aa492, .qb2e9a5a5 .l9c76fec1 { position: relative !important; }
+
+.qb2e9a5a5 .l9c76fec1::after { content: "" !important; position: absolute !important; top: 0px !important; left: -5px !important; bottom: -5px !important; right: 0px !important; }
+
+.qb2e9a5a5 .l9c76fec1.oecc47a00::after { left: 0px !important; bottom: 0px !important; }
+
+.qb2e9a5a5 .wa9adc08a { z-index: -1 !important; transition: z-index 0s linear 0.4s !important; cursor: default !important; line-height: 1.25 !important; pointer-events: auto !important; }
+
+.qb2e9a5a5 .wa9adc08a, .qb2e9a5a5 .pc5b4d11d { position: absolute !important; top: 0px !important; left: 0px !important; width: 100% !important; height: 100% !important; overflow: hidden !important; }
+
+.qb2e9a5a5 .pc5b4d11d { margin-left: 100% !important; }
+
+.qb2e9a5a5 .x176196bc, .qb2e9a5a5 .pc5b4d11d { transition: margin-left 0.4s ease-out 0s !important; }
+
+.qb2e9a5a5 .x176196bc { position: absolute !important; display: flex !important; margin-left: 0px !important; width: 100% !important; height: 100% !important; background: rgba(255, 255, 255, 0.98) !important; }
+
+.qb2e9a5a5 .fdf576db { z-index: 10 !important; transition: z-index 0s ease 0s !important; }
+
+.qb2e9a5a5 .fdf576db .pc5b4d11d { margin-left: 0px !important; }
+
+.qb2e9a5a5 .u9656b814 { padding: 0px 0px 4px 4px !important; }
+
+.qb2e9a5a5 .ea5c72341 { position: absolute !important; top: 50% !important; right: 100% !important; margin-top: -9px !important; margin-right: 8px !important; }
+
+.qb2e9a5a5 .q90de6973 { position: relative !important; padding: 4px !important; border-radius: 0px 0px 0px 20% !important; }
+
+.qb2e9a5a5 .q2dcfbb93 svg { display: block !important; max-height: none !important; }
+
+.qb2e9a5a5 .q2dcfbb93 polygon { fill: rgb(0, 0, 0) !important; }
+
+.qb2e9a5a5 .k1ec04e32 { margin: -3px !important; width: 1em !important; height: 1em !important; line-height: 1em !important; text-align: center !important; font-size: 18px !important; }
+
+.qb2e9a5a5 .oc43458b2 { background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNCAxNCI+PHBhdGggZD0iTTE0IC43bC0uNy0uN0w3IDYuMjk5LjcgMCAwIC43IDYuMyA3IDAgMTMuMjk5LjcgMTQgNyA3LjdsNi4zIDYuMy43LS43MDFMNy43IDd6Ii8+PC9zdmc+") !important; }
+
+.qb2e9a5a5 .u9656b814:hover .ea5c72341 { visibility: visible !important; }
+
+.qb2e9a5a5 .n19bdee1f:hover .ea5c72341 { display: none !important; }
+
+.qb2e9a5a5 .k8cffd0a7 { visibility: visible !important; }
+
+.qb2e9a5a5 .k8cffd0a7 .ea5c72341 { display: none !important; }
+
+.qb2e9a5a5 .fe5f76049 .ea5c72341 { height: 19px !important; line-height: 19px !important; }
+
+.qb2e9a5a5 .fe5f76049 .l12291b55 { top: 2px !important; }
+
+.qb2e9a5a5 .t996a7c3d .q90de6973 { padding: 5px !important; }
+
+.qb2e9a5a5 .t996a7c3d .k1ec04e32 { margin: -5px !important; font-size: 25px !important; }
+
+.qb2e9a5a5 .t996a7c3d .ea5c72341 { margin-right: 9px !important; margin-top: -12px !important; max-width: 160px !important; height: 22px !important; line-height: 22px !important; font-size: 13px !important; }
+
+.qb2e9a5a5 .t996a7c3d .l12291b55 { right: -7px !important; top: 4px !important; border-width: 7px 0px 7px 7px !important; }
+
+.qb2e9a5a5 .cc102e2d3 .q90de6973 { border-radius: 0px !important; }
+
+.qb2e9a5a5 .u9656b814.n19bdee1f .ea5c72341 { display: none !important; }
+
+.qb2e9a5a5 .u9656b814.n19bdee1f .q2dcfbb93 polygon { fill: rgb(0, 0, 0) !important; }
+
+.qb2e9a5a5 .a8fb68606 .q90de6973 { background-color: rgba(0, 0, 0, 0.25) !important; }
+
+.qb2e9a5a5 .a8fb68606 .q2dcfbb93 polygon { fill: rgb(255, 255, 255) !important; }
+
+.qb2e9a5a5 .a8fb68606 .q2dcfbb93.oc43458b2 { background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNCAxNCIgZmlsbD0iI2ZmZiI+PHBhdGggZD0iTTE0IC43bC0uNy0uN0w3IDYuMjk5LjcgMCAwIC43IDYuMyA3IDAgMTMuMjk5LjcgMTQgNyA3LjdsNi4zIDYuMy43LS43MDFMNy43IDd6Ii8+PC9zdmc+") !important; }
+
+.qb2e9a5a5 .a8fb68606.n19bdee1f .q2dcfbb93 polygon { fill: rgb(255, 255, 255) !important; }
+
+.qb2e9a5a5 .ud245f6e1, .qb2e9a5a5 .l9c76fec1.oecc47a00 .u9656b814 { padding: 0px !important; }
+
+.qb2e9a5a5 .l9c76fec1.oecc47a00.j65844fc0.ta26a6e01 { top: 3px !important; right: 3px !important; }
+
+.qb2e9a5a5 .l9c76fec1.oecc47a00.j65844fc0.ta26a6e01 .q90de6973 { border-radius: 20% !important; }
+
+.qb2e9a5a5 .he2990a94 { position: absolute !important; top: 0px !important; right: 0px !important; left: 0px !important; bottom: 0px !important; width: 100% !important; height: 100% !important; -webkit-box-pack: center !important; justify-content: center !important; color: rgb(0, 0, 0) !important; font-size: 13px !important; z-index: -1 !important; opacity: 0 !important; transition: opacity 0.3s ease 0s !important; }
+
+.qb2e9a5a5 .he2990a94, .qb2e9a5a5 .heb7f3313 { display: flex !important; -webkit-box-align: center !important; align-items: center !important; }
+
+.qb2e9a5a5 .f36e4eb49 { margin-left: 10px !important; }
+
+.qb2e9a5a5 .a9049ef9f svg { fill: rgb(0, 0, 0) !important; }
+
+.qb2e9a5a5 .l8a853147 { font-size: 15px !important; }
+
+.qb2e9a5a5 .w8147859a .he2990a94 { opacity: 1 !important; z-index: 10 !important; }
+
+.qb2e9a5a5 .ocff44cbb { -webkit-box-align: center !important; align-items: center !important; -webkit-box-pack: center !important; justify-content: center !important; min-width: 100% !important; min-height: 100% !important; font-size: 13px !important; }
+
+.qb2e9a5a5 .ocff44cbb, .qb2e9a5a5 .n402cc65c { display: flex !important; box-sizing: border-box !important; }
+
+.qb2e9a5a5 .n402cc65c { width: 100% !important; -webkit-box-orient: vertical !important; -webkit-box-direction: normal !important; flex-direction: column !important; padding: 10px !important; }
+
+.qb2e9a5a5 .n56d77af0 { font-weight: 700 !important; color: rgb(0, 0, 0) !important; }
+
+.qb2e9a5a5 .k13fe3bd0 { display: none !important; color: rgb(0, 0, 0) !important; font-weight: 700 !important; }
+
+.qb2e9a5a5 .g37c8ba6e, .qb2e9a5a5 .k13fe3bd0 { -webkit-box-align: center !important; align-items: center !important; }
+
+.qb2e9a5a5 .g37c8ba6e { overflow: hidden !important; }
+
+.qb2e9a5a5 .n2cd18f34, .qb2e9a5a5 .g37c8ba6e { display: flex !important; -webkit-box-pack: center !important; justify-content: center !important; flex-shrink: 0 !important; box-sizing: border-box !important; }
+
+.qb2e9a5a5 .n2cd18f34 { align-content: center !important; -webkit-box-align: center !important; align-items: center !important; padding: 0px !important; margin: 0px !important; position: relative !important; }
+
+.qb2e9a5a5 .p3204112c { display: flex !important; -webkit-box-pack: center !important; justify-content: center !important; box-sizing: border-box !important; margin: 5px 0px !important; }
+
+.qb2e9a5a5 .c9f93928c { display: none !important; }
+
+.qb2e9a5a5 .p3204112c .bb0a843b9 { width: 100% !important; max-width: 250px !important; }
+
+.qb2e9a5a5 .c9f93928c .bb0a843b9 { width: 100% !important; max-width: 180px !important; }
+
+.qb2e9a5a5 .bb0a843b9 { display: block !important; padding: 5px !important; background-color: rgb(255, 255, 255) !important; border: 1px solid rgb(200, 200, 200) !important; border-radius: 4px !important; text-align: center !important; color: rgb(85, 85, 85) !important; white-space: nowrap !important; transition-property: border, color !important; transition-duration: 0.2s !important; cursor: pointer !important; box-sizing: border-box !important; }
+
+.qb2e9a5a5 .bb0a843b9:hover { color: rgb(51, 51, 51) !important; border-color: rgb(51, 51, 51) !important; }
+
+.qb2e9a5a5 .ocff44cbb.d4ff88dbe .g37c8ba6e { padding-bottom: 15px !important; }
+
+.qb2e9a5a5 .ocff44cbb.d4ff88dbe .n2cd18f34, .qb2e9a5a5 .ocff44cbb.d4ff88dbe .n402cc65c { -webkit-box-orient: vertical !important; -webkit-box-direction: normal !important; flex-direction: column !important; }
+
+.qb2e9a5a5 .ocff44cbb.d4ff88dbe .n2cd18f34 { display: flex !important; -webkit-box-align: stretch !important; align-items: stretch !important; }
+
+.qb2e9a5a5 .ocff44cbb.p62cff97e .g37c8ba6e { padding-bottom: 5px !important; }
+
+.qb2e9a5a5 .ocff44cbb.p62cff97e .n2cd18f34, .qb2e9a5a5 .ocff44cbb.p62cff97e .n402cc65c { -webkit-box-orient: vertical !important; -webkit-box-direction: normal !important; flex-direction: column !important; }
+
+.qb2e9a5a5 .ocff44cbb.p62cff97e .n2cd18f34 { display: flex !important; -webkit-box-align: stretch !important; align-items: stretch !important; }
+
+.qb2e9a5a5 .ocff44cbb.p62cff97e .p3204112c { margin: 2px 0px !important; }
+
+.qb2e9a5a5 .ocff44cbb.p62cff97e .bb0a843b9 { padding: 3px !important; }
+
+.qb2e9a5a5 .ocff44cbb.vcea8ffde .g37c8ba6e { padding-bottom: 15px !important; }
+
+.qb2e9a5a5 .ocff44cbb.vcea8ffde .n2cd18f34, .qb2e9a5a5 .ocff44cbb.vcea8ffde .n402cc65c { -webkit-box-orient: vertical !important; -webkit-box-direction: normal !important; flex-direction: column !important; }
+
+.qb2e9a5a5 .ocff44cbb.vcea8ffde .n2cd18f34 { display: flex !important; -webkit-box-align: stretch !important; align-items: stretch !important; }
+
+.qb2e9a5a5 .ocff44cbb.vcea8ffde .c9f93928c { display: flex !important; }
+
+.qb2e9a5a5 .ocff44cbb.vcea8ffde .d3eda202e { display: none !important; }
+
+.qb2e9a5a5 .ocff44cbb.jc3d6242c .g37c8ba6e { padding-bottom: 5px !important; }
+
+.qb2e9a5a5 .ocff44cbb.jc3d6242c .n2cd18f34, .qb2e9a5a5 .ocff44cbb.jc3d6242c .n402cc65c { -webkit-box-orient: vertical !important; -webkit-box-direction: normal !important; flex-direction: column !important; }
+
+.qb2e9a5a5 .ocff44cbb.jc3d6242c .n2cd18f34 { display: flex !important; -webkit-box-align: stretch !important; align-items: stretch !important; }
+
+.qb2e9a5a5 .ocff44cbb.jc3d6242c .p3204112c { margin: 2px 0px !important; }
+
+.qb2e9a5a5 .ocff44cbb.jc3d6242c .c9f93928c { display: flex !important; }
+
+.qb2e9a5a5 .ocff44cbb.jc3d6242c .d3eda202e { display: none !important; }
+
+.qb2e9a5a5 .ocff44cbb.jc3d6242c .bb0a843b9 { padding: 3px !important; }
+
+.qb2e9a5a5 .ocff44cbb.nb0402b .g37c8ba6e { padding-bottom: 10px !important; }
+
+.qb2e9a5a5 .ocff44cbb.nb0402b .n402cc65c { -webkit-box-orient: vertical !important; -webkit-box-direction: normal !important; flex-direction: column !important; -webkit-box-align: center !important; align-items: center !important; }
+
+.qb2e9a5a5 .ocff44cbb.nb0402b .n2cd18f34 { display: flex !important; flex-wrap: wrap !important; max-width: 540px !important; }
+
+.qb2e9a5a5 .ocff44cbb.nb0402b .p3204112c { width: 50% !important; margin: 0px !important; padding: 5px !important; }
+
+.qb2e9a5a5 .ocff44cbb.ue11aef4b .g37c8ba6e { padding-bottom: 10px !important; }
+
+.qb2e9a5a5 .ocff44cbb.ue11aef4b .n402cc65c { -webkit-box-orient: vertical !important; -webkit-box-direction: normal !important; flex-direction: column !important; -webkit-box-align: center !important; align-items: center !important; }
+
+.qb2e9a5a5 .ocff44cbb.ue11aef4b .n2cd18f34 { display: flex !important; flex-wrap: wrap !important; max-width: 340px !important; }
+
+.qb2e9a5a5 .ocff44cbb.ue11aef4b .p3204112c { width: 50% !important; margin: 0px !important; padding: 5px !important; }
+
+.qb2e9a5a5 .ocff44cbb.ue11aef4b .c9f93928c { display: flex !important; }
+
+.qb2e9a5a5 .ocff44cbb.ue11aef4b .d3eda202e { display: none !important; }
+
+.qb2e9a5a5 .ocff44cbb.pfe2a1e86 .n402cc65c { -webkit-box-orient: horizontal !important; -webkit-box-direction: normal !important; flex-direction: row !important; -webkit-box-pack: center !important; justify-content: center !important; }
+
+.qb2e9a5a5 .ocff44cbb.pfe2a1e86 .n2cd18f34 { display: flex !important; flex-shrink: 1 !important; padding-left: 20px !important; }
+
+.qb2e9a5a5 .ocff44cbb.pfe2a1e86 .p3204112c { -webkit-box-flex: 1 !important; flex-grow: 1 !important; margin: 0px 5px !important; }
+
+.qb2e9a5a5 .ocff44cbb.pfe2a1e86 .bb0a843b9 { display: flex !important; -webkit-box-align: center !important; align-items: center !important; -webkit-box-pack: center !important; justify-content: center !important; }
+
+.qb2e9a5a5 .ocff44cbb.ke6643c14 .n402cc65c { -webkit-box-orient: horizontal !important; -webkit-box-direction: normal !important; flex-direction: row !important; -webkit-box-pack: center !important; justify-content: center !important; }
+
+.qb2e9a5a5 .ocff44cbb.ke6643c14 .n2cd18f34 { display: flex !important; flex-shrink: 1 !important; padding-left: 15px !important; }
+
+.qb2e9a5a5 .ocff44cbb.ke6643c14 .p3204112c { -webkit-box-flex: 1 !important; flex-grow: 1 !important; margin: 0px 5px !important; }
+
+.qb2e9a5a5 .ocff44cbb.ke6643c14 .c9f93928c { display: flex !important; }
+
+.qb2e9a5a5 .ocff44cbb.ke6643c14 .d3eda202e { display: none !important; }
+
+.qb2e9a5a5 .ocff44cbb.ke6643c14 .bb0a843b9 { display: flex !important; -webkit-box-align: center !important; align-items: center !important; -webkit-box-pack: center !important; justify-content: center !important; }
+
+.qb2e9a5a5 .ocff44cbb.tbbc46366 .n402cc65c { -webkit-box-orient: horizontal !important; -webkit-box-direction: normal !important; flex-direction: row !important; -webkit-box-pack: center !important; justify-content: center !important; }
+
+.qb2e9a5a5 .ocff44cbb.tbbc46366 .n56d77af0 { display: none !important; }
+
+.qb2e9a5a5 .ocff44cbb.tbbc46366 .k13fe3bd0 { display: flex !important; }
+
+.qb2e9a5a5 .ocff44cbb.tbbc46366 .n2cd18f34 { display: flex !important; flex-shrink: 1 !important; padding-left: 15px !important; }
+
+.qb2e9a5a5 .ocff44cbb.tbbc46366 .p3204112c { -webkit-box-flex: 1 !important; flex-grow: 1 !important; margin: 0px 5px !important; }
+
+.qb2e9a5a5 .ocff44cbb.tbbc46366 .c9f93928c { display: flex !important; }
+
+.qb2e9a5a5 .ocff44cbb.tbbc46366 .d3eda202e { display: none !important; }
+
+.qb2e9a5a5 .ocff44cbb.tbbc46366 .bb0a843b9 { display: flex !important; -webkit-box-align: center !important; align-items: center !important; -webkit-box-pack: center !important; justify-content: center !important; }
+
+.qb2e9a5a5 .ocff44cbb.w22ff693 { font-size: 11px !important; }
+
+.qb2e9a5a5 .ocff44cbb.w22ff693 .n402cc65c { -webkit-box-orient: horizontal !important; -webkit-box-direction: normal !important; flex-direction: row !important; -webkit-box-pack: center !important; justify-content: center !important; padding: 4px !important; }
+
+.qb2e9a5a5 .ocff44cbb.w22ff693 .n56d77af0 { display: none !important; }
+
+.qb2e9a5a5 .ocff44cbb.w22ff693 .k13fe3bd0 { display: flex !important; }
+
+.qb2e9a5a5 .ocff44cbb.w22ff693 .n2cd18f34 { display: flex !important; flex-shrink: 1 !important; padding-left: 10px !important; }
+
+.qb2e9a5a5 .ocff44cbb.w22ff693 .p3204112c { -webkit-box-flex: 1 !important; flex-grow: 1 !important; margin: 0px 1px !important; }
+
+.qb2e9a5a5 .ocff44cbb.w22ff693 .c9f93928c { display: flex !important; }
+
+.qb2e9a5a5 .ocff44cbb.w22ff693 .d3eda202e { display: none !important; }
+
+.qb2e9a5a5 .ocff44cbb.w22ff693 .bb0a843b9 { display: flex !important; -webkit-box-align: center !important; align-items: center !important; -webkit-box-pack: center !important; justify-content: center !important; }
+
+.qb2e9a5a5 .ocff44cbb.afae73510 { font-size: 11px !important; }
+
+.qb2e9a5a5 .ocff44cbb.afae73510 .n402cc65c { -webkit-box-orient: horizontal !important; -webkit-box-direction: normal !important; flex-direction: row !important; -webkit-box-pack: center !important; justify-content: center !important; padding: 0px !important; }
+
+.qb2e9a5a5 .ocff44cbb.afae73510 .n56d77af0 { display: none !important; }
+
+.qb2e9a5a5 .ocff44cbb.afae73510 .k13fe3bd0 { display: flex !important; }
+
+.qb2e9a5a5 .ocff44cbb.afae73510 .n2cd18f34 { display: flex !important; flex-shrink: 1 !important; padding-left: 10px !important; }
+
+.qb2e9a5a5 .ocff44cbb.afae73510 .p3204112c { -webkit-box-flex: 1 !important; flex-grow: 1 !important; margin: 0px 2px !important; }
+
+.qb2e9a5a5 .ocff44cbb.afae73510 .c9f93928c { display: flex !important; }
+
+.qb2e9a5a5 .ocff44cbb.afae73510 .d3eda202e { display: none !important; }
+
+.qb2e9a5a5 .ocff44cbb.afae73510 .bb0a843b9 { padding: 0px 5px !important; display: flex !important; -webkit-box-align: center !important; align-items: center !important; -webkit-box-pack: center !important; justify-content: center !important; }
+
+.qb2e9a5a5 .ocff44cbb.e290858cf { font-size: 12px !important; }
+
+.qb2e9a5a5 .ocff44cbb.e290858cf .n402cc65c { -webkit-box-orient: vertical !important; -webkit-box-direction: normal !important; flex-direction: column !important; padding: 4px !important; }
+
+.qb2e9a5a5 .ocff44cbb.e290858cf .n56d77af0 { padding: 2px 5px !important; }
+
+.qb2e9a5a5 .ocff44cbb.e290858cf .k13fe3bd0 { display: none !important; }
+
+.qb2e9a5a5 .ocff44cbb.e290858cf .g37c8ba6e { display: flex !important; -webkit-box-align: center !important; align-items: center !important; }
+
+.qb2e9a5a5 .ocff44cbb.e290858cf .n2cd18f34 { display: flex !important; flex-wrap: wrap !important; flex-shrink: 1 !important; }
+
+.qb2e9a5a5 .ocff44cbb.e290858cf .p3204112c { -webkit-box-flex: 1 !important; flex-grow: 1 !important; margin: 1px !important; }
+
+.qb2e9a5a5 .ocff44cbb.e290858cf .c9f93928c { display: flex !important; }
+
+.qb2e9a5a5 .ocff44cbb.e290858cf .d3eda202e { display: none !important; }
+
+.qb2e9a5a5 .ocff44cbb.e290858cf .bb0a843b9 { display: flex !important; -webkit-box-align: center !important; align-items: center !important; -webkit-box-pack: center !important; justify-content: center !important; padding: 2px !important; }
+
+.qb2e9a5a5 .w8147859a .p3204112c { opacity: 0 !important; }
+
+.qb2e9a5a5 .a4d2aa5d8 { position: relative !important; margin: auto !important; display: flex !important; -webkit-box-pack: center !important; justify-content: center !important; -webkit-box-align: center !important; align-items: center !important; overflow: hidden !important; }
+
+.qb2e9a5a5 .g420343d7, .qb2e9a5a5 .w470c4735 { position: absolute !important; z-index: 1 !important; top: 0px !important; left: 0px !important; right: 0px !important; bottom: 0px !important; width: 100% !important; height: 100% !important; display: none !important; }
+
+.qb2e9a5a5 .i270adabf { position: relative !important; z-index: 2 !important; }
+
+.qb2e9a5a5 .g6b524328 { position: relative !important; top: 0px !important; left: 0px !important; width: 100% !important; height: 100% !important; }
+
+.qb2e9a5a5 .hfbd26997 { position: absolute !important; right: 0px !important; top: 0px !important; z-index: 20 !important; }
+
+.qb2e9a5a5 .x39eab9b1 { border: 1px solid rgb(204, 204, 204) !important; box-sizing: border-box !important; }
+
+.qb2e9a5a5 .r667f721d { max-width: 100% !important; max-height: 100% !important; }
+
+.qb2e9a5a5 .r667f721d .g420343d7, .qb2e9a5a5 .r667f721d .w470c4735 { display: block !important; }
+
+.qb2e9a5a5 .r667f721d .w470c4735 { filter: blur(10px) saturate(0) contrast(400%) !important; }
+
+.qb2e9a5a5 .r667f721d .g420343d7 { background-color: rgba(38, 38, 38, 0.9) !important; }
+
+.qb2e9a5a5 .h4fa9067b { -webkit-box-pack: start !important; justify-content: flex-start !important; }
+
+.qb2e9a5a5 .cf1e064cf, .qb2e9a5a5 .q1f0a80a7 { visibility: hidden !important; opacity: 0 !important; }
+
+.qb2e9a5a5 .q1f0a80a7 { max-width: 1px !important; max-height: 1px !important; }
+
+.qb2e9a5a5 .ke3a0a648 { position: absolute !important; padding: 0px 4px !important; max-width: 120px !important; height: 18px !important; line-height: 18px !important; color: rgb(255, 255, 255) !important; background: rgba(0, 0, 0, 0.8) !important; border-radius: 1px !important; visibility: hidden !important; white-space: nowrap !important; }
+
+.qb2e9a5a5 .a94eb0831 { position: absolute !important; top: 3px !important; right: -6px !important; display: block !important; overflow: hidden !important; width: 0px !important; height: 0px !important; border-style: solid !important; border-width: 6px 0px 6px 6px !important; border-color: transparent transparent transparent rgba(0, 0, 0, 0.8) !important; }
+
+.qb2e9a5a5 .w8961eb35 { position: relative !important; color: rgb(255, 255, 255) !important; letter-spacing: 0.04em !important; font-size: 11px !important; font-family: Arial, Helvetica, sans-serif !important; text-transform: none !important; }
+------MultipartBoundary--GiTR7nfrNJYKdRdobKkmvRjxP5FrJbFgaYVnsGaSVz----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-c1334782-bea2-4cbb-8771-b29f02009171@mhtml.blink
+
+@charset "utf-8";
+
+
+------MultipartBoundary--GiTR7nfrNJYKdRdobKkmvRjxP5FrJbFgaYVnsGaSVz----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-2567dac0-5bf3-4123-a746-43ce35a12968@mhtml.blink
+
+@charset "utf-8";
+
+#id1337 { width: 1px; height: 1px; top: 0px; left: 0px; position: absolute; }
+------MultipartBoundary--GiTR7nfrNJYKdRdobKkmvRjxP5FrJbFgaYVnsGaSVz----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-585b3bb1-da9b-4363-9701-bb0d40ed3be4@mhtml.blink
+
+@charset "utf-8";
+
+#ya_partner_R-A-139987-8 { width: 100%; height: 100%; position: relative; }
+------MultipartBoundary--GiTR7nfrNJYKdRdobKkmvRjxP5FrJbFgaYVnsGaSVz----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-3ea12d24-7bb6-47d2-80d6-75861ef2b940@mhtml.blink
+
+@charset "utf-8";
+
+#id1317 { width: 100%; height: 100%; top: 0px; left: 0px; position: absolute; }
+------MultipartBoundary--GiTR7nfrNJYKdRdobKkmvRjxP5FrJbFgaYVnsGaSVz----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: https://pythonworld.ru/m/css/st.css
+
+@charset "utf-8";
+
+html { font-family: sans-serif; text-size-adjust: 100%; }
+
+body { margin: 0px; }
+
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary { display: block; }
+
+audio, canvas, progress, video { display: inline-block; vertical-align: baseline; }
+
+audio:not([controls]) { display: none; height: 0px; }
+
+[hidden], template { display: none; }
+
+a { background-color: transparent; }
+
+a:active, a:hover { outline: 0px; }
+
+abbr[title] { border-bottom: 1px dotted; }
+
+b, strong { font-weight: bold; }
+
+dfn { font-style: italic; }
+
+h1 { font-size: 2em; margin: 0.67em 0px; }
+
+mark { background: rgb(255, 255, 0); color: rgb(0, 0, 0); }
+
+small { font-size: 80%; }
+
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+
+sup { top: -0.5em; }
+
+sub { bottom: -0.25em; }
+
+img { border: 0px; }
+
+svg:not(:root) { overflow: hidden; }
+
+figure { margin: 1em 40px; }
+
+hr { box-sizing: content-box; height: 0px; }
+
+pre { overflow: auto; }
+
+code, kbd, pre, samp { font-family: monospace, monospace; font-size: 1em; }
+
+button, input, optgroup, select, textarea { color: inherit; font: inherit; margin: 0px; }
+
+button { overflow: visible; }
+
+button, select { text-transform: none; }
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] { appearance: button; cursor: pointer; }
+
+button[disabled], html input[disabled] { cursor: default; }
+
+input { line-height: normal; }
+
+input[type="checkbox"], input[type="radio"] { box-sizing: border-box; padding: 0px; }
+
+input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button { height: auto; }
+
+input[type="search"] { appearance: textfield; box-sizing: content-box; }
+
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration { appearance: none; }
+
+fieldset { border: 1px solid silver; margin: 0px 2px; padding: 0.35em 0.625em 0.75em; }
+
+legend { border: 0px; padding: 0px; }
+
+textarea { overflow: auto; }
+
+optgroup { font-weight: bold; }
+
+table { border-collapse: collapse; border-spacing: 0px; }
+
+td, th { padding: 0px; }
+
+body { background: linear-gradient(rgb(224, 224, 224), rgb(17, 103, 136)); }
+
+#page { margin: auto; padding: 0px; width: 90%; max-width: 1500px; }
+
+.content-area { width: 65.3062%; float: left; }
+
+.widget-area { width: 30.6123%; float: right; }
+
+.sidebar-content .content-area { float: right; }
+
+.sidebar-content .widget-area { float: left; }
+
+.clearfix::after, .entry-header::after, .entry-content::after, .entry-summary::after, .widget::after, .main-navigation > div > ul::after, .page-numbers::after { clear: both; }
+
+.clearfix::before, .clearfix::after, .entry-header::before, .entry-header::after, .entry-content::before, .entry-content::after, .entry-summary::before, .entry-summary::after, .widget::before, .widget::after, .main-navigation > div > ul::before, .main-navigation > div > ul::after, .page-numbers::before, .page-numbers::after { display: table; content: ""; }
+
+h1, h2, h3, h4, h5, h6 { clear: both; }
+
+h1 { font-size: 1.714em; line-height: 1.4; margin: 1.5em 0px 0.5em; text-align: center; }
+
+h2 { font-size: 1.571em; line-height: 1.4; font-weight: 600; margin: 0.5em 0px; text-align: center; }
+
+h3 { font-size: 1.429em; font-weight: 700; margin: 0.5em; }
+
+h4 { font-size: 1.143em; font-weight: 700; margin: 0px 0px 0.5em; }
+
+h5 { font-size: 1em; text-transform: uppercase; font-weight: 400; margin: 0px 0px 0.5em; }
+
+#site-title { font-family: Helvetica, sans-serif; font-size: 2em; font-weight: 700; line-height: 1.2; }
+
+#site-title a { display: inline-block; color: rgb(255, 85, 0); }
+
+#site-title a:hover { text-decoration: none; color: rgb(15, 165, 217); }
+
+#site-title a:active, #site-title a:focus { outline: 0px; text-decoration: none; }
+
+.site-header h1.menu-toggle { font-size: 1em; }
+
+.entry-header h1, .entry-header h2 { margin: 0.25em 0px 0px; font-weight: 700; color: rgb(37, 37, 37); font-size: 1.714em; }
+
+.entry-header h2 { float: left; width: 90%; max-width: 90%; clear: none; }
+
+body, button, input, select, textarea { font-family: Helvetica, sans-serif; font-size: 14px; line-height: 1.6; color: rgb(69, 69, 69); }
+
+body { font-size: 16px; }
+
+.main-navigation, .site-footer, .widget-area, .entry-footer, .entry-meta { font-size: 1em; }
+
+hr { background-color: rgb(221, 221, 221); border: 0px; height: 2px; margin: 1em 0px; }
+
+p { margin: 0.5em 0px; }
+
+ul, ol { margin: 0px 0px 1.5em; }
+
+li { margin-bottom: 0.5em; }
+
+ul ul, ol ol, ul ol, ol ul { margin-top: 0.5em; margin-left: 1.5em; }
+
+dt { font-weight: bold; }
+
+dd { margin: 0px 1.5em 1.5em; }
+
+b, strong { font-weight: 700; }
+
+dfn, cite, em, i { font-style: italic; }
+
+blockquote { font-style: italic; margin: 1.5em 0px; padding: 0px 1em; border-left: 4px solid rgb(221, 221, 221); }
+
+address { margin: 0px 0px 1.5em; }
+
+.strike { text-decoration: line-through; }
+
+code, kbd, tt, var { font: 0.95em Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace; }
+
+tt { color: rgb(0, 0, 0); }
+
+abbr, acronym { border-bottom: 1px dotted rgb(102, 102, 102); cursor: help; }
+
+mark, ins { background: rgb(255, 249, 192); text-decoration: none; }
+
+sup, sub { font-size: 75%; height: 0px; line-height: 0; position: relative; vertical-align: baseline; }
+
+sup { bottom: 1ex; }
+
+sub { top: 0.5ex; }
+
+small { font-size: 75%; }
+
+big { font-size: 125%; }
+
+figure { margin: 0px; }
+
+table { margin: 1.5em 0px; width: 100%; border-top: 1px solid rgb(187, 187, 187); border-left: 1px solid rgb(187, 187, 187); }
+
+th { font-weight: 700; }
+
+thead th { font-size: 1.143em; }
+
+th, td { border-bottom: 1px solid rgb(187, 187, 187); border-right: 1px solid rgb(187, 187, 187); padding: 0.5em; }
+
+button, input, select, textarea { font-size: 100%; margin: 0px; vertical-align: baseline; }
+
+button, input { line-height: normal; }
+
+input[type="checkbox"], input[type="radio"] { box-sizing: border-box; padding: 0px; }
+
+input[type="search"] { appearance: textfield; box-sizing: content-box; }
+
+input[type="search"]::-webkit-search-decoration { appearance: none; }
+
+input[type="text"], input[type="search"], input[type="email"], input[type="password"], textarea { color: rgb(69, 69, 69); border: 1px solid rgba(0, 0, 0, 0.5); margin: 0.5em 0px; width: 100%; box-sizing: border-box; }
+
+input[type="text"]:focus, input[type="search"]:focus, input[type="email"]:focus, input[type="password"]:focus, textarea:focus { color: rgb(37, 37, 37); }
+
+input[type="text"], input[type="search"], input[type="email"], input[type="password"] { padding: 0.5em 1em; }
+
+textarea { overflow: auto; padding: 0.5em; vertical-align: top; width: 100%; box-sizing: border-box; }
+
+input#submit { background: rgb(15, 165, 217); border: 0px; color: rgb(255, 255, 255); font-weight: 700; font-size: 0.923em; text-transform: uppercase; line-height: 1.4; }
+
+input#submit:hover { background-color: rgb(15, 165, 217); }
+
+#content input#submit:hover { color: rgb(255, 255, 255) !important; }
+
+#searchform input { display: inline-block; }
+
+.icon-font { display: inline-block; vertical-align: -10%; }
+
+.icon-font::before { font-size: 14px; }
+
+a { text-decoration: none; color: rgb(0, 0, 255); }
+
+a:hover, a:focus, a:active { text-decoration: underline; }
+
+a:hover { color: rgb(15, 165, 217); }
+
+article a { font-size: 1.1em; }
+
+.more-link { margin-right: 10px; text-align: right; }
+
+#content .more-link:hover { text-decoration: none; color: rgb(117, 117, 117); }
+
+.alignleft { display: inline; float: left; margin-right: 1em; }
+
+.alignright { display: inline; float: right; margin-left: 1em; }
+
+.aligncenter { clear: both; display: block; margin: 0.5em auto; }
+
+.site-header { position: relative; }
+
+.site-brand { margin: 1% 0px 0.5%; }
+
+.header_hgroup { width: 30%; float: left; margin: 1em 0px 0px 1em; padding: 0px; }
+
+.site-description { color: rgba(0, 0, 0, 0.5); display: inline-block; margin: 0px; font-size: 1em; font-weight: 400; }
+
+.site-logo { padding: 0px; line-height: 1; float: left; }
+
+.site-logo img { display: block; width: auto; max-height: 100px; }
+
+.main-navigation ul { list-style: none; margin: 0px; padding-left: 0px; background-color: rgb(15, 165, 217); font-weight: 700; }
+
+.main-navigation li { float: left; position: relative; padding: 0px; margin: 0px; }
+
+.main-navigation li:first-child { margin-left: 0px; }
+
+.main-navigation a { color: rgb(255, 255, 255); text-decoration: none; display: inline-block; height: 48px; line-height: 48px; padding: 0px 1em; }
+
+.main-navigation > .menu > ul > li > a:hover, .main-navigation > div > ul > li > a:hover { color: rgb(255, 255, 255); }
+
+.main-navigation > .menu > ul > li.page_item_has_children > a::after, .main-navigation > div > ul > li.menu-item-has-children > a::after { content: "â‡©"; font-size: 1.2em; text-align: left; display: inline-block; margin-left: 0.2em; }
+
+.main-navigation li:hover a, .main-navigation li:focus a { background-color: rgba(255, 255, 255, 0.2); }
+
+.main-navigation > div > ul > li:hover > ul, .main-navigation > .menu > ul > li:hover > ul { visibility: visible; opacity: 1; }
+
+.main-navigation ul ul { visibility: hidden; opacity: 0; width: 240px; position: absolute; top: 48px; left: 0px; z-index: 999; background-color: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px; transition: all 0.4s ease-in-out 0s; }
+
+.main-navigation ul ul::after { border-bottom: 6px solid rgb(255, 255, 255); border-left: 6px solid rgba(0, 0, 0, 0); border-right: 6px solid rgba(0, 0, 0, 0); content: ""; height: 0px; margin: 0px auto 0px -4px; position: absolute; text-align: center; width: 0px; left: 1em; top: -6px; }
+
+.main-navigation ul ul li { float: none; margin: 0px; border-top: 1px dashed rgba(0, 0, 0, 0.1); }
+
+.main-navigation ul ul li:first-child { border: 0px; }
+
+.main-navigation ul ul a { color: rgb(101, 101, 101); display: block; height: auto; line-height: 1.5; padding: 0.75em 1em; background: rgb(255, 255, 255); }
+
+.main-navigation ul li:hover ul a, .main-navigation ul li:focus ul a { background: rgb(255, 255, 255); }
+
+.main-navigation ul ul a:hover, .main-navigation ul ul a:focus { color: rgb(15, 165, 217); }
+
+.main-navigation ul ul ul { display: none; visibility: visible; opacity: 1; left: 100%; top: 0px; }
+
+.main-navigation ul ul ul::after { content: none; }
+
+.main-navigation ul ul li:hover ul { display: block; }
+
+.menu-toggle { cursor: pointer; display: none; text-align: center; }
+
+button.menu-toggle { cursor: pointer; margin: auto; padding: 0px; width: 2em; height: 2em; text-align: center; font-size: 1.7em; background: rgb(15, 165, 217); border: 1px solid rgb(31, 165, 217); border-radius: 7px; }
+
+button.menu-toggle .icon-font { color: rgb(247, 247, 247); }
+
+button.menu-toggle .icon-font::before { vertical-align: inherit; font-size: 28px; }
+
+@media screen and (max-width: 768px) {
+  .menu-toggle, .main-navigation.toggled .nav-menu { display: block; float: none; }
+  .menu-toggle { position: absolute; top: 35px; right: 5px; }
+  .main-navigation.toggled .nav-menu { margin: 0px; padding: 0px; position: relative; z-index: 999; background-color: rgb(31, 165, 217); }
+  .main-navigation.toggled > div { margin: 0px; }
+  .main-navigation.toggled ul { text-align: left; }
+  .main-navigation.toggled ul li { display: block; }
+  .main-navigation.toggled ul ul { visibility: visible; opacity: 1; position: static; display: block; left: auto; top: auto; border: 0px; box-shadow: none; background: transparent; width: 100%; }
+  .main-navigation.toggled ul ul::after, .main-navigation.toggled a::before { content: none !important; }
+  .main-navigation.toggled ul a, .main-navigation.toggled ul ul a { display: block; width: auto; height: auto; padding: 1em; line-height: 1.5; color: rgb(255, 255, 255); border-bottom: 1px solid rgb(101, 101, 101); background: transparent; }
+  .main-navigation.toggled a:hover { background-color: rgba(255, 255, 255, 0.2); }
+  .main-navigation ul li:hover ul a, .main-navigation ul li:focus ul a { background-color: transparent; }
+  .main-navigation.toggled li { float: none; }
+  .main-navigation ul { display: none; }
+  .nav-menu > li > .sub-menu, .nav-menu > li > .sub-menu > li > .sub-menu { visibility: visible; opacity: 1; }
+  .main-navigation.toggled .menu-item-has-children > a { display: none; }
+}
+
+.site-main { margin: 2.0409% 0px; }
+
+.hentry { margin: 0px 0px 3.125%; padding: 0px; background-color: rgb(255, 255, 255); }
+
+.entry-header { margin-bottom: 2%; position: relative; padding: 2% 3.125%; border-bottom: 1px solid rgba(0, 0, 0, 0.07); }
+
+.entry-content, .entry-summary { margin: 0px; padding: 0px 2.5%; }
+
+.entry-content p:last-child, .entry-summary p:last-child { margin-bottom: 0px; }
+
+.entry-footer { padding: 2.34375% 3.125%; border-top: 1px solid rgba(0, 0, 0, 0.07); color: rgb(149, 149, 149); }
+
+.entry-footer p { margin: 0px; }
+
+.entry-footer .icon-font { color: rgb(15, 165, 217); }
+
+.byline { display: none; }
+
+.single .byline, .group-blog .byline { display: inline; }
+
+.page-links { clear: both; margin: 0px 0px 1.5em; }
+
+.sep { display: inline-block; padding: 0px 0.5em; color: rgb(181, 181, 181); }
+
+.page-header { background-color: rgb(255, 255, 255); margin: 0px 0px 3.125%; padding: 2.34375% 3.125%; box-shadow: rgba(0, 0, 0, 0.06) 0px 1px 1px; }
+
+.page-header h1 { font-size: 0.857em; text-transform: uppercase; margin: 0px; padding: 0px; }
+
+.page-header .taxonomy-description p { margin: 1em 0px; }
+
+.page-title { color: rgb(149, 149, 149); }
+
+.page-title span { color: rgb(15, 165, 217); }
+
+.entry-content img, .comment-content img, .widget img { max-width: 100%; width: auto; margin: 0px auto; display: block; }
+
+#content { padding: 0px 2.25% 2.25%; }
+
+embed, iframe, object { display: block; max-width: 100%; }
+
+.site-navigation { margin: 1%; overflow: hidden; background-color: rgb(255, 255, 255); }
+
+.post-navigation .nav-previous { float: left; width: 50%; }
+
+.post-navigation .nav-next { float: right; text-align: right; width: 50%; }
+
+.widget { margin: 0px 0px 6.66667%; padding: 6.66667%; background-color: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.06) 0px 1px 1px; }
+
+.widget-title { color: rgb(53, 53, 53); font-size: 1.154em; margin: 0px 0px 0.7em; }
+
+.widget ul { margin: 0px; padding: 0px 0px 0px 1.5em; }
+
+.widget li { margin: 0px; padding: 0.2em 0px; list-style-type: none; }
+
+.widget select { max-width: 100%; }
+
+.widget_search { padding: 0px; border: 0px; }
+
+.widget_search #searchsubmit { display: none; }
+
+.widget_search input#s { box-sizing: border-box; width: 100%; margin: 0px; padding: 0.75em 1.5em; border: 2px solid rgb(17, 86, 136); background: rgb(252, 252, 252); }
+
+.site-footer { clear: both; color: rgb(204, 204, 204); padding: 2.04082%; background: rgb(53, 53, 53); }
+
+.site-footer a { color: rgb(255, 255, 255); }
+
+.site-footer .credits { margin: 1.0639% 0px; }
+
+.page-template-no-sidebar-php .content-area { width: 100%; float: none; }
+
+.page-template-no-sidebar-php .page { margin-bottom: 2.0409%; }
+
+.page-template-no-sidebar-php .entry-header { padding: 1.5307% 2.0409%; margin-bottom: 1.5307%; }
+
+.page-template-no-sidebar-php .entry-content { padding: 0px 2.0409%; margin-bottom: 1.5307%; }
+
+.page-template-no-sidebar-php .entry-footer { padding: 1.5307% 2.0409%; }
+
+.page-template-no-sidebar-php .comments-area { padding: 2.0409%; margin: 2.0409% 0px; }
+
+@media screen and (max-width: 1023px) and (min-width: 769px) {
+  .header_hgroup { width: 40%; }
+  .content-area, .widget-area, .site-paged .content-area { float: none; width: 100%; margin: auto; padding: 0px; }
+  .widget { box-shadow: none; margin-bottom: 0px; padding: 3.125%; border-bottom: 1px solid rgba(0, 0, 0, 0.07); }
+  .site-paged .widget { padding: 0px; border: 0px; }
+}
+
+@media screen and (max-width: 768px) {
+  body { font-size: 16px; }
+  #page, .site-paged #page { max-width: 100%; width: 100%; padding: 0px; margin: 0px; }
+  .header_hgroup { width: 50%; float: left; text-align: left; }
+  .header_hgroup { min-height: 60px; margin-top: 0px; width: 50%; }
+  .site-brand, .site-paged .site-brand { float: none; padding: 0px; margin: 3% 0px; }
+  .main-navigation { float: none; margin: 0px 0px 5%; }
+  .main-navigation ul { float: none; }
+  .site-main { margin: 0px; }
+  .content-area, .widget-area { float: none; width: 100%; margin: auto; }
+  .site-footer { padding: 3%; margin-top: 5%; }
+  .hentry { margin-bottom: 5%; }
+  .entry-header, .entry-footer, .page-template-no-sidebar-php .entry-header, .page-template-no-sidebar-php .entry-footer { padding: 1%; }
+  .entry-content, .entry-summary, .page-template-no-sidebar-php .entry-content { padding: 0px 1%; }
+  .entry-header, .entry-content, .entry-summary, .page-template-no-sidebar-php .entry-header, .page-template-no-sidebar-php .entry-content { margin-bottom: 3%; }
+  .page-header { padding: 3%; margin-bottom: 5%; }
+  .widget { padding: 3%; margin-bottom: 0px; box-shadow: none; border-bottom: 1px solid rgba(0, 0, 0, 0.07); }
+  .site-navigation { margin-bottom: 5%; padding: 3%; }
+}
+
+@media screen and (max-width: 480px) {
+  body { font-size: 14px; }
+  button.menu-toggle { top: 25px; }
+  .page-header { padding: 5%; }
+  .site-footer { padding: 5%; margin-top: 5%; }
+  .entry-header, .entry-footer, .page-template-no-sidebar-php .entry-header, .page-template-no-sidebar-php .entry-footer { padding: 5%; }
+  .entry-content, .page-template-no-sidebar-php .entry-content { padding: 0px; }
+  .entry-header, .entry-content, .page-template-no-sidebar-php .entry-header, .page-template-no-sidebar-php .entry-content, .entry-summary { margin-bottom: 5%; }
+  .site-navigation { padding: 5%; }
+}
+
+.warning, .note, .alert { background: rgb(255, 204, 204); padding: 7px; margin: 5px 0px; }
+
+.note { background: rgb(238, 238, 238); }
+
+.center { text-align: center; }
+
+.widget ul { list-style: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOAgMAAABiJsVCAAAACVBMVEUAAAAARIj/zCIKSmTWAAAAAXRSTlMAQObYZgAAADdJREFUCNdjYAwNYGBgZA2BEqKhQCI0NKwBRCwAElFAYtWqBQxhUKKBQWzVKgYGhlUcMEJrBQMAJ9sROoY3VowAAAAASUVORK5CYII="); }
+
+.widget_soc div { width: 64px; height: 64px; display: inline-block; margin: 0.3em 0.7em 0px 0px; opacity: 0.8; background: url("/m/img/i.png") 0px 0px no-repeat; }
+
+.widget_soc #gp { background-position: 0px 0px; }
+
+.widget_soc #tw { background-position: -128px 0px; }
+
+.widget_soc #fb { background-position: -64px 0px; }
+
+.widget_soc #vk { background-position: -192px 0px; }
+
+.widget_soc div:hover { opacity: 1; }
+
+.widget_soc > p { text-align: left; }
+
+#share { text-align: center; }
+
+#orphus { display: inline-block; width: 226px; height: 62px; margin: 0px 25px; }
+
+.socshare { display: inline-block; width: 64px; height: 64px; margin: 3px 7px; transition-duration: 1s; }
+
+.socshare:hover { transform: rotate(360deg); }
+
+@media screen and (max-width: 359px) {
+  .site-logo { display: none; }
+}
+
+#pagenavi { font-size: 1em; text-align: center; padding: 0.25em 0px 0.1em; }
+
+#pagenavi a, #pages { color: rgb(38, 52, 60); }
+
+#pagenavi a { background: rgb(225, 226, 226); }
+
+#pagenavi a, #pagenavi span { border: 1px solid rgb(0, 0, 0); border-radius: 3px; margin: 5px; padding: 5px; }
+
+#pagenavi span.current { font-weight: 700; background: rgb(38, 52, 60); color: rgb(255, 255, 255); }
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] { background-color: rgb(255, 136, 0); color: rgb(255, 255, 255); cursor: pointer; appearance: button; line-height: 1; padding: 0.75em 1.5em; border: 0px; margin: 0.5em 0px; }
+
+button:hover, html input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover { color: rgb(255, 255, 255) !important; }
+
+.zocial, a.zocial { border-width: 1px; border-style: solid; border-image: initial; border-color: rgba(0, 0, 0, 0.2) rgba(0, 0, 0, 0.2) rgba(0, 0, 0, 0.4); color: rgb(255, 255, 255); box-shadow: rgba(255, 255, 255, 0.4) 0px 0.08em 0px inset, rgba(255, 255, 255, 0.9) 0px 0px 0.1em inset; cursor: pointer; display: inline-block; font: bold 115% / 2.1 "Lucida Grande", Tahoma, sans-serif; padding: 0px 0.95em 0px 0px; text-align: center; text-decoration: none; text-shadow: rgba(0, 0, 0, 0.5) 0px 1px 0px; white-space: nowrap; vertical-align: middle; user-select: none; position: relative; border-radius: 0.3em; }
+
+.zocial::before { content: ""; border-right: 0.075em solid rgba(0, 0, 0, 0.1); float: left; margin: 0px 0.5em 0px 0px; padding: 0px 0.5em; text-align: center; text-decoration: none; text-transform: none; box-shadow: rgba(255, 255, 255, 0.25) 0.075em 0px 0px; -webkit-font-smoothing: antialiased; }
+
+.zocial:active { outline: 0px; }
+
+.zocial:hover, .zocial:focus { color: rgb(255, 255, 255); }
+
+.zocial { background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05) 49%, rgba(0, 0, 0, 0.05) 51%, rgba(0, 0, 0, 0.1)); }
+
+.zocial:hover, .zocial:focus { background-image: linear-gradient(rgba(255, 255, 255, 0.15) 49%, rgba(0, 0, 0, 0.1) 51%, rgba(0, 0, 0, 0.15)); }
+
+.zocial:active { background-image: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0) 30%, transparent 50%, rgba(0, 0, 0, 0.1)); }
+
+.zocial.paper::before { content: "ðŸ•®"; }
+
+.zocial.paper::before { color: rgb(255, 15, 15); }
+
+.zocial.paper { background-color: rgb(0, 128, 0); }
+
+.zocial.electron::before { content: "ðŸ–º"; }
+
+.zocial.electron::before { color: rgb(255, 15, 15); }
+
+.zocial.electron { background-color: rgb(0, 128, 0); }
+
+.py-book { float: left; margin: 0.3em 1em 0.3em 0px !important; }
+
+.bookrating { font-weight: 900; font-size: 1.1em; }
+
+.bookrating-5, .bookrating-4 { color: rgb(6, 128, 50); }
+
+.bookrating-3 { color: orange; }
+
+.bookrating-2, .bookrating-1, .bookrating-0 { color: orangered; }
+
+@media only screen and (max-width: 720px) {
+  .bookcardwrapper { text-align: center; max-width: 100%; }
+  .bookdescriptionwrapper { margin-top: 1em; }
+}
+
+@media only screen and (max-width: 11720px) and (min-width: 721px) {
+  .bookcardwrapper { text-align: center; float: left; max-width: 300px; }
+  .bookdescriptionwrapper { float: right; width: calc(100% - 300px); }
+}
+
+.both { clear: both; }
+
+.booklistcardwrapper { background: rgb(247, 247, 247); width: 275px; padding-bottom: 0.5em; display: inline-block; vertical-align: middle; text-align: center; margin: 1em; border: 1px solid rgb(247, 247, 247); }
+
+.booklistcardwrapper:hover { background: rgb(238, 238, 238); border-color: rgb(238, 238, 238); }
+
+.bookpic { margin: 0.25em; }
+
+.bookpic:hover { border-color: rgb(238, 238, 238); }
+
+.bookname { color: rgb(160, 99, 10); }
+
+@media only screen and (min-width: 621px) {
+  .bookname { min-height: 56px; }
+  .bookrelated { height: 510px; }
+}
+
+.bookprice { color: rgb(127, 74, 4); }
+
+.bookauthor { font-weight: 900; font-size: 0.9em; }
+
+.booklink { text-decoration: underline; color: rgb(160, 99, 10); }
+
+.booklink:hover { text-decoration: none; }
+
+.pricewrap { text-align: center; font-size: 1.2em; }
+
+.price { display: inline-block; }
+
+.bookoffers { text-align: center; }
+
+.bookoffers li:first-child { font-weight: 900; }
+
+#___gcse_0 * { border: 0px; }
+
+.gsc-table-result, .gsc-above-wrapper-area-container { margin: 0px; padding: 0px; }
+
+.gsc-result .gs-title { height: 1.4em !important; }
+
+.gsc-above-wrapper-area { border-bottom: 1px solid rgb(233, 233, 233) !important; }
+
+.gs-snippet { margin-left: 1em; }
+
+.gsc-cursor-page { border-radius: 3px; padding: 5px; background: rgb(225, 226, 226) !important; color: rgb(0, 0, 0) !important; border: 1px solid rgb(119, 119, 119) !important; }
+
+.copybutton { background: rgb(238, 255, 204); cursor: pointer; position: absolute; top: -1.7em; right: 0px; padding: 0px 0.2em 0.1em; border-width: 1px 1px 0px; border-top-style: solid; border-right-style: solid; border-left-style: solid; border-top-color: rgb(170, 204, 153); border-right-color: rgb(170, 204, 153); border-left-color: rgb(170, 204, 153); border-image: initial; border-bottom-style: initial; border-bottom-color: initial; border-radius: 0px 3px 0px 0px; }
+
+pre { background: rgb(238, 255, 204); font-family: "Courier 10 Pitch", Courier, monospace; font-size: 0.95em; line-height: 1.6; margin: 1.9em 0px 1.5em; padding: 0.5em; overflow: auto; max-width: 100%; border: 1px solid rgb(170, 204, 153); border-radius: 3px; }
+
+.hll { background-color: rgb(255, 255, 204); }
+
+.c { color: rgb(64, 128, 144); font-style: italic; }
+
+.err { border: 1px solid red; }
+
+.k { color: rgb(0, 112, 32); font-weight: bold; }
+
+.o { color: rgb(102, 102, 102); }
+
+.cm { color: rgb(64, 128, 144); font-style: italic; }
+
+.cp { color: rgb(0, 112, 32); }
+
+.c1 { color: rgb(64, 128, 144); font-style: italic; }
+
+.cs { color: rgb(64, 128, 144); background-color: rgb(255, 240, 240); }
+
+.gd { color: rgb(160, 0, 0); }
+
+.ge { font-style: italic; }
+
+.gr { color: red; }
+
+.gh { color: navy; font-weight: bold; }
+
+.gi { color: rgb(0, 160, 0); }
+
+.go { color: rgb(51, 51, 51); }
+
+.gp { color: rgb(198, 93, 9); font-weight: bold; }
+
+.gs { font-weight: bold; }
+
+.gu { color: purple; font-weight: bold; }
+
+.gt { color: rgb(0, 68, 221); }
+
+.kc { color: rgb(0, 112, 32); font-weight: bold; }
+
+.kd { color: rgb(0, 112, 32); font-weight: bold; }
+
+.kn { color: rgb(0, 112, 32); font-weight: bold; }
+
+.kp { color: rgb(0, 112, 32); }
+
+.kr { color: rgb(0, 112, 32); font-weight: bold; }
+
+.kt { color: rgb(144, 32, 0); }
+
+.m { color: rgb(32, 128, 80); }
+
+.s { color: rgb(64, 112, 160); }
+
+.na { color: rgb(64, 112, 160); }
+
+.nb { color: rgb(0, 112, 32); }
+
+.nc { color: rgb(14, 132, 181); font-weight: bold; }
+
+.no { color: rgb(96, 173, 213); }
+
+.nd { color: rgb(85, 85, 85); font-weight: bold; }
+
+.ni { color: rgb(213, 85, 55); font-weight: bold; }
+
+.ne { color: rgb(0, 112, 32); }
+
+.nf { color: rgb(6, 40, 126); }
+
+.nl { color: rgb(0, 32, 112); font-weight: bold; }
+
+.nn { color: rgb(14, 132, 181); font-weight: bold; }
+
+.nt { color: rgb(6, 40, 115); font-weight: bold; }
+
+.nv { color: rgb(187, 96, 213); }
+
+.ow { color: rgb(0, 112, 32); font-weight: bold; }
+
+.w { color: rgb(187, 187, 187); }
+
+.mb { color: rgb(32, 128, 80); }
+
+.mf { color: rgb(32, 128, 80); }
+
+.mh { color: rgb(32, 128, 80); }
+
+.mi { color: rgb(32, 128, 80); }
+
+.mo { color: rgb(32, 128, 80); }
+
+.sb { color: rgb(64, 112, 160); }
+
+.sc { color: rgb(64, 112, 160); }
+
+.sd { color: rgb(64, 112, 160); font-style: italic; }
+
+.s2 { color: rgb(64, 112, 160); }
+
+.se { color: rgb(64, 112, 160); font-weight: bold; }
+
+.sh { color: rgb(64, 112, 160); }
+
+.si { color: rgb(112, 160, 208); font-style: italic; }
+
+.sx { color: rgb(198, 93, 9); }
+
+.sr { color: rgb(35, 83, 136); }
+
+.s1 { color: rgb(64, 112, 160); }
+
+.ss { color: rgb(81, 121, 24); }
+
+.bp { color: rgb(0, 112, 32); }
+
+.vc { color: rgb(187, 96, 213); }
+
+.vg { color: rgb(187, 96, 213); }
+
+.vi { color: rgb(187, 96, 213); }
+
+.il { color: rgb(32, 128, 80); }
+
+.embed-container { position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0px; overflow: hidden; margin: 2em 0px; }
+
+.embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; }
+
+.vacancy th { width: 30%; }
+
+.vacancy td { width: 70%; }
+
+.slider-label { float: left; width: 45%; }
+
+.slider { float: right; width: 45%; padding: 2% 0px; }
+
+#vacancy-yamap { width: 100%; height: 50vh; }
+
+#vacancy-yamap-detail { width: 100%; height: 40vh; margin-bottom: 0.5em; }
+
+.vacancy-button { width: 75%; margin-bottom: 1em; margin-left: 12.5%; }
+
+.vacancy-list-button { width: 75%; margin-bottom: 1em; margin-left: 12.5%; background: darkblue; }
+
+#amount-salary, #amount-experience { font-weight: bold; }
+
+#mistype-div { display: none; background: blue; z-index: 100; position: fixed; width: 40%; top: 30%; left: 30%; }
+
+#mistype-div-inner { padding: 3%; background: rgb(221, 221, 221); width: 500px; border: 1px solid rgb(85, 85, 85); font-size: 0.9em; color: rgb(0, 0, 0); }
+
+#mistype-div-inner img { float: right; margin: 0px 0px 1em 1em; }
+
+#mistype-title { font-weight: 700; padding-bottom: 0.3em; }
+
+#mistype-mistype { color: red; text-decoration: underline; }
+
+.mistype-text { padding: 0px 0px 1em; }
+
+#mistype-form > #id_comment { width: 100%; }
+
+#mistype-form > #id_submit { width: 7em; font-weight: 700; margin-right: 25px; }
+
+#mistype-form > #id_cancel { width: 7em; }
+
+#letpy__banner { font-family: Helvetica, sans-serif; line-height: 1.6; }
+
+#letpy__banner::after { content: ""; display: table; clear: both; }
+
+#letpy__banner .letpy__banner_pic { float: left; width: 35%; height: 200px; overflow: hidden; }
+
+#letpy__banner .letpy__banner_pic img { margin-top: -50px; margin-left: -50px; }
+
+#letpy__banner .letpy__banner_text { float: left; width: 65%; }
+
+#letpy__banner .letpy__banner_text .letpy__banner_text__header { font-size: 20px; font-weight: bold; padding: 0px 10px; line-height: 1.3; }
+
+#letpy__banner .letpy__banner_text a { text-decoration: none; color: rgb(83, 71, 70); }
+
+#letpy__banner .letpy__banner_text a:hover { color: rgb(42, 105, 176); }
+
+#letpy__banner .letpy__banner_text .button { padding: 10px; background-color: rgb(42, 105, 176); border-radius: 5px; margin-left: 10px; color: rgb(255, 255, 255); }
+
+#letpy__banner .letpy__banner_text .button:hover { color: rgb(255, 255, 255); opacity: 0.9; }
+
+#letpy__banner .letpy__banner_text a img { height: 24px; margin-left: 20px; margin-right: 10px; vertical-align: middle; }
+
+#letpy__banner .letpy__banner_text .button_transparent { padding: 10px; border-radius: 5px; margin-left: 10px; color: rgb(83, 71, 70); display: none; }
+
+#letpy__banner .letpy__banner_text .button_transparent:hover { color: rgb(83, 71, 70); opacity: 0.9; }
+
+@media screen and (min-width: 900px) {
+  #letpy__banner .letpy__banner_pic { height: 165px; }
+  #letpy__banner .letpy__banner_pic img { margin-left: 0px; }
+}
+
+@media screen and (min-width: 520px) {
+  #letpy__banner .letpy__banner_text .button_transparent { display: inline; }
+}
+------MultipartBoundary--GiTR7nfrNJYKdRdobKkmvRjxP5FrJbFgaYVnsGaSVz----
+Content-Type: image/png
+Content-Transfer-Encoding: binary
+Content-Location: https://pythonworld.ru/m/img/i.png
+
+‰PNG
+
+   IHDR      @   ÂƒYŒ  ¤PLTE   ?_?i’Lk ­ñ¸9#Jt¤:ZšÏ?*2M„“Î‘ÌAnš¸8$Kt¢1M„ ¥ë+EtrZV°*6_‡JiOn*RzƒÊ §í >^BeCfžBgÍ@(ˆ%5VÐA(Hr 8W”„#·7#/My ªðFfƒ$UuKj «ñGg§1ÏA(?hTt«1t¦ «ñ;Y˜Lu£ÐB*ÿÿÿ¬"(Am3\‚ ~Ë#Jh„% 6VVu ©ï† »8`ˆ»ÅÓ°&Ì=(éôû‹Ö+Dq Î(Bnòõ÷êÃÀ5R‹Ä7"Cl–ü÷öÍÖàüüýšÍìÍæöÈÑâ§¹Ê¯*ÑL5¦ÓîôßÝ8V‘ÛàèÑÛä…Îå¹µá­¨Ýž—ÃÌÙ×‘ŠÎ{sÂ]S¶<1êîòöèæZ¬Þ™³½OEúðððÖÔHcž\u–®¼Ð1LÓvjl…²j†¢Ò‚zÒ[IÞéðîÑÎ¯Âs©Hh‹±2$‰Ëí¸Çkb¹ÞóC¹îL¥Ûr¿è7š×t¥¡-
+_„#9^ÑF0Æ‡I
+   5tRNS Õ7Ò000ÙÜÏÙþÒþìðí„œ(é±ç›wG±Ÿš…´³xF¾TçâhKC(ðËüÈºÆû>Q  nIDATxÚìÕÏKÂ`Çñ!YQ.•!ÈÃ~€ËËP{žÍ£PBTB‘• ÒÁCå%:
+yìŸ®/ÛreDÏg¾îo¾ð‡GIh]	UùB­îH¨®ö[R¾¹¿-aå¾k59–›îM‡KrÌtï±Ž/¥Ã¼O÷m!ÉNß×jÀR?Ö×9@_öÌ°Ô} û1+€XZ¼ŸÃ!NÒ3Â’Þ›zR@µ¨78ÈˆúºªÇ÷(¾¯5PS¥^­pP%êË>¨õE*ª
+q˜K½Éa&õžó¨7ÌL½ üf,_ þ3þd ÃtêYÆtÓ“? eQïp˜“q F½-`¶Bò,O}‰Ã©/ø°õ-keà€ú=+Q¿Ÿq€œ€å6ü<À ñŠðt4í‡áÙtxû¿<núa¤wÕ˜]†‰“žÄ ‹ù|±Î“‹ÇÉø!|w>ß·ÛÇ]h€Ù0\pÚûõ ×¼¬o€7Îën7m Ãð% \Î·6'1H4¨5†„6JÂ¯±k uÓ4Ð*½ï0^‹1ñÁdö½Kgví§4z0ÆŒ& 6Ez€Ü…ÇÀý;wÈn¹þeû*S<­17EcÃJ€ûè€€!Š:ŸÎÝ ¼«»Sl¥)Z† ^Y@	À–ô]x,  t`»c7 îVð „¦lÊ#@ Þ€Ì+#@“Ü ¸¼ña€	°6e+è f n<Š4 ‚€ úÚx02e! Ã:€KPmïT@Àz€ç v3”½´¸°2e[ž p` èú>•ÁøV@è˜›²ÞñXM$àÀ p e¾æ Ò‘±mŽ·À‚$XÀ€d€a¥3ÀŠ}+ |[ó,#Œ°€ð›²îÿ¤ö'"@½Ž#@«*iùV@ {QñÞG=ŒG  îñ¾Ym” ø~æÐÊ`D LâÕâS»ÿqO±±€`WÛ-@çó™ ¹Êóv‚¢Ü§X@úšoB
+üI\Æ3 Èjç€ I
+ .¡÷Ï õÅ3[€Iš¦k„é!ÞÀcí$Ôš, èÎ^ª"€ØøcÊø`À¾~è †wMÐpý}E@ šûðõ€€.ŠºÔ/¯. *ýhR, ÀsU@ 7bìà·iŠãø#‚Ê³œA”…ZÕhÆØÚ¨¨,)í6±u½ðO³4E¿Øµ5¿²ïàšççŽ©)7    K›óžÚ÷ x,Bž Ã«Ç–‹9µKMà	€¿õ¬RÔg Ð ` €Sà ÌE(<¥MQh¸ê¼LiRÆqÒ(Æ…Ð ` €³— ð ä”Ú¦Rpo‚£”Ê³ÍiÇ
+_‚  l{Ì©m8x !µ-¥&à¨¥•Ø–5“0-\ °
+ìpGmƒÀ%À¸€&`ø¢:oÁí60 XÛà–¶Ý:8 øt+@N”de Ùíã5È ¸Çö7øßáJð/#ACÀ ˆJÑíQÕ :²n‚º€Ç[àÝcŸ#Â5h
+Ø R"%ºÍˆÆ}Ü“­]€¹}¿–;½¶ Lˆ¨ÐJô€ÉÒ1X Ñ•ôhÆþW²tÞ+ .³#s2 æSé	P'ÀîAŒÀ Ð€nECÀ`xJ ü2ÉÏƒ¢RÉ™x€·é¥ëÀp ü:î´8X~’È	€ê˜6%“”’Q!ú€À‡‡9uz¿
+vz -óÄ^ ècQ~+UÆùŸ!z€@p²^]l[^ à@@híðsØ´`@@‹ 6€[€ð¯u{YMÃ0œâªPiE˜³IQLD©gPæ ÁÒD¨.]xî%;W]3iü[)…ùè·ùáa¶³Kff  	  F      @€ @À   L€ @À   L€ @À   L€  Lx#ð4Bàu	€7…yßÃ­¼Ž`¡¹?ZÀXzyïïPÄÏ{·†
+¤ÌôT v@pš‚§ ïÙlŒ
+0ÓG À±cúù` )˜ÀV6ó¾­ö˜@¢º¦×&iÓwEŒ	ÄÂôN=”ÐØÊ°ø´ÄU¬Åë¦ôqa/f:*z.æÏˆ€àUÇ,RÖoVËí5
+Š¾£Ôeÿa%°J’‹Rí¯^ësö^[üµ;4ÍÎZ—½"Þ<[	Äñ5Ê{3OBóÊÞWÐü²w54vë4—¾ÎXP¿õ £žõµõúÌ¡^ »Þ§õ¼PZ-ôzÎ·5|®¬ÆýÆÞ´Õ"÷®çÂj¼ìi•G‹Unõû¥¯V,Vý·ûŸçÿÕµ:Œ4o    IEND®B`‚
+------MultipartBoundary--GiTR7nfrNJYKdRdobKkmvRjxP5FrJbFgaYVnsGaSVz----
+Content-Type: image/png
+Content-Transfer-Encoding: binary
+Content-Location: https://pythonworld.ru/m/img/python-3.png
+
+‰PNG
+
+   IHDR   d   d   G<ef  îPLTE   ×¤ g²PœÿÎß­ ß¯×¤ e±ÿÎ-‹×c¯-‹××¤ -‹×ÿÌ -‹×ûÍ'…ÑüÒÿÌ -‹×-‹×-‹×?‹÷Ë	-‹×ÿÌ -‹×úÈg´	d°ûÈ 	Pœ-‹×-‹×c¯,‹×ÿÌ úÍÿÎ-‹×+‰Õ-‹×ÿÌ !}Éñ¾ ]©øãÿô(ÿÌ c¯ÿÌ ÿó'-‹×ÿÌ ÿô(c¯+ˆÔà­ ×¤ ÿÌ -‹×ÿô(ÿÌ ÿÌ *‡Óýï%ì¹ æÆc¯×¤ f³\¨-‹×p¼ê· -‹×ÿË öÃ æ¹×¤ üÉ ÿô(c¯ÿÌ -‹×c°ýï%ÿì ÿô(×¤ Z¦ã° ÿô(ÿô(ï¼ öÃ ÿô(ÿô(ùÆ ÿô(ÿô(×¤ ÿô(#zÆÿô(QÜ®|ŽS	g³Û¨ ÿô(${Çòë--‹×c¯ÿÌ -‹××¤ þÊ öÃ  ;‡ÿô(úÈ ÿÏmºk¸ÿÍ	g´d°OœùÆ ÿÖ	RžÿÑÿÓóÀ i¶o¼SŸZ¦W£e±f²ÿÕï¼ õÂ ÿÚÿØÙ¦ tÁë¸ ]©^ªÿ×
+V¢s¿q½ÿÞî» )‡ÓvÂVxh\{dÿÜÝ«å² q¾
+Z¦ÿò&ÿÛE‘L˜H”ýï%(„Ð&€Íÿß%ƒÐ ~Ês¿öÍ
+xÄd®ôÞúÑ	ïÄ÷Ê#|È{Ç!wÄo¼ÿí ÿçóÈúÎðÁ÷Æè¶k·
+\¨úÕç¿
+h´c¯^ªo£?‹úé"ÿáe±+y›]m«^ÉÄ4öÒj¶i©:€ <ˆG[yiœxœ¬Mª´G·¾AáÍ#ñÓëÉùÙÞ²h«X“@vOxh–r…ªf²¼EÈ»,ÕÂ%f²@ŒK‹‰,h…zžfƒž[“™Eë×!åÍºl%t   ttRNS ¿SèU*üàõfC‚-ö³Q	Ï¿¡xlA:ûíèÊÂ´¡—‚m^#ýõïíèåáÐ±®©•|pb\KA81üûùôéæäâÚÙÐË±«Œ‡…j?=/'%÷ïéèÞÝÓÒÑÇÆ¿¿­~tsR3\š€)  
+'IDAThÞÄ–kˆŒQÇ…Ö4­-‰ÜáEÊ%¥È-Q>ˆ’Â»ƒÁ9ÎqÛÎsŽ\Þ°ï«—f°Ì°k)—AÉºË-÷{¹”ožóÎÞ÷=‹]äÿálÛÓÎ¯çy~ûì6úÿ	„Ú—·nôoSÚ9îÜnÈÐÞÞÂßì#v’9ß®gqë&þEJŒSðkÕ³cÉßn£Q£É¼*Ÿ>ÎåÔ‰¢V¥%±¡Pû^¡ù†A±™Èæ'N¨7Ø­G‡âÀ_aw%•m[¥y>½Nn¤‹ÆL*þ}C
+xÏfÕè,í|7dAèä}¸ õ†Ä'ãª+~>ìÜmhÃUhnŸ<÷ATðåšÃ#]ÎenÏÒâ&‚†$üä•­>ˆ£„YUáx¶`Ü©pQ—v=B†@TöG>Uî:Úq^‘‚VãNåa£š4‰4é3½ùàþ^ˆ5C'cÜ¸Öæ Î'v}Ôq²*q8WŒHä!&ÓÇrì‡€ÜÈ¬:íw!­{ôê]ÈA¤ ä@
+iaÓÄ1á¨TFü=£UQ8Ø®}¯á
+‚1BXuâ‚@H-THC!­Û…s©.j¿ÈKTú!Î¸PÂ¬ ´Ê!âÕ%f~'z„Æ´*~€têÖcè/ï&«q¼Ï:¨*-Äc•V"Eóýi8¨Á.ußÍ’ž½B­Õ|¬“ÙŒrmx‰âµqŒ­ì•L§&zF@m|Lþg	¯úr­ºóÀö¥¹nÆšœj’YW2ùaW>ÐCJ†8uÃÉZ5oTs—1¡ ×rƒ­:„z@aÛÆµŒúŽb³
+ÎLv£‡@n$F·QY]0.Øm”ªÈõÌ¶˜?F	¶*Ôápê¼
+õä]¨¨œr¦A¾í'í‘nˆÊH]˜*ã5çõ@ ë	¶á_	°ÚÐ
+†’\Ö¢²ŠX–ÒqÞËÙtÜxí¶™’’Ö¢æƒqŠ3dÛV
+­fÒD§0Ãˆ#úKˆgƒ8aêä¾á	[PêUBÌ+˜Òú@ ×"$}Pctë&!Äê†D‹&klD%&ÍìWBñª:!ê¨cé…@$ºê…¨VJaR?…©¼ÖÖ)L1ÍKÛ¼HTÀòê­°ä3Õ(|ôTˆâÜcLº ÎhúÓÅIR&Ö(lH‚­KT§°$Üäâäá‡~æLñ+»XÒÆ,¦SÛœ1¡QXò´ª Ÿ,s2 û°3›þTaBj“6Ñ(L	A—¹Ð(,	³“øõ‡e¹»¾lÖìAÃf~ƒ0"u
+#‹Ë­B£°°-DˆFaƒ=:}p/ öÃÉÁñ…nÃœÂ‚\AœÂ„©ûãWx×Êòí‡Î|g\lV€8e”²¥ >…dÂB£°M‹ˆµnH™Ê’#g !ÅX×NV§N«ðe¨0ÂW N|¥e+6ì>sæâbÄye*(õ)NÜ”ú6(O$eÔQY¾GAôvIÕ(|	AˆFaSaZ„Ò·ÏßßôATEð–Fáµ”3ê†`Ì¨W“e+7<úîÍUÂ°:Ìt
+“[›×l(ÿ²eä„©ÓZ*ˆÌ4™Y¹òâ—gïi¦‚ÔšH£pÙŠå;vŸ+@^‚dýÖ67.å=“.ô½±¬lÅ…;ŸßÞ|¥Q˜ÙÒ)||ÓæòòË÷¼<˜ÿýŸWØ‰:–õB ËÏŽ¼sû¾‘$š´˜Fá•ëÖm¾ðbož±§±kñ"•D„Pd5<å/ž<ºõ¨Fa”ä¬Bh^¾ïÌiàôÝ³¸±×®¯å˜_ˆLQÇ/™E’†yÙ¶e•Ø‡µþBñ"ÿå_DH‘x™fÅÑyØ_¿ƒç¢.]áZí<¨yÌÌ³³j=¨ÍŸòÿo…xtÎ]ÚsƒñçÉ÷á¾üæô¹çžO¿sÎÜ·oÿ¹›Ü‚èìdOß>¼#¢°é›Ç5ÉVØcÒ}v6¥!sˆ=þ´HÆ,H“‘Þ¼¾{ý±Ç<qbÏÆ{BÌ°#Òoéˆ9„Â(ÁÍ¢ÑÙËsoÝz÷’PøàMé*àDgðÐÃMËˆØåfÆ,HødùG÷®ß¹¨!¶]ZáãDgŒi„Â\B.Ì†$%±ëÍƒWï/R
+xshÙá(©p3:Ý$Ì±O·n
+ë—SÏ:	ï›æv€P½¬ …èïóøáÝ…õ| Ú-ˆy%s;wŠT¸‰‰LFØ~õÉíû/…9cY
+æ´ë‚DBá¤,ºR¢IžÔ*¸·o}ŒV˜†èAL¤»¡°®x¾*Y^Bå»ü	…A)!h…ä=!a•[X2zØò”ÂˆmŠR˜¡Pé¼1ÃÚQ¦Ó¤Â&c†n0RX¶“
+DfAB…¡#‡ÈlH˜Þc†2P˜‰(à„Â(¤Ê£1
+J}WØ"ÛÆ*œDß—{Í§‹Øåùi=DCl»x·ÂTúHé¹’R‹à¹‚P˜K	EP¸<Ä”Ñï’\O(jtú%SIÚv± £XpM€m„Â¼d*ŒP˜,x¢Hxfi{æ#¡p’ë¾™ç„Â;¹é?•@Ì+qp=(
+{.€à„Â"—‰@Ì Öîf¥0gä¡p3càûíå!B0Ja¥ (8¡°4G-¤.”‡ ºK)Ì‹t )…¡`Å
+«, rBa™V¥æÝ„ÂÜM»‚U¨0
+¡Ò´ÂGÎ¶,O)Œ˜Mï™öó…oë2[áT*5°ªnê¤‰‰¨Âaÿù™K0(……•MF ú—ÕýgªIØlki9Ôl Óbå!»´ÂŒq¦ºV2f ‘KPÿÚÛ2i¬9‘P˜@xâôGsÔQH•3ÄùQêF
+›&èwB–àÚ±Ý=!‹œŸfH=€¤žW" É–TêlÃ²šõ_ s§ZÓ 3ˆsô3¹BØEAR±ªêøŒÅ	Yd¯8éV8ç‚Ä_†t„™ƒ“ó !áš˜V×Å+€èÄbNe“Þ7¿Cž¼cÕÚ!!Ú“Ê!M¦	zYÅº!ÏÍAã6mY1KCŠtZþ¤6A)¬@<d&ç/ß°deX’W2{æô‘	Ba&d~ì7†~^¶Ö¤ÒT÷µq|±ÇËÎË­­ç/µî¢ •'^×P?‰¸iqáæ¯X^UÎ$^;?‘ nZÜ½ÒÚú²¹ÑùÃ4Î4r"qÓbp­å¤™hK¯5Î_HU¬®~¼Ñ1ZÅjÎvþVbuÓGMZT;º­ÿÍ‰Ïn¨é	ésþEâ}êkæ}…ô]íü«Äg.›o }×8ÿ6ý§œ·ÚùOò?&1¡æ'‡Å    IEND®B`‚
+------MultipartBoundary--GiTR7nfrNJYKdRdobKkmvRjxP5FrJbFgaYVnsGaSVz----
+Content-Type: image/png
+Content-Transfer-Encoding: binary
+Content-Location: https://pythonworld.ru/uploads/letpy-banner/letpy_banner_2.png
+
+‰PNG
+
+   IHDR  ,  ,   N£~G  @PLTE÷æÿÿÿP«%*i±ÏÐÏÑÓÒÔÕÔ×Ø×ÚÛÚ,,/557ÌÍÌÊËÊ;<>ÅÆÆ113ÉÉÉ'(*89;ÝÝÝcddàáàõäÂÃÂ½¾¾ÖÈïÞABC  !óâæÖÐÂÀÁÀ´¶µýûúÿÖO«­­'c¨ëÛ```6v«6oŸøùù€àÑghi$%&º¼»ååå#Y–õööÿÑG¸¹¹wxx¢££ÿÍ?6k™&_¡žžÿÊ:˜™™‹‹‹ÜÍëëë°±±òóó¦§§6r¥†‡‡WXY[]]“””RSTMNOðñðîîî%\œlmmHIJ{||oppøæÿýòrssÿûçþøÚÌ¾èèèS¬%üóôñä½ÎýöÏÔ×úéëY®'ñ¿Äf±$èà÷æüöÁÀ¼ŒÊÓúð›ùìrßÜî°¶€¸"ö×Ú_~ ôÍÑLy¦úïˆàÕ?È»%øê[wµ#¥ÅÂÂ³ûòªv‹ç€ŽÂ»yøéD¦ºÏˆ¤ÂûôµëŸ§ÿä¦¿¹jÐÚåøç"œÁ âéðøßâèšÂ¾˜²ÉÂÏÞÿê¹ÊÅcøè1o³#‹»!ÿîÇ7`“Æ»8ìÞ.ÎãÇ¼»§ÄÂ¥“¾!än~«±{ÿÕc×ÏSèòãq”·‘›«³Õ¨ÿÞ‹ÿÚvÂ¸[¿Û·8o­£Í–•“~½ho·Tb²@ßîÚ·ÆØÙèÑM‚±Tr——Çˆ‹ÂyÇ¼L›¥‡Á·FâYmÞÚºÜÕ—¬¨Nëà…Þ,QjÒ¾‹  7IDATxÚÌšÍúDÇI,…)ôeº(ÕŽJ“®=Ô–˜Ð¦‘@!”MäÅ,›xðîÑ=oÞ½¨ñ`L<ãÑƒüß|ž™¡°¾tw_Xh‡²¿ðù}¿Ï<3lã©õÝÔOŸ4„^zéÕWÞxíÍw^~ýGo$4ôj­÷áÄGÍüñzêÏf‹cÎh-ú!£DžÅðcú~N	ˆÞâ’µŸÄ8P_¦Íü¬*+þ"Ë2-J}Ô\h²{rXß¿ðXýüž„õ*‡õòË¯Žœ@ðäÁfŒåÌÜÜMÇ€k#³É¾ Ë%ŒSP>ñJD­7ÎVU¹E-ÓÑ†­(W1›dv´Cx³ï§Û^¸hOë›ŸMëË¬W$¬9ª.Ðh¨³Xx†e¹…«tæ!°ùdq·‰ï—Ùnæ¹a%Þ”q6Qdâ9É}® ¿k—¸Õß£ˆÜ÷w,fù’m¶‹Uúä°ÞûìÑ°>ú†³:Ázýýo‡è’ÖLø§œîÀd@åOVp4=^\DØÚ,aB\ÏÏðÜŒÊ‚Ce+/¡‚ŸäìúiFz”‹åyteEë…~}¯.Y¯AÉúÔ°ðgÄåÍ3HŽK‡323õFŽçÉ«Æ‹žv¿Ì!Ù|XH#QñÆ9²r£}Ex.çžÌå!žf«¼ªlÉ>=¬O^x¼¾Pß'kw„µÊÊ²l$*"n ÃhA.PÉ†g4yéz_ ²eÑ¥Ò4â9N°2	)Äp6å"¨ˆa‚	©?=¬—>z<¬¿¹„õ²ª…QôÂ\GZñÙY":wNš"Pü“mˆõn–Žái±d1%'±É(3`u
+ÞÆ¹$Zäò@‘§¼¨ñôúõ	¬õóK“á‡Ö@²Z‘®WÒ%p«E§è–sÖ˜éÃÛ<o€¦tœt±­Ž÷¹(]KXqõ›ïœ	ónW”xÑõ*‚<ÍÝæÖu5 ïu}ýCøÀ x´ –^l¦A¹Ñ×…ØØ9ÈùBâ8‹õŠ?Ð‚ûh>	{z¾\FCÇ–®¼èÚYÇHÆì…¹\òKŠˆ˜ÏëÕŸ‚Ö—¤ð}`õ9¬´–wÏN»*ÊRÚe.g†-Ž© ECgÌ8šÓÍÝ:•&õ|~ÑtÉ¤·›÷%ii6Ì%‡UÝEÓ”°®0‡/üô}=¢±úýSÓÎ³]Y•Mur)Só†9~:-LN0^;á¥÷¨	‘tf£AC=ð×IAï3F‘'ž9rRâ¬˜	ŠÜ¢„q	ë
+søÂÇŸœ;Î a¡¹N´ÖyL©éA˜”—°J(Ñø¹C×Mx1ËýAÄUka8£no1žñ"8€ê?½Óó,C'fL ½ÒK‹ÕººùôÑ'r±!äÀMô[{&æAâ’
+#wÒ¾?+håÆ$‘ãË¡†;ã¢Sc›8BX¾K¦éÈÁ€Žïý>ô±ñÙ\l>èá›ñí`][_*h‰ÉX—¨ñƒa¡ÈÑUADÑsw	å§1ZššVØ¦&¤¸EHŒyðàäoŸMÂB[B.)^;¸p‘&qa]]_
+ºýèœ¿EV’$•³\šëB&ó-AÑvQñ‘;Ãgðq£]/Ð{8’{Ý ÝrÖ´ïìÓ{áÄ ¬ï`#[-—Çpàhp-âB²°®l}¨^¸½ýåk¨ï£>§ep^ÜZà ^™Å¡õdè&Ž©Dé‡ÐQø¬½2‰/ÉûÃj»µ±¢ŠÐ\;,Æ¤’ÿ3x‚\R‚´øõgÑ—Ob¬ÛÛ·¿úíõ¯ˆ	$¬“F¼2gÇeÄdèœ{b
+ÉÐY{‚1\èaÁ‡*kxä~ãrXZœw$?bzð»}Ï$0_NÉp¾|6X|ü4ÎzûÝ¯~ÿ¢†U­Qí×sü<šÙx±Õï‹YØŸeä‚tÝÑì6Z"ÆBcŽ¹´µ0ª8,6²6Ò:\™:žMsZ&ëÔë÷ñßðÒUÄ÷÷“®¯Äß"¬·ÞšT_
+aínd1ý°Hg „äOÂ2tç7jXp,C„¢kÍCW„‘ÆE,#Öj!¬IAÄ	¡fN<Þà2¯QëêJ<°BX)G…æ:Á¸ì´vŽ3³@àË\gÍn2*m”ÁaÕÆ‰}BgÛvbëb¸TF™¦ë¶Tb€ùF$ùJd@k˜úN¿ßx&­êË3¸d‰70ˆK«î¯(ÍÍ(„MË²ŒŽ5J×Û_/çëîBw*Ð:GÙi˜Âä®£¡5§¶èö‡RÀrW»™<0«’ÆY×ÕÅŸ`}åpJü†‚®ÈÏb*E¤°Ådw˜ô­®ÕY^:ÖÝŽ³¤&JÂÒ»}
+¬@ð€¬èØšš¶nëåbÏñÙºåÄÚ¥èÄY~}ãB×Õ=Ü"¬·Þúe }Å…m|ÂâÓŽß¥I ã±?P€™Òé(yÄÐd²ìGê0_Ù\ÜGži:(‰*[Ã[Oñ²t·…®á51æÀºªî…)ü¬_“:ú¹º	´Êä¸tË
+0™Z4…JÖU”ŽÒìÏ&É&>æ”fcÅgèËRÀL ÈMà¼¶è¦ÄÆ+½
+í¤çŽïxNX/}ö4õýIJ
+Ñ´,Š²ç¤$ HaÚËÉL!ÂØænÜítX³‹fÚTœŒ˜9¬š]fë'Á M­…ð^b¹–ÃøÅv£ÖÕYKÀòÏ)„òÍe³Ml‹ ›Í®¨YÁ=ìú¬Þ7Àƒ…¢@.=CQ˜)Š]=M(iŽb„åJZ66{<—à4á¿¨ëÇ@Oß¸³®ÊZõd82þ¤¾³Ä’µÓ\—T½ ,#R·V¢Â£àNU60»½i:TT ¥ª]/]4c1ÉÓæœêÂZø¤é¬£Š’Ã³ÍiwLp`·mœuUÖBXXß¿ªShüì²^mÜJ¡±öQõj‡âRº9ÈNó!Í7û1Ø5[Í>,eæMe˜MâB6›–‘‹9BÒîÂ´ñhÑ¸ÐuYKÔ÷8'¸Õ“!![ß™ÓÙUØbt­Ìc³o
+Î¹lr©³­›g+_©è\á66ë‚æÃ>ëŠz­z2”¦²@’VÂaQ‰!ÉŠ…,:]¾N6Ýé†Ò¹¹âíM[u¡çb:l–z]ÔR;Ž¿îÑcÓlÖJ‰ %˜Õ59½ªlüY×ÒÆŸ&CÃBÉG®»ÓN=Ûêä¬¨3ÌxkVaŽÚ#€O¢‚Ã}ËÉ5.Û$±}˜`.Aí–å§~Ku–D»˜ wc8Å‘Æsê“ŸkfXÒU'Xý[f¢-½4×´3çíwÜ8ÒQu¾qW$…ØT·æô´XäýÓ´Ù4VÏhµÔ¦Š¹ô‘K;{-ìøTÄò¯°®cóá¼Ø!’U2“Àâ/ûX´¶–	¡ë¬	6”®¦EÜGÕÊMD³'‡E½¬o$+”´›6œÆ¤B)¹T%ZŒÌWÆDçzfXß|ôÈÉð—¾0”%eœçFXüõôìÈMvj²‘ ,	†’¦'B·Ù‹
+ŸYí<#¬ÅÃ–Ç4€Q“h½ISjA‹±öa¾Ä\þ=¬ëhnëú.XáêXÐrØÇòúœØ ¶þŠ*ƒÀ0tà&)^£&Í1]¤'¶ØIW[|¶³ÃÄå—’´•R„%ÞÁ[«j½ò‡¼ÅP@nÉ3j6žWïýügÕõÃ\<‘	p¡1£å>êò•~Yzœ6v¢e":k.’p“ˆÙ½–Á°=}¯¡è°šö	0ÒÚ¶úSB7ÉÄtYçËCã¯ºŠ_/v,©.ˆcsÏßêPêbé–ŽïAuN²XnÊðÐjÁáÙ'‹¶Gq9³‡ÒÍÇ²Nkƒ	<k¡Î¨Ò¡'n¹î(\ÍÆsë‹Ç-vjRu«®ìr½;ò–Â¥ŠÊÌ¿,µÔ%_7Ÿpy›×kmáF[Q¨nÚ'sw¢©:†ª&øâ8_«tôÏÙÇßÊÉÐœ$,¼Í²X’’P` ÓY_Á¹¿ÕñÒ°4ÙqÒäMªÍ%Bwò3Jz:é‡¶È¥ÚÌ—{ðž¤‹˜-‹`.ÕñT²>BXpïœpYÆ˜Q!ò@"w4ÞE‹ù»LèšosÚ!çKÄ\¹)4KòXµgË0Ñ¹sKÝÈW¥¦ªOÿi?ë
+‚XO†è¦³ !#´ öŽ\šË¸d/@ÊÐ² Ø”Ù*Ù-O_–Ú/¶š}±%Cüö„[-Ùé:"Õµ–’é jŸ¸±Hª® —ÿ¬—~þÎ’‹Y®ÎAììD» Ü¹úÐZ(Â_µ*ªaŠ‹?´™Ò÷×‘™eË´Ý¹7µó:ÙŽû7	ï¢¤›0tÃãP×¨§Þi:ÂúôÍÇÿy±sfÕét¸µLE/ˆÜÄÞ>âY±¯NEoJØn»ž;¼Ål·»Ã~«u“ä1ÑÄ>’hÝTx¨dˆµk¢úPº{}»Å=î¶*Õø?ôýîûƒËÆ0:Ø5'q«•íkØ)™$Â¦¼£¶„Fã°¢§\V/¶2„åÂeÜqËµæ‚»]ˆ<u½¥ð)Àmüzï»ÿöÍÎWFÍJQÄ³ŸŸª;5ÉCÕ´4¦¨ŒÉAÌÔKí’oÊ´[`2Õ˜Mû>?În”#BªÅŒv¤#¬*IvÜ}[È%®©·'ñôeë<ò’ÕÁ¬…°&Œ³‚û¥:K+T#Æ/iPuBSCw€}¢•?@\­›µßmßÜ$%ø¢iµ!ƒR8 Mš>Á€†Åðô+jé,QßO¬Ã˜ümç  Ô¸ 5‹Û¥²‘ßiR6ÈŒZà¯®zÓæræaÅ2Æ‘iå#¬š
+hbP÷ÿGï}ÿÓ˜}a¬Î¹Àwö,–Îz(á,‹ŽÕ	»/ÓB”-UYÊµµ8'£Ö@§r9ê¶_¼iß¼Ø²fã}u¿<Žnº™´v.Jä’WµGÔ¬çÜ¨;ˆ
+9‰ú¸¸ÅÿÙ\2oB±§&¦†ÚFN¤:Lã’´âÁÍÞäX-˜b.oYÛhÞ@.—`2‡QäÒ|Ä~Ö3ùzç¯oÉj¼qÀs']4ñGBg\§ún´*Þ8z0×ªOÕj–œÚ;¹²È¶PÁZFLÖhŽ?ŽKF§´»±Ü)ýßôÒ¯ÿúÏ,ü¤ *á+de ²Ìea I“©:dM%×  ÿÁÌÙó¨aØ…½Æ`l“`	 Y¢°ì4!!ƒ„æÃpD$]þC¥K›>]ª(m”Ÿ—™ÝÅùNòöé®yôÎxfv÷ÊÙ¹<xLv®*§RÌüzÌš(£I^¼´ Œ+¬ciÀ ] #ù¼Z?Ÿh;ú§aˆzñùoWv0S™&ë’æÃÒ®òmÃf étãiREh²bÚ°|H=Â=QHS4oo‡rÒ•³~Œô$>j?:ùÂ?¾‹¥ÿˆ2Æ(¥¤kRÂÎâyÙ4þ¡Þ¿ùË‡!”WÈJ	Éd‰5÷SØôßoˆ­2ý¸È÷ÏÅ	i2èüºö¹Cš¢6Ègj®UÐ%÷‘ÖF»\ Xq-þ2Xfh2Š¥,ƒÑß!ûí6É;ºÙ7]h™âÂjÖiÊÅÑ_¾[ö‘¡eY!4Í5"[ÈÖÃªª†µ§r÷ÇÚ$9¨YÐv<~ÒIS‘¸ª ªt[	I{-ÖÇx=q×D^,0ª×/ÿ®ÙAFŠ“È[­uæI]BŽ÷úðu‰iZ”4FËYS²œ{jKè>ñÔ¤¡üp
+óhƒÖ+O@	½kXþÄy$†¦ÏíÌc—ñoõúÕ_<ÛŽB…"sKóâ…Ú^æfË‘#çXàƒm¹~eHó{AÆaÉŠ,çRÊ…Õp‡ôÜ)»x™‚ádè² ~p—ßÂº-Õì8Ž&…ß¦3 ßÐòÆ™§ö}¸Õ¹ˆq1Ú]lOîWÊÖ}²M2À’´°>KR¼÷ù€ÎÄ# ±ÏC1d>u\òð·°î@«^Ù”¥‚P¥w3‰zö1;JT×d`m¼ºÄíBÌÐÁ'œp9K—zIW™ÙÀÛ­
+€×“V›8¬j¢’2÷QvŒ<øÐš·ãwº-•²–ŽÈìêEö~¹IËÍµ³æ]3»)IÝ%	!—5S¨0L‹€(¨€¥²úd	³1ß&Ó¦êþ0.É\ÂJàäÂ¯¸Ø=û£-Ö;"J-ÌòØì ™@øŽ—P%xÑf_{Wqèîþ„_7;^LV\®–rŽE™IPÌj¦Ió¹ˆKçÑÌÝ:²ùCh+qš<Ÿ?a+áÅ2_õ|Ô¶;èý›?kvÔÃP…!\=ù>eñÜ‰£›
+~ÒeW›ßEª .ÛOÄúåV¼MžÁ2’q©¦03{ç$ßzø£È¡¥Àø$ˆ
+CwaÜCï?ÿÉ6‡6pÒ	oâ+=xðvm†½JÁòLkÎ]IKÖ›1Aú?vfË>	”Ø¸ÌäPSé”ŸVù°ögt"ã¾ä@:5î¢_þ`eçÊXŽ¤µEgÝâŠbóAP;”•ŒÄiM€÷@˜X”%“íUI1 ŒðÂýX«ê9×˜;Abù±b¥´!«ã*9à§ïØƒq=þðÃFí+GVñyô­ùk/`m:‘·øŠÄ¶ÄÃ}µ÷äVw²—Å
+X”4Ì°qIˆË"éÁ4rñW-{Fc^ß¡¼–UwÒÓwŸ~Ûì¨0”eÌóÉü–RrL&”Ý“û"Çš7*–»ñÔÞ¢d¢Ö–A ÄƒÐõyï„û—F™ÐxÍ’'·°ù|IaÕ¸\jyÆÝôñå¯›¾.Þ•Ìöæ9ž÷bu×³±úk„æ^Æ¥Ñ€„ÁfÉvå‚µÜTï‹”å8NlYÐ²‡í¢kó˜«þXú{^æàjâ5¬”…‘q/ašÿå6‡ö¥pPqˆw¤.wC¾^#²e+3ÖóÄ•µi`ÇÛñ4GX|FÄ¾He.xq+8êM£t=lþ\ö£µÓYÈØ4’£TÉÊÞA\wÔ‹¿ZÙ¹DaLÉ¢|mÖ0ú›?XÅÍÉr·Gø0ôÊ´§†^L¶\²*e(VH$SØ™požgqØ`Œ2ÄF§xD*ã¶/WùIawÕ»W¿fiV@J²ª‘aeX-¬Ádš×‰>AXòÖ¾™áÊN?è`æÚœÓ“ e?0ùkjZ:õ—åÅ E(ˆmˆËÊÃ#RžÃÎw†õôõçŸ­ì,µ³¾}³ðËªw~Æg÷9Ä¥$–íÔ›‚ÜÊº‹Š¦±“§©â‹¹R¨êˆÔÈl¿ó0]´°¿¤¢ôßu)Î»
+kˆO?mv¨v”ö˜ua%>X`B¿œrŒËuŸ™WWôðVR'Z¨žÈñP1mE-*M¥/”´ÉÜ!l^mÁTw×ë7?lvZ E	éKdhI\—aÆ¨~G”.nwÉ?ÂÒZ7Åê4JAò5.È3ß>¦»eh!.ãþz¡Ìu»ÍA³B>·²„“GJñ%çÍçõ¿É`¬—ñ+X¾ÇØÜö­‹³Äµ†u#‰Œãf\ã6—^Ù‘€,ë;‡ÕŒ4*)u0žulüÿ“ÝeòÔ¯êÓÀ‰öiGÂ’Ð4*Éð{õPÆ¡Ço_}û0v²Ä«f¥<fÝ°R¢Ê\ZÆå6§]H`³`à•ÛŽœRÕ‰^ S~Óºåfü'zÿåöa¸ÐÎ²®Ÿ†
+–‰˜®Ii{ª¹9b^Âé•ú(†S^&ªžÒ Pöuû/a}eî\Zœ¢(œ†~Ie›¶¨H"³P³˜T”!>âD|¡ .üApájf1\¹p7[7¢àÊÿæ½U·úT¡íºN÷t*“ÝÇ¹§n5
+-¾ù“áY›ã	ä{–æàKŒæ–MN÷±NŸ¼ÅÚNOGŠB¨ILŽñâÑ«Ïko24êS–[Z*a\ˆ³Òôä-·;uÓP]JUÚÈç‚”‹½³HïÖrço*„«<o…uX `‘ ËŠ^›’þÚ­//˜º1‰°°±FëÌ™s?1B ÕÅXÖO
+ÉåL×kXtm[~NÒô±ŒLˆùè	¬a\eh75¿xðÓL†ŒI”…¾â¿€Ë`òÝ%¾êDu™Qëš‘q]ÂcC¡3Œs6ôöé¾÷ûÆµ‰ÔÚ¿‹D´ Ð	E‹±À
+ÌZB¶½;}yÁlY—±"m¬ÛÇõ÷(íÖ†Hx8«,B‰­-ŸQ¨v6+ëÉ‚[ÿ»6ÊÜý/k/ºÆ«ÛÔüKõTV(XËÇæ'|¨õÆ¢Y©é¡¿“¯eüÂ+BXfŸnä=êAe9Tnq¡ÙV|	qáMã€Í8Ê>{Dó%Eê2ª€÷öéö…¨ïq–ýB,í•TSË
+#O³·­šìð×Ñb"~´â+ÃªzŒÕS‡…e”Û|‚ÂžAk1+
+I”=9}â–©ËA<:ƒ}º?To¿…V+,‹GÎŽYˆÉxµg¡õ«a†Üb<¾5ˆGÈ÷Z`oµªRòeàÊoNCC5¡·>¹JØªuÔ Y@Êdƒx„|ÿU¹ž´®LJÕº6SŸÒÚëÖËE/,xL¨Á[w Šá#„Åût¬UU­³û‰h~¿MµRl/†…„êhaÀg;[ã´0ŸÃbrí«Â(aa2ìÏwb5K]z[Ô*Cñ8¬"ò“àÓ)}1,kÜÊÚáj€ˆ³¸`áG‰ìdúÉ”a5?:Ül¯eŠµB\ƒYê®{Õ×oÞ¹a¶ž‘HCàûê6‘9ËÀ2ùþf$Îrˆ0Rµ"8›«ÕÒûõþæ(a½¨-€"™WÞ"l4Ê\Ó3GÓÅrœÊ*Û¯Iaiz“¡ò …RºM’CBï½`s©ÔU"x!¯øÒ2,Èu°™žlÝÜèk1WÒ0^Xv±Ã®âÈø¢À:K¥w¼º¼9ÚcP·-¯½«Ir¿¢ÜrhdªØÉ3>B\bª´oŸÕUîµ`¢ˆeò]U^{…Ž¡Öz¼})™_^í‘—ö¯X\·Iûô>#k‰J,q ¦^Ú›Ñ VXaÖÌ¹Î³\†èŠV·Øù¤Âp7¨´•žh®B%ÎbZß“d¦ÜÒ9ì­:r“±o®•0*Rnz	½”"¦ÅA,ò&C»Øqîb\lª’ç¾çÏ“äûjõþp¾¹âœÅZ“áê¬Ë!°òVÑ‹4ù´BXP^iþÕ”41³¼|³™pVªÖ£æRâ´¿¢€§ˆ_9g±(äÙÊ¿ÔL°®SØÜSúo/w·&š‘5±Áâ|ÿ¢ª
+½ƒ52=ûÕsë˜i±ÄY,rœNm¢CÝÉ ÞB,{ø*êë»OžÞ\êA,úÃÜÙ¼8Q|Gff…šÀ¢1ºsðüº(è-‡DEwÄƒ êAv!Ô€æ¢B@HÎâÉÿÎªîêyÝ3‰®&Ñ<'YðñÇ«×U5cÖ?¿1«ÛÄ¨»õýÈ÷¯›ï·WWot7·ž^eTÖXOWƒUËßeív& ðläI`M.EÛî([ŒC
+ÃNÊžb‰±TH¬6ˆ®
+±íîæÓ¼
+¿RÀgiˆEMÙY§Ž…aL2SY--ˆï·>§Òe(Íªv’RÝ€Òo¬§[›ÝmÀ¢ãqwUÑDëÖ35tEù¬¬à­\ž³ÀjžÏ’;;ØüÉÃÉ	)å"Œ‚`;÷•au´Y]Ž´“·	°†UÖòÊu9q&V™–áäÍáñ0[ió—¦ºùKÊÆº,EgÑi(¨ïZ·™–o*»X¸¬0œóþn. ZŒ'ÿŠßŽ¼’²´­tÛ hòûnYÁYW%ÞYOƒ^¿MÍ¦zùøŒ„g–J°ÊcÒbÃâÍŸq”QHU¸Bk†#ÐÕ1ÎÚ:Toœ;5ê”ó!RË®ô °Z|•o£MDµX°òÃðmš†ÂŠƒKÕ¨ßÜBbAdÁYßZçsçÎu(¹ÒÈ}j&PS•hBÊOöÕÁr†Oºå(ä=Ã*ÎÀòÕí7©Ëaìüé2ÑƒÌÇ›Î'·§eV‹k)ßüUåÃT´8ßíYcYR¹³.wV‡R+Œe:„¯¡XB‹I•+q,«ƒ…a§â~$¢É÷®k,8‹ÚÛ’ˆkÀkÀÈž‡n[~Ü Ê[¸Ò™ˆŒŸ +^<X¯Uþc‰.Ã˜óÎ:²õ¾û~ó+÷£ÖYG·×«AG"mÌ˜C²ÐV–ŠPhREZEN0V/-†œaÇ~Œ+}ageë|µµ}¨½Ön:¹ýmë«aõ´Û0,­fpRjÏ[+1u÷Xe$È,«l«Åƒ•oþ*)Ä°–-,m«ÕµQ4öÚÍàr÷ÛÖæûË­Q°ôöA@9ÿòÐ­AyÎ*´i9«EåL†/[Kˆñ°:mÖ÷ËkuhÔé·›­v§VËn¤%²rV å°òiH-ÇK†L±ŸÞ8k³90œNñ‹U?E  «!ÎÂ¦Fî†ybÉçx°v@kÑ`q¾ÿPŠ$¸*Ü:\¶ÎÚî×­“–«N¿Y`ygV¬ÈXÏ+kccc}}ýñÃ}w÷/ý7aØy]1‚³ªÜÁKd­vêp–°:åÂÑýÖ
+`!¶à,â•¢Ë´Æ°ŠEK»¬î<xþñÍ»{ë÷.ý[ù‡¡Ò¨è²Îâ„¿aé¯Á¨,,ÏY¾Ë¹°n~èÙ ã´Õ˜N¨J°@íù›‰ÌÏ÷O-Æd.¥W4Ûì-Š,!³ò%ãN”‚•–îïB«¸ÝŠËÖ*°ŠJ°à³/÷Öï.Í[ågþ”…RTt’h‹üõ}E86²Üä‘¶uÊŠƒÊ™-1à*Ãª(¬qÄ>¾›?0ÿ0ÔßrŽ®47Eüòj`Ôï§X=ªBåo‹Ó<²À+
+-y‡·&°¬‰ºÿeãáÒ<åoþ–H—¡ÄV&Ïdu~í¬;)oÿ i#IðÑr:ÿÿÓ¡Ub‰ k²î<¹7G^þæ°L³Å_8·j*<p¾®a¯3¨»°$±.jck!°cÙÐ3­ÈÛpa`í@óãåoþ,,Éöd®êé h"Þ;­fÐZë`¥W2V¬a¹OÅ§id¬…áÐ:¬@¨ÀjG°à¯/séÄüÍŸ|›LÉ-â$¼Tbžó…8ìô[‡µúQÝî²‚{ï0vqí®º›¿d,,'¸˜VÁV!`íTÞ=ž1'À2ù^Õ˜HÆ].•í‚^©%{-rëµS„±pr|8KJX™ÐJòŠtû-‹*´LkÇöZG6‡ÍŸÒª ¸Hæ3¾W8Yý ×E•„`å¤Ö¥üfŠP÷¤~nÙÂcåhÇ°^¨ÆÙoþŒ©à,l9kMPZõþÚâªˆ¨$¡…ì(:•jNÈà'ä%´0ß?„…j¼wwi^ÃŽ•FÅ2¬8´ÇÈuYªyªA£óÉƒ*>q"¦#S……‡T`\ð²—cüfÐbXÿ6ŸT¦DiÞ=Ø„¿­YRõÆúPtiâŽ¼ñ‡+‘QÙWþí1óF°$à¼XXŒkÿ\6Vè ò•©:I´†pÖ°ôtdíVi"õ#*<3z>*F5]V>?[…úçü@þ•>lìÃ°ÃBÆ«°T–ê‰G¤ú ÁÆ
+T%yÛ	Z§Ïî1h‹|5¨ Í¸Dk*X¬g=ìdyA¥gÄHçøÚ0ßezô{TjÎü"+›óÑ5ôKc¾ÂX˜¦%à™®„`M¡g=ìd0–sÌ5™›í^¯Óéôô³ 7µ±´b§øÊGZày[-ËØ£5}"ºöÎá0Dla¦–¡'¼¸bV*õÖ-Â	Z>|ˆÆÉu•×“Ú#2³¦Ó“Ç³vP‡…qZv[„«²rÓA+NwPŠ•ûÃµt2'¬„¼…ÓpZÝywwF›¿Ç3\ÅÜª$f¡²ZU­œ í	kô{ìçÚAž­è:ÿÒYø3eXH%€õ¿ÌåßË”HšxePs%tÉwüÍXú÷¥¸WÃcs+‚µ˜ìha ¬©Ì…äšnó—M,#¦_"ú•rG®Q™’`éùßh1ÇKü™5µ>>œ¬WY-S(DlãqÛÕL?V(B¸üœ?}Éô;Vž³H˜¿‘YÓëÁú62‹où{æü#Ï¤o$Á•SC'q¥&¬ÂßaT>,¾ kúœß;-¬Ï‹~ŒÁUœ}ä~–~IžØ…K¡%  ×„äï…«»(-dÖÿ,EÀºõRR;sÛx?½XZðVŠ€9\B†uA&ùùp²³0|Ç¾³dÖ¬ôáñ´°X~!ê—+‘7[‰ô**â+–añlän¬J <Z‚J¿–ø°f¡ûSÁú\Ëœ%*¿¡A_–œ‹ÉA°*WŸ ‚µ„”…	‘ÿ¦°f¢wSM;5’ð²¸V)·p(ZV‰‹#_\Qžá ²Üe	*'²äNv
+X3Ò‹ýK>U¥Z%N5ÀBÊ+Œ> e¬åŸŠ%ÅÊñ^¹ÖBha˜NSÀš™¾ÜýËÞX‹A•­%¬èåGƒ0)ÃÂîø7ùƒ"‹lX³Ô“}7Hó¼ó©ZËÜàÊ<{¡E…¿ô…BŒ ¦‹
+ÎŠ…Vp– ª ÖìôüáŸÂÊ­õìQµÊ¹%R©D%°¤£Ç÷—foIÜ™)°-O.*éµ|g¥2žÖìôá'uçûÒTÆñsÂÍ`—Ë “»Õ6—‘¾‘Y,"-¨MDS+|cZAä‹¤Lè—/
+‚ úAPE[Ï½çÜ}ïvwóÝ™ö±6·‚žç{žs¼Û&µd±jiÑÁÃÏé\Ö¾Ðµ›kú¯šQ–®û°‚º¬zç±*BLaÊRÇiµ=¶PZÒé:8ÿ~é±×Ù°¯Úù4>”¾»Ûý‘²ÂSh³“À—åª‚¬í´Õ¡RëÀ!¥‹¸råÇÃiW™_V7¦¦¤0/î­z[‰\p´HÔŒ§¨0lyìTÈÙß2$¶ôd¹¶ªº\cJÙû¥éW‹Yº`ÌL*¹p­šO²äøa
+‡:¡ârêË­,BC–Ñ”ï`¾-ÒE¾¤0{îõem…U'/Ä<&	²R¹öl·¥…’+Ð!Y	ÈJ›‘…	B»¶Hùr…Á”ý¤¾\*S»!œÛx7Õ˜	»Ð{út_Á±”÷¨%¨’®fXÑ°¥t)_0e’ùŸÔ—%p¸·Ý(³«æøFÅyªûdùü@_Îö>h8Ø6¢²$$ËËš¶H—ò¥ŒAY¸/ƒ,èB}D²-ÓßW8}²ÛR"êYxCe)4dÝUw(]$Æþ­ìÇÒôëÅŒÊ/Ó„·6†v× ™L9…Þ¾Þ~ÇNÕëjËX!Yd²Ì1ª7ÊC‹,2E È^ge}yÒ$õó¼áøV¦;wÔÉ¤SÁ’ƒ¶Z"ëê˜î6Â`,N_>¥ð÷ƒ¿º>ªc( pŽ#÷m  Ju¡Zj!Ë t…AYƒ¾lþ^_ú9¦¢Ë»mØŽá£ˆ¯ê†@ý,È2ÂìÛcº}ù”ú2£ZRùrñßrÀ"+e‘é\)\çeŒeÌY¸/ÉÙó‡n_Ja8D-Õ<ÂHe™s4×±ðr}u¤aVBÞ€²(cˆ2Ù—^è{ä‚®puùwi§ŸÌ\ÖíAI[d7éŠ7ÍðG_Î»áO©¯b?¤ÂBƒDÚ)+—Ñè/×
+È2ÅØ2Ö—óÏ¢Èà™„õ Cåë~Êh©§Ü›³QYæ¸Ë40þÔ—þ‹¨0‚5ïVÝ+§dÌr‹²Ì˜¶¶¿Èh½\zíF?þØð…ò(²VÈšÀÄö*»ýô÷ï_¿Ô©ž{¡¼ŠÉßKn$-%kÇÌÆ"•½xó‡$}¥Ï:‘ï[._"GÆRòG^«p‡a²Ì2ÃŒÓ`ìÅÂŸO®½­T*gÏ'†‡½Ë+	2F1_•XÀN¢a¤EÉú_±±²¡Õ›7îM]¾t¡“8Bœ È”ÕY²-åK»³:–ÆÑ²vöŠØ˜¡ëîß¼ñ`ŠÞ‰+òù|§4e0Vf¥m¹¯¤2Mù-’uõ3‹géÚ%X"OdŠËÇÒX¤²½e2ü½(SKø‚,³Ìv0P-±…9Ï Opùeu}Ù°ÈVÚÅ]*ãdÖÎø¡!¶º0woêÚ%ƒ<¾6êË½¡(#g¶¥ŽhÖ—××gïLì2ÍÄH³4="KÞy®I^Zk¨¬¡L™gÌ¶ªËÈä­™•õ;»Ì±²å†»sîYâ["(2Í¾LÕ­¼ûÆVf¯î2ÂøäÖÂK\S€3(Û¨/Y˜É™åñ]XÞÄ 0çYâ€±ø}É22³†újÙø€XZ] Z¢™’k`¬È ŒE1¹2ÑúÒº.Ã[Ã’aÑë%‹fdôY“mÝŠl¸ëÞ›ZâZÚ—ì_ìŸ™0]ZVhç†÷Î!r½d quI-ª%ìâ¶Jgz7‹ŒmÄär£þ®ÞjÇ›…}Qd90hŒmÌX“¢küÓ÷wS°Ô4ÊB¸A ŒÅ`äîÖ,}þøíÝË¯o;¹z…8Íc,c›Š(ÏÒ—
+,!'D×åÈ®‹Çäšž¥ï\K­YâRB­_}ïÑ3çDW)wœkÂ@óZñoyÿw/ŠS‡yl¬’Pt%¹,6£ñWÅOÜ<yk@Ù:[¢ýßNÁp¹(.ìtáœ È±,>3±mwrÓ§ú¨¨1ëœˆšNX}=]]¥þª”D—´:½Ð:F²ú¸Lƒ±Øj…›æpQ÷rÉ@ÔìŠ“2Ôl!ÎWüˆïÑ^˜[_¸iNf‡3þ0Lú~Zv¬£nH•Îr¢ D™û8”Zzk"3bë%7Mþ¢f‡óœØS(QÏeüÈ
+1Øî”pŸÎÐSÕˆØC.‡¹41·Þqã”©·¸ÄòJd÷@QxTd”Ó·{PD¢ß,!Š•jìÑƒv®Ódt§Ì½d¥=SèV%r¸@Æúºƒ²ˆˆ“^~C­8.“®öGº„°¹L—XóÖGn»·Gx”d‰zXð>;Ù(K©hã>íôlÎKº"ž,¹å¦Ó¥c-ÎnÐØìàü¥ÖVÛ‚0¼Ž,ˆ1ŽÓS+kD„¨}12¸»clð)¥ÁôVy’\rí¥·Ò[}¾j´’g…JRm¼)ý˜ØÆ Ÿ™Ñ·c&T©n¸Ñ»åBÎ´õ‹æŠôQÑ¯L$µÑ¹fçP’"¦ÐÑ˜×³„˜ÁQ>p5hMèôû˜y;?¹ž¡Ûo¥ò¡.—°g¡§ÕqÄwË¦î š³ûø¢î ºCã’ÆåŠájŽÒãáñt¤S:¯†õÉË(ÉKîå¦‡JaÁ½cwHz³®¯J³”ˆª¾b"öv.ÖU
++6ü)[Ò‰U`ºÃ ,8½{2¬ï`Kà¥+r ¹í@Ž_¹¤cÄhVzû'ÁyÒï t«bàIDà({˜AÁtŽèC„·O6â°¤=È²‰†Ê+,/Iú`T^›Þ^/‘m~ãëI¶ÖŒ¶Ì?%ž?Ç„÷ŽÜ!qä'ô.‘®9C—Ä&é—ShOJ³D>äC<AÄE¥²æ×Tv¦P¬ºƒ°âÓÃSî€cÄI9		S¯vIjUF×ÒYÏ3ÔC<å×‹ƒ½skÖÛ¸¡;;¾<µ¤±qš(ÑÌl¸ßëj&Ù+mœŸä3¡ÊïŠxfæÖ¾ÝxOòÕ aÉwð%âÔl'——T7É)ïüªyzˆx¥Ü”Ñ_Eˆ1Oº‚®”«›°v.ÜáZ¢|eÞíñ­Ö¡HÕL’’ó¬®º^!G8*êÜ´Œ¥?uéYÌw˜Eˆ#:A»ÐKŽ0a™×ty5Å@êGL§ôI)âDŠí¥K„-;î°ÖµT°¡Í•RÕ.Ï:Ïù>Ï`ˆx^d˜1Y¬%Ê´hÈäJ5Â–ÓÇRùlXTfyª(	×kË<w^}Õ/Pbö7iÁ!ÖÜ8ø‚'¬Ìòõr½™šÐÁ½WóËãeûäÄ_ÂaÖ¼~|Åœ€g<Ëué §o‹ãz«R9á1h*yö£Á\ ˜Ã®¿íÊ¹¥z±šw0vj·­Ÿ(€ÂÚK”7{v‡w‡xnºÃ[Ô“¨«ÛQÓÛî[5^!ÊhC/…—gàaÏéÃÁÝ!Asö¤…C{@Ì² õrX†CÄÍ1¼ÂEÚ»ƒ9{’bAœ¯ì0w¼îÅ
+q`jW0›9è9aí\¸Ïžþ~#¥ÆHZIDÍéwa~váërŽ‘¥ZTOÑ ¤¶¦ÿ	â9|}lï`åoª'<iõ'È¿K ¦½¸øoBBá—aÝÜ<ß‰âˆR'EynpÖícaýbZ„zƒÕŠZîÏ,þÏ6üM¼Ý´6Äqï|!O:Â1í%(¬Š	EkAÑñaQ°ŽÃPP‘EpÊîI¼î‹ð˜‹oÍÌ²ƒ6´Í~$§~,»¿ìþÿŸÇî£öŽìêr¸Íõ_¬,åmôá­pÇ`¡Í½÷4’†õ!rwh/’M¬ñœyÈÄëIôî†cXàðVH3£=põ:{ÂJUKIö/4Ñ»‚]dgÖÎ‡GËs¨”º²Ö›$ÝaÄ?õCRço#‚Ò¥P ’â…õ8zw˜=àúÛ•ÕÁ£ÐRà5ªböµ3	Ã:ù(AwXÝ­rfÝ>û¡JEËx-„³…Vµ`ú¢æ·õ3)Ãz¹;´ƒµQ[9@9…Ïk£ÔDéoUx~ŒØ£•å¼<Xw!ÎÐ¹Ïº jÈ•õ€S³_d‘ˆa½>2>rvÿa)oø[‘5®°¨ÈEKýTsaš;¦ëûÿ]Jœµ ]®¥™"²…Ój¥)¦€Š9‚=JVè)©öM× ¶_ØŠ95”¹öÊÂ`½a“6¬Ä–I(u‰+9 ÚDÀ˜æCá˜zb=¥õÐ¡!õœ•~)EÞ
+mprTUT@¥Û–YƒñPÒÒÆiÁŒ,#ÖÕ0ýRJpè8`D‰.´›[ªÂu€®À•k¨IDèY)—RäQZr£×…áCZã*UåÖhðF Í¤r[¹ ‰>ÝBkVÿD§/×o_:öç“LiÚaò¼PZ+h)â»wÿÁ«;Ë…u:ÝRŠsbý*ŒW;›p¥™<F«ï±U¡P¤Rz:MéÝ—Í•¥½Y¼„°îÐC6X"åš¤¿àâàè5Z^€ ¡Òç×Ûï¾m†˜¢x°t|gxë,×oK€õ^“Ô>G½Ü‘$wïÁ4¥O›/CJ1=I0Xzaú’¬œ9,¹‘1èAçÔºC’Ó”>îlú²’È×­[’›#.÷³—×Ñ´zcâkNÞÛÍ±”Òûƒ¥W»ã’s0"©p‰kNÞICšÿ%XJþjïlV¢(<}†²ÌH·]¶¯`]„„’”´!›‚‘.\êÆEìFp#t!R…öùêDÓ¨´É`fœßïÇ;çŽ™{¯o»ºX›#oóáÑx”ryÑ¡ÆÝV%õÀÙqiÃèRøoÞ*Ž8T¼Ù1g?£9< •"ä%¦86ûaÿŠ´Qéå±Ÿ3©ÄãaÆ1Ööˆöz¼ÈT}éÐ&;P(ÞÏyé '`?£êâ†9àå0DyÄñé%Ì^§Â§’Á­ûB¥ ÒŽÐ?ÿ ­]ñqV¼	Í;šëOP¯;Š" $Æb°$¢RŸïâÝLqXµ¼¨ÖK5YÉekD8á~à«„úQ‚ c!n0¯àžrö½.-\ˆÉ¢ñ¢2¹1ˆ81;\-Š.Nb/µÐ¸,Uú\¾}­ýW žqYýª´ú^—™ßêàd›÷RéHÜ¨Ã ¶cj eˆm!vŽrAð¸„›Oœ¶ÄWæWhŒÙüË>Wás‰ËÏrVî‰mQöo³çD­”L¤D´Ê€¸í´R©/4¤$Ë9'µiT~’nÐåb›YS ;á’"’³¿YßdÕ’”UunhÂTáJ·…µ˜Bm,ÂB*m,¼1’J«™Ð-B¨6V#‰›Ú¡U‹“Äã Ò!“ÄX†ã˜‰çÒ?Ê”ï{dišMÒF†A~ ðª9&”Æ5    IEND®B`‚
+------MultipartBoundary--GiTR7nfrNJYKdRdobKkmvRjxP5FrJbFgaYVnsGaSVz----
+Content-Type: image/png
+Content-Transfer-Encoding: binary
+Content-Location: https://pythonworld.ru/uploads/letpy-banner/logo-letpy.png
+
+‰PNG
+
+   IHDR   "   @   H¥U¡  ¿PLTE   *i²wµ-÷æ÷æP«%÷æ*i²P«%÷æ*i²*i²I &P«%P«%P«%P«%*i±P«%O©$N©2P«%P«%P«%P«%P«%Oª%P«%P¬%P«%P«%P¬%P«%P«%P«%P¬%P«%P«%P«%P«% \†*i±F*i±P«%P«%P«$÷æP«%P«%÷æ÷æ*i²P«%P«%*i±P«%P«%P«%÷æP¬%P«%P«%P«%P«%P«%*i±÷æ*i²P«%JI8… )g¬QPK2G!F÷æ3 ÷æ*i±÷æP«%÷æP«%*i±÷æP«%÷æP¬( a,+j²*i±÷æ*i±*i±÷æ÷æ(f¦>#%bš$a•ZyXs;‰D÷æ'g‹÷æ*i±Fš;÷æ0x/w*i±*i±÷æ÷æ9‚‹+q*o ÷æ÷æP«%P«%÷æH`*i±*i±P«%÷æ*i±FJ9‡!Q­%*i³E(g¬XvTgK9F$'e§"_‘H2G+R\OCÚcÈ6   tRNS ëöúåüñi÷ñÕýä	ìwM$õßÚXçÉ¾º¤C@*þ÷óß e]61ôÞÖÎÁµ´¨˜–’…o=865þûöëëëëëéÚÖÍÊÄ³­šƒ€~{p`XI=.%þýëëëëêçÖÀ¾¸¶³« –‹ŠˆƒqjQH/)J
+º  ÄIDATHÇíÔgSÛ@à³@±$[–d[–{Áq£÷^’Bè-´Þ{¯'àÐËŽl­Ä	‹_3ÃûUÏìÝÞí	™{ßÔ'šæû]q¶ø=>Ž†½±iémŠÛl¶ú¹ïéP¥›¤¨l–"_`º[ÐÐd|uuuÝöä9Gf±XýN—j6Yü©:¼»–Õ…r„zh…˜
+bcï×o Ga‚ˆ,öó@t!]¨Rµ—ÏÑ‡™ˆ²¾{˜Ë)tÃØ¦;øÙÙÌ©„äÆ’í­Í¬U3•¢E&»{y Ž¯K°Û¥h«V"“Bƒr…xf]T!ˆAŒç«ÝÛÊ+Äçäµó¤£c”BÜz°­T¹ª)
+0iN0Xƒ®æŠ¹tSTD
+‘°á.tM!—_J‚¶|^t]!?Ð:BôT*ÄÑ‰n ¹¥'Èå‡Ósž‚h}Ô¢Z[HÛî+^G,^l7}ÔtD×4ß
+M{¢è¡ztí<^D„u¨Fº¯^€'%`;i†"LX@ƒ@ÖØ×hïiqÃ5r_,ÈTµÃ@qá¨$K52 ¨	ùæLw´‘r³¡éNg{ÀAe!œ—.æVþh0«›Ä†·URÆ{cHéè&à‘lnçÕ ÒêSÛÙÜ6 dƒ×Ž€Èfc«„Xƒ¢,€õ#+…Æ®¦‘JŠ¹ð~¶‘s«K8Ø¤ŒT±t¸ÙÏ²lC éŒÀAë‰™°¸ª»"Ñî˜d‡
+Ç	Ü |5&3rJ’°‰iþdò:^¶‘%tbŸÅe‘¨øy21/NŽÔ7Íõ£„è_êýaFÿMˆ²ã!Ž¾…™·çu™YèÓ¡å©ºÚr}jë¦–qòih¥4?—adtÅ(ã·12dHF¿a¤Î<Å«´•ˆòw}É¼(5µã¼ë²LÛð9}†Û2xCyñÉhlâÆ    IEND®B`‚
+------MultipartBoundary--GiTR7nfrNJYKdRdobKkmvRjxP5FrJbFgaYVnsGaSVz----
+Content-Type: image/png
+Content-Transfer-Encoding: binary
+Content-Location: https://letpy.com/__register-content-view/pythonworld.ru/
+
+‰PNG
+
+   IHDR         %ÛVÊ   PLTE   §z=Ú   tRNS @æØf   
+IDAT×c`    â!¼3    IEND®B`‚
+------MultipartBoundary--GiTR7nfrNJYKdRdobKkmvRjxP5FrJbFgaYVnsGaSVz----
+Content-Type: image/png
+Content-Transfer-Encoding: binary
+Content-Location: https://pythonworld.ru/m/mistypes/images/mistypes.png
+
+‰PNG
+
+   IHDR   ã   <   fÈ…   PLTE™™™)))ÌÌÌ333»¸«ÿÿÿïíßÈã§   tRNS @æØf   bKGD ˆH   	pHYs     šœ   tIMEß.!ßÛ›ï  ýIDATXÃí˜]NÃ0„½ªÄóîPÙÀÈ	PûŽÄýïÀîlœ¦ùiR÷yJ q¨¿Î:ñ8¡ªªª ^ÒHÞö“fú^ïAx#òpéÓÛÞÏSŽ«ºÙ=ÉmäiÙMt!ÝóÈÈfÐkF~5M‘Ú3éX$0éË‹ØA=Àn$U7sÍ„3LäE°Ý¥ºïD2Œ2ÆãËjT¨ß]ª»!SlµÛ8B¶)iK»Š´OoHAmƒK?ç»ËW¬öÜŽG ZGš#ÑÁ²ÚIðßÙ%‰} {Íe4Ÿªkd›¢ºO¶/ ÷È‘m“z—)½°ð›˜šRÈ8-,)Áä3‘Ñ†¸ 2—p|ÅÈ2.í&‰qz“—Oäö© "ï#OÝEÙÍ´IãÙýÐÍ‘ow‘"‘ã™ïo[WÛß0{?³ÏÝšSâI@&k± ¡K¢úÄ¿‰ ¤[Ö¯²å³a8ƒ(ßíRœ%}R{ #Ÿ©GŠ#ùHø1cžÔýð2Ö†4N_ÿ‡ý…U{„?§>m3—.¯BœrOÓElUUUÕ£ÅÏŸwŠOF"‚ñøŒ}üØ$_Î}FÏ(KdÉ¥Öµ­=l‚xÄÃ:	+,
+Èy©a@|-@¡`a{¤=1ç±´&áš UUUÿK¿Íñ”«ˆ—ó    IEND®B`‚
+------MultipartBoundary--GiTR7nfrNJYKdRdobKkmvRjxP5FrJbFgaYVnsGaSVz----
+Content-Type: image/png
+Content-Transfer-Encoding: binary
+Content-Location: https://pythonworld.ru/m/img/icons.png
+
+‰PNG
+
+   IHDR      @   ÂƒYŒ   ~PLTE   aw¡JÄHkœV|¡Hkœ<\—Ó=,LÂÿLÂÿÓ=,Ó=,Ilœ<\—LÂÿÓ=,V|¡LÂÿÓ=,LÂÿÓ=,<\—Ó=,V|¡LÂÿÿÿÿ÷øüï²«jÌÿßðøÛ]NöÓÎš¯Èâzo¦áÿÖF5ûëèç‘‡‹ØÿÈÓáÀêÿm¯¿j‚   tRNS /pæÂëëêzz+Pž¥¥—ÉÉUSŒù5  ´IDATxÚ¤ÖÝn„ àE@tuý¶M.šôýß°¦±‰î‘…a¿û¹0aæøò¥½d£Zëú™|)eùT^ˆgò³²+5çæ'íWzÊÍ·rYÉ6;/ÜJäæ›ÑnÆ&'_~3YùjÙT™y·ÉÊSowz‚óßéðüeÙ¹àù«Û¹Ây£ì2X¾Öþ@×X¾”Ë,Á¼pËÏ£eÆ(ÿà™aÊ[-LÕBåg€)hz{ªoË×ùS]¿þœPåNU”76ÈPÊéóA5!ŸÏ])?w¥´Ó¦æ”Ó¦'¤üœ,ÑòƒSÐŒ6bl"§/b("§/¢zœ.B@ù±)àå¦€½~°üõã= £l’Àß1Ý>t
+ˆ½þ`yáÒ”„–ŸOA¼üè´rI&ÛÈé‹-\~>Xùù°òC*–w»<õÖûï…t„•ŸOA¸üèlå)Ãþ{!ºN;}îëçýö't#åŸD{âãíóõ¶ù¶çþó>Ó/sõ¶ã Eaø)D×æŒŠöý_pt"…–´Ó™¶ÿáÂD>9¤÷»g9\ëîJï÷=0rž-¶äìÇ8|Àùß' 2BœP è8ìE@& éeq€!HñÛ`y *ÞÏŸÒ§¨B³ \;@-, ¤ß><€±žN± –F€ª…` Œ¢X< Â­€FYŒpàéË1n€{@ û€€­‡e» }}w@ó LLM Ð*ïˆÛâÐ Ðµô[Žx sqcä%¿ª4¬æÿV€Þ±f 6¤Cx àHGU„áí =À å5@†Pžú´BÙð Î÷€ÅžyÁˆ¨jÀ]Ë©-à £M~"#˜ Xõ78}\¤ 1J $¥Á à \Û5XÏ¿¨3^J{½Pô'Àú… ÛüY ù(ð| …Çé3 —3+À5Ø‘½†€‡…3 ý¹f—ã ácllç‡¤)÷¿à"u+ï’"mU«ê¼ñÈ‡Oìü/	.0€F«`‚ÇüËÚà¨(•VÕð~Ç®îõ9`™úÝC l"©’xJx zèçs@«ÄIZÎI	 À{` @£Ÿ+±5Bt$ö8²7ð…ÈD5êQ¸Ó¨‹{‹
+ˆL”ÿò Œp~c4°Èd; €Áh &] `]€‰ê6D¼ÂÎ÷·Ë¼œP†!`Ã6CÞûùÊ£ÿ™˜Î¡q.Ô 3Ó Ù;s ýø, ˜óoLàbdƒ€õõ- à‡¡ÛF0Þ'œ€Íö€úöv ¸OÈj¬Óª$ÒD¸j1,G Ç¢púA—Ößÿ <º cŽÑþ‚ÄwûfŒ 1•	úÿç2f`°""…ÐË"'ûñ€HA¢‚"cˆWd$II“K%dQrôªÊzQ0ÛGUÙ_ÈÒ;_º<œ¡ !˜ ô×Á„’_2Èãgðø<~î&Æ¦lÎuí‚ñ»Pp–'8~FÁ¬˜Î*ž^$Ÿ¿î^Íú%k2    IEND®B`‚
+------MultipartBoundary--GiTR7nfrNJYKdRdobKkmvRjxP5FrJbFgaYVnsGaSVz----
+Content-Type: text/html
+Content-ID: <frame-03B18639BD4967AECDF76C9B28F99EBE@mhtml.blink>
+Content-Transfer-Encoding: binary
+
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body></body></html>
+------MultipartBoundary--GiTR7nfrNJYKdRdobKkmvRjxP5FrJbFgaYVnsGaSVz----
+Content-Type: text/html
+Content-ID: <frame-C25FCF519BBB3EBE14B539DF46D563BE@mhtml.blink>
+Content-Transfer-Encoding: binary
+
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body></body></html>
+------MultipartBoundary--GiTR7nfrNJYKdRdobKkmvRjxP5FrJbFgaYVnsGaSVz----
+Content-Type: text/html
+Content-ID: <frame-2D9B4285ED22338962290BEA0B872412@mhtml.blink>
+Content-Transfer-Encoding: binary
+Content-Location: https://yastatic.net/safeframe-bundles/0.69/1-1-0/render.html
+
+<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" type="text/css" href="cid:css-e6334382-5f64-4ce9-ac35-ebcfd1f2f65c@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-3b95a842-d64a-4887-ab4e-a2b45210a33d@mhtml.blink" /><base target="_blank">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="Cache-Control" content="public">
+    <meta http-equiv="Expires" content="Mon, 16 Nov 2020 00:00:01 GMT">
+    <meta http-equiv="imagetoolbar" content="no">
+    <meta http-equiv="imagetoolbar" content="false">
+    
+    <meta name="ROBOTS" content="NOINDEX">
+    <meta name="ROBOTS" content="NOFOLLOW">
+    <meta name="ROBOTS" content="NOARCHIVE">
+    <meta name="ROBOTS" content="NOSNIPPET">
+    <meta name="ROBOTS" content="NOODP ">
+    <title></title>
+    
+</head>
+<body marginwidth="0" marginheight="0">
+
+
+
+</body></html>
+------MultipartBoundary--GiTR7nfrNJYKdRdobKkmvRjxP5FrJbFgaYVnsGaSVz----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-e6334382-5f64-4ce9-ac35-ebcfd1f2f65c@mhtml.blink
+
+@charset "utf-8";
+
+body { margin: 0px; padding: 0px; background-color: transparent; }
+------MultipartBoundary--GiTR7nfrNJYKdRdobKkmvRjxP5FrJbFgaYVnsGaSVz----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-3b95a842-d64a-4887-ab4e-a2b45210a33d@mhtml.blink
+
+@charset "utf-8";
+
+body { background: transparent; }
+------MultipartBoundary--GiTR7nfrNJYKdRdobKkmvRjxP5FrJbFgaYVnsGaSVz----
+Content-Type: text/html
+Content-ID: <frame-4AC723D3AD03AEDF768C2F18347B0E34@mhtml.blink>
+Content-Transfer-Encoding: binary
+
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body marginwidth="0" marginheight="0"></body></html>
+------MultipartBoundary--GiTR7nfrNJYKdRdobKkmvRjxP5FrJbFgaYVnsGaSVz------
