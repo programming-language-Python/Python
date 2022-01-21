@@ -1,5 +1,6 @@
 version: '3.1'
 
+# порты указаны для того чтобы можно было получить доступ к ним вне сервера
 services:
   db:
     container_name: database

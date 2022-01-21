@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8e6e06bc-6faf-4e0c-aeb7-2d545416ee91" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../5. Бесплатный сервер, деплой, запуск бота 1 командой/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../5. Бесплатный сервер, деплой, запуск бота 1 командой/.idea/5. Бесплатный сервер, деплой, запуск бота 1 командой.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../5. Бесплатный сервер, деплой, запуск бота 1 командой/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../5. Бесплатный сервер, деплой, запуск бота 1 командой/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../5. Бесплатный сервер, деплой, запуск бота 1 командой/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../5. Бесплатный сервер, деплой, запуск бота 1 командой/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../5. Бесплатный сервер, деплой, запуск бота 1 командой/windows/Pipfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../5. Бесплатный сервер, деплой, запуск бота 1 командой/windows/Pipfile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../5. Бесплатный сервер, деплой, запуск бота 1 командой/windows/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/6. АВТОПРОДАЖИ, АДМИНКА, МНОГОЯЗЫЧНОСТЬ, РАССЫЛКА, ВЕСЬ ФАРШ.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locales/en/LC_MESSAGES/testbot.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locales/testbot.pot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locales/uk/LC_MESSAGES/testbot.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ubuntu/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ubuntu/Languages instruction" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ubuntu/admin_panel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ubuntu/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ubuntu/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ubuntu/database.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ubuntu/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ubuntu/example.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ubuntu/handlers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ubuntu/language_middleware.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ubuntu/load_all.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ubuntu/locales/en/LC_MESSAGES/testbot.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ubuntu/locales/testbot.pot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ubuntu/locales/uk/LC_MESSAGES/testbot.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ubuntu/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ubuntu/states.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/windows/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/windows/Languages instruction" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/windows/Pipfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/windows/Pipfile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/windows/admin_panel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/windows/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/windows/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/windows/database.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/windows/example.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/windows/handlers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/windows/language_middleware.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/windows/load_all.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/windows/locales/en/LC_MESSAGES/testbot.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/windows/locales/uk/LC_MESSAGES/testbot.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/windows/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/windows/states.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4. БАЗА ДАННЫХ, ДОКЕР, БАЛАНСЫ И РЕФЕРАЛЫ/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../4. БАЗА ДАННЫХ, ДОКЕР, БАЛАНСЫ И РЕФЕРАЛЫ/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5. Бесплатный сервер, деплой, запуск бота 1 командой/windows/.env" beforeDir="false" afterPath="$PROJECT_DIR$/../5. Бесплатный сервер, деплой, запуск бота 1 командой/windows/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5. Бесплатный сервер, деплой, запуск бота 1 командой/windows/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../5. Бесплатный сервер, деплой, запуск бота 1 командой/windows/docker-compose.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="23rOarlMytD0NX66a4tlw5QKJx6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/windows/.env" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/windows" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Users\maks2\Desktop\Программирование\Python\Telegram bots\Разработка Телеграм бота на Python\6. АВТОПРОДАЖИ, АДМИНКА, МНОГОЯЗЫЧНОСТЬ, РАССЫЛКА, ВЕСЬ ФАРШ\windows" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Users\maks2\Desktop\Программирование\Python\Telegram bots\Разработка Телеграм бота на Python\6. АВТОПРОДАЖИ, АДМИНКА, МНОГОЯЗЫЧНОСТЬ, РАССЫЛКА, ВЕСЬ ФАРШ\windows" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8e6e06bc-6faf-4e0c-aeb7-2d545416ee91" name="Changes" comment="" />
+      <created>1642488810038</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1642488810038</updated>
+      <workItem from="1642488811411" duration="1959000" />
+      <workItem from="1642490831068" duration="5161000" />
+      <workItem from="1642681935497" duration="1326000" />
+      <workItem from="1642767854685" duration="6643000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="requirements.txt" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
