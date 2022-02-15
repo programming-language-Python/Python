@@ -2,23 +2,119 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cbd7c0cc-addd-4462-acb3-9fdb856c1cf4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../rest_api_front_back/Pipfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest_api_front_back/Pipfile.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest_api_front_back/back/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest_api_front_back/back/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest_api_front_back/back/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest_api_front_back/back/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest_api_front_back/back/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest_api_front_back/back/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest_api_front_back/back/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest_api_front_back/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest_api_front_back/rest_api_front_back/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest_api_front_back/rest_api_front_back/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest_api_front_back/rest_api_front_back/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest_api_front_back/rest_api_front_back/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest_api_front_back/rest_api_front_back/wsgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/.idea/Full_name_of_the_head.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/Pipfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/Pipfile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Агилов Вячеслав Николаевич.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Аймалетдинова Эльвира Амировна.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Акулова Елизавета Сергеевна.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Александров Роман Викторович.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Аничкина Ольга Александровна.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Апачанов Антон Сергеевич.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Бавокова Асета Арсеновна.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Балашова Татьяна Юрьевна.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Баталов Антон Сергеевич.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Белолипецких Наталья Викторовна.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Бобков Максим Александрович.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Богоносова Ирина Александровна.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Болотов Иван Васильевич.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Буданцев Александр Валерьевич.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Буйновский Максим Сергеевич.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Булимов Николай Михайлович.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Виктория Алексеевна Ионова.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Воробьева Алла Викторовна.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Гайдаренко Лариса Викторовна.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Гераськин Иван Иванович.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Грибкова Вера Анатольевна.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Григорьева Ирина Николаевна.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Грищенко Владимир Иванович.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Данилова Алла Николаевна.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Даньшина Оксана Александровна.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Джабраилов Эльдар Бекирович.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Дугаева Оксана Ивановна.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Дукова Ирина Александровна.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Егорова Ирина Михайловна.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Жуков Евгений Юрьевич.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Журавлева Елена Андреевна.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Земсков Юрий Викторович.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Ильин Станислав Геннадьевич.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Казанков Константин Игоревич.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Кислякова Марина Александровна.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Ковалёва Елена Константиновна.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Коен Инна Лейбовна.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Козуб Ирина Петровна.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Колбенева Елена Владимировна.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Кондратьева Елена Александровна.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Коровин Никита Александрович.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Коростелева Наталья Владимировна.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Короткова Анжелика Анатольевна.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Котовчихина Наталия Дмитриевна.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Куражева Марина Олеговна.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Куртев Виталий Григорьевич.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Лапшина Галина Ивановна.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Левицкая Екатерина Евгеньевна.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Лукин Олег Вячеславович.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Ляшко Максим Александрович.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Маргарян Анаит Спартаковна.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Ненашева Алена Сергеевна.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Низовая Ирина Юрьевна.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Никифоров-Никишин Алексей Львович.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Овчинников Сергей Александрович.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Озеров Денис Викторович.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Ошкаева Анна Ивановна.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Пашкова Светлана Александровна.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Пелых Татьяна Егоровна.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Платонова Елена Михайловна.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Попов Владислав Романович.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Попович Алексей Эмильевич.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Прокошина Елизавета Викторовна.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Решетник Оксана Юрьевна.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Сакеллари Сергей Владимирович.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Слоквенко Тарас Федорович.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Смирнова Диана Анатольевна.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Супакова Арина Владимировна.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Ткачева Светлана Рудольфовна.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Фурдей Галина Александровна.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Хайруллин Руслан Рафаилевич.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Харитонов Федор Викторович.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Харченко Максим Петрович.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Хатажукова Диана Руслановна.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Хусаинова Диана Рафаилевна.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Чеботарев Сергей Николаевич.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Черепова Татьяна Игоревна.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Шевченко Елена Владимировна.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Штанина Светлана Васильевна.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Юлина Галина Николаевна.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/Юраков Алексей Вячеславович.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/​Балуева Екатерина Сергеевна.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/​Сироткина Юлия Олеговна.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/Full_name_of_the_head/template/​Смотрик Анна Юрьевна.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/composition_of_teachers/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/composition_of_teachers/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/composition_of_teachers/.idea/composition_of_teachers.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/composition_of_teachers/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/composition_of_teachers/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/composition_of_teachers/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/composition_of_teachers/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/composition_of_teachers/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/composition_of_teachers/Pipfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/composition_of_teachers/Pipfile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Практика/parsing_sites/mgutm/composition_of_teachers/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dartblog/siteblog/django_cache/be7c5c70635fbc5edcce3cd5bc69af35.djcache" beforeDir="false" afterPath="$PROJECT_DIR$/../dartblog/siteblog/django_cache/be7c5c70635fbc5edcce3cd5bc69af35.djcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dartblog/siteblog/django_cache/c7992ab6d96eef92fdffdac20b764b53.djcache" beforeDir="false" afterPath="$PROJECT_DIR$/../dartblog/siteblog/django_cache/c7992ab6d96eef92fdffdac20b764b53.djcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django_rest_framework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../django_rest_framework/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../site-irbis/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../site-irbis/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../site-irbis/site-irbis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../site-irbis/site-irbis.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../site-irbis/site-irbis/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../site-irbis/site-irbis/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testsite/mysite/django_cache/8293fcaf683e3261b798d346720672ac.djcache" beforeDir="false" afterPath="$PROJECT_DIR$/../testsite/mysite/django_cache/8293fcaf683e3261b798d346720672ac.djcache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,6 +205,7 @@
       <updated>1640354980498</updated>
       <workItem from="1640354992682" duration="3561000" />
       <workItem from="1642154979363" duration="1898000" />
+      <workItem from="1644318982995" duration="260000" />
     </task>
     <servers />
   </component>
