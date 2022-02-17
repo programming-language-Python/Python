@@ -1,43 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7cf190ce-f128-4f75-a1ce-fd700613a667" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../rest_api_front_back/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest_api_front_back/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest_api_front_back/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest_api_front_back/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest_api_front_back/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest_api_front_back/.idea/rest_api_front_back.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest_api_front_back/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest_api_front_back/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest_api_front_back/Pipfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest_api_front_back/Pipfile.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest_api_front_back/back/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest_api_front_back/back/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest_api_front_back/back/api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest_api_front_back/back/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest_api_front_back/back/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest_api_front_back/back/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest_api_front_back/back/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest_api_front_back/back/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest_api_front_back/back/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest_api_front_back/back/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest_api_front_back/back/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest_api_front_back/login_and_password.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest_api_front_back/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest_api_front_back/rest_api_front_back/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest_api_front_back/rest_api_front_back/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest_api_front_back/rest_api_front_back/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest_api_front_back/rest_api_front_back/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest_api_front_back/rest_api_front_back/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest_api_front_back/Команды/collectstatic.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest_api_front_back/Команды/makemigrations.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest_api_front_back/Команды/migrate.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest_api_front_back/Команды/startapp.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-cart-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../django-cart-master/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="7cf190ce-f128-4f75-a1ce-fd700613a667" name="Changes" comment="15.02.2022 deploy heroku">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../site-irbis/site-irbis/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../site-irbis/site-irbis/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +16,15 @@
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -70,11 +43,19 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.PYTHON_MODULE" value="Python 3.10 (django_rest_framework)" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/django_rest_framework/django_rest_framework/settings.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.48735633" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Users\maks2\Desktop\Programming\Python\django-sites\django_rest_framework" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Users\maks2\Desktop\Programming\Python\django-sites\django_rest_framework" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="django_rest_framework" type="Python.DjangoServer" factoryName="Django server">
@@ -85,7 +66,7 @@
         <env name="PYTHONUNBUFFERED" value="1" />
         <env name="DJANGO_SETTINGS_MODULE" value="django_rest_framework.settings" />
       </envs>
-      <option name="SDK_HOME" value="D:\Users\maks2\Desktop\Программирование\Python\django-sites\django_rest_framework\.venv\Scripts\python.exe" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -128,7 +109,33 @@
       <workItem from="1642262894390" duration="358000" />
       <workItem from="1642263295259" duration="84000" />
       <workItem from="1642263540029" duration="281000" />
+      <workItem from="1644317962579" duration="792000" />
+      <workItem from="1644857567979" duration="1664000" />
+      <workItem from="1644859283105" duration="1609000" />
+      <workItem from="1644912675049" duration="4533000" />
     </task>
+    <task id="LOCAL-00001" summary="15.02.2022 deploy heroku">
+      <created>1644913304075</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1644913304075</updated>
+    </task>
+    <task id="LOCAL-00002" summary="15.02.2022 deploy heroku">
+      <created>1644916512301</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1644916512301</updated>
+    </task>
+    <task id="LOCAL-00003" summary="15.02.2022 deploy heroku">
+      <created>1644916584393</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1644916584393</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,5 +154,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="15.02.2022 deploy heroku" />
+    <option name="LAST_COMMIT_MESSAGE" value="15.02.2022 deploy heroku" />
   </component>
 </project>
